@@ -5,7 +5,7 @@ import type { CountryRawData, UbiParams } from './model/ubi'
 import { calculateUbi } from './model/ubi'
 import { defaultUbiParams, presets } from './utils/presets'
 import { getDict, type Lang } from './i18n/translations'
-import Map from './components/Map'
+import WorldMap from './components/Map'
 import CountryPanel from './components/CountryPanel'
 import Controls from './components/Controls'
 
@@ -27,7 +27,7 @@ function App() {
   }, [lang])
   
   const results = useMemo(() => {
-    const m: Map<string, any> = new (Map as any)()
+    const m = new Map<string, ReturnType<typeof calculateUbi>>()
     for (const c of countriesData) {
       m.set(c.iso3, calculateUbi(c, params))
     }
@@ -83,7 +83,7 @@ function App() {
         </div>
         
         <div className="map-container">
-          <Map
+          <WorldMap
             t={t}
             countries={countriesData}
             results={results}
