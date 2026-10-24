@@ -3,6 +3,7 @@
     "iso3": "AFG",
     "iso_numeric": "004",
     "name": "Afghanistan",
+    "name_es": "Afganistán",
     "years": {
       "gdp_usd": "2024",
       "population": "2025",
@@ -22,6 +23,7 @@
     "iso3": "ALB",
     "iso_numeric": "008",
     "name": "Albania",
+    "name_es": "Albania",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -42,6 +44,7 @@
     "iso3": "DZA",
     "iso_numeric": "012",
     "name": "Algeria",
+    "name_es": "Argelia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -61,6 +64,7 @@
     "iso3": "ASM",
     "iso_numeric": "016",
     "name": "American Samoa",
+    "name_es": "Samoa Americana",
     "years": {
       "gdp_usd": "2022",
       "population": "2025",
@@ -79,6 +83,7 @@
     "iso3": "AND",
     "iso_numeric": "020",
     "name": "Andorra",
+    "name_es": "Andorra",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -99,6 +104,7 @@
     "iso3": "AGO",
     "iso_numeric": "024",
     "name": "Angola",
+    "name_es": "Angola",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -119,6 +125,7 @@
     "iso3": "ATG",
     "iso_numeric": "028",
     "name": "Antigua and Barbuda",
+    "name_es": "Antigua y Barbuda",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -138,6 +145,7 @@
     "iso3": "ARG",
     "iso_numeric": "032",
     "name": "Argentina",
+    "name_es": "Argentina",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -158,6 +166,7 @@
     "iso3": "ARM",
     "iso_numeric": "051",
     "name": "Armenia",
+    "name_es": "Armenia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -178,6 +187,7 @@
     "iso3": "ABW",
     "iso_numeric": "533",
     "name": "Aruba",
+    "name_es": "Aruba",
     "years": {
       "gdp_usd": "2024",
       "population": "2025",
@@ -197,6 +207,7 @@
     "iso3": "AUS",
     "iso_numeric": "036",
     "name": "Australia",
+    "name_es": "Australia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -217,6 +228,7 @@
     "iso3": "AUT",
     "iso_numeric": "040",
     "name": "Austria",
+    "name_es": "Austria",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -237,6 +249,7 @@
     "iso3": "AZE",
     "iso_numeric": "031",
     "name": "Azerbaijan",
+    "name_es": "Azerbaiyán",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -257,6 +270,7 @@
     "iso3": "BHS",
     "iso_numeric": "044",
     "name": "Bahamas",
+    "name_es": "Bahamas",
     "years": {
       "gdp_usd": "2024",
       "population": "2025",
@@ -277,6 +291,7 @@
     "iso3": "BHR",
     "iso_numeric": "048",
     "name": "Bahrain",
+    "name_es": "Bahrein",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -296,6 +311,7 @@
     "iso3": "BGD",
     "iso_numeric": "050",
     "name": "Bangladesh",
+    "name_es": "Bangladesh",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -316,6 +332,7 @@
     "iso3": "BRB",
     "iso_numeric": "052",
     "name": "Barbados",
+    "name_es": "Barbados",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -335,6 +352,7 @@
     "iso3": "BLR",
     "iso_numeric": "112",
     "name": "Belarus",
+    "name_es": "Bielorrusia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -355,6 +373,7 @@
     "iso3": "BEL",
     "iso_numeric": "056",
     "name": "Belgium",
+    "name_es": "Bélgica",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -375,6 +394,7 @@
     "iso3": "BLZ",
     "iso_numeric": "084",
     "name": "Belize",
+    "name_es": "Belice",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -394,6 +414,7 @@
     "iso3": "BEN",
     "iso_numeric": "204",
     "name": "Benin",
+    "name_es": "Benín",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -413,6 +434,7 @@
     "iso3": "BMU",
     "iso_numeric": "060",
     "name": "Bermuda",
+    "name_es": "Bermudas",
     "years": {
       "gdp_usd": "2024",
       "population": "2025",
@@ -432,6 +454,7 @@
     "iso3": "BTN",
     "iso_numeric": "064",
     "name": "Bhutan",
+    "name_es": "Bután",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -451,6 +474,7 @@
     "iso3": "BOL",
     "iso_numeric": "068",
     "name": "Bolivia",
+    "name_es": "Bolivia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -470,6 +494,7 @@
     "iso3": "BIH",
     "iso_numeric": "070",
     "name": "Bosnia and Herzegovina",
+    "name_es": "Bosnia y Herzegovina",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -490,6 +515,7 @@
     "iso3": "BWA",
     "iso_numeric": "072",
     "name": "Botswana",
+    "name_es": "Botswana",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -510,6 +536,7 @@
     "iso3": "BRA",
     "iso_numeric": "076",
     "name": "Brazil",
+    "name_es": "Brasil",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -530,6 +557,7 @@
     "iso3": "VGB",
     "iso_numeric": "092",
     "name": "British Virgin Islands",
+    "name_es": "Islas Vírgenes del Reino Unido",
     "years": {
       "population": "2025",
       "pop_0_14_pct": "2025"
@@ -547,6 +575,7 @@
     "iso3": "BRN",
     "iso_numeric": "096",
     "name": "Brunei",
+    "name_es": "Brunei",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -566,6 +595,7 @@
     "iso3": "BGR",
     "iso_numeric": "100",
     "name": "Bulgaria",
+    "name_es": "Bulgaria",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -586,6 +616,7 @@
     "iso3": "BFA",
     "iso_numeric": "854",
     "name": "Burkina Faso",
+    "name_es": "Burkina Faso",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -606,6 +637,7 @@
     "iso3": "BDI",
     "iso_numeric": "108",
     "name": "Burundi",
+    "name_es": "Burundi",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -626,6 +658,7 @@
     "iso3": "KHM",
     "iso_numeric": "116",
     "name": "Cambodia",
+    "name_es": "Camboya",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -646,6 +679,7 @@
     "iso3": "CMR",
     "iso_numeric": "120",
     "name": "Cameroon",
+    "name_es": "Camerún",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -666,6 +700,7 @@
     "iso3": "CAN",
     "iso_numeric": "124",
     "name": "Canada",
+    "name_es": "Canadá",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -686,6 +721,7 @@
     "iso3": "CPV",
     "iso_numeric": "132",
     "name": "Cape Verde",
+    "name_es": "Cabo Verde",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -705,6 +741,7 @@
     "iso3": "CYM",
     "iso_numeric": "136",
     "name": "Cayman Islands",
+    "name_es": "Islas Caimán",
     "years": {
       "gdp_usd": "2024",
       "population": "2025",
@@ -724,6 +761,7 @@
     "iso3": "CAF",
     "iso_numeric": "140",
     "name": "Central African Republic",
+    "name_es": "República Centroafricana",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -744,6 +782,7 @@
     "iso3": "TCD",
     "iso_numeric": "148",
     "name": "Chad",
+    "name_es": "Chad",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -763,6 +802,7 @@
     "iso3": "CHL",
     "iso_numeric": "152",
     "name": "Chile",
+    "name_es": "Chile",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -783,6 +823,7 @@
     "iso3": "CHN",
     "iso_numeric": "156",
     "name": "China",
+    "name_es": "China",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -803,6 +844,7 @@
     "iso3": "COL",
     "iso_numeric": "170",
     "name": "Colombia",
+    "name_es": "Colombia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -823,6 +865,7 @@
     "iso3": "COM",
     "iso_numeric": "174",
     "name": "Comoros",
+    "name_es": "Comoras",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -842,6 +885,7 @@
     "iso3": "CRI",
     "iso_numeric": "188",
     "name": "Costa Rica",
+    "name_es": "Costa Rica",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -862,6 +906,7 @@
     "iso3": "HRV",
     "iso_numeric": "191",
     "name": "Croatia",
+    "name_es": "Croacia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -882,6 +927,7 @@
     "iso3": "CUB",
     "iso_numeric": "192",
     "name": "Cuba",
+    "name_es": "Cuba",
     "years": {
       "population": "2025",
       "pop_0_14_pct": "2025"
@@ -899,6 +945,7 @@
     "iso3": "CUW",
     "iso_numeric": "531",
     "name": "Curaçao",
+    "name_es": "Curazao",
     "years": {
       "gdp_usd": "2024",
       "population": "2025",
@@ -918,6 +965,7 @@
     "iso3": "CYP",
     "iso_numeric": "196",
     "name": "Cyprus",
+    "name_es": "Chipre",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -938,6 +986,7 @@
     "iso3": "CZE",
     "iso_numeric": "203",
     "name": "Czechia",
+    "name_es": "Chequia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -958,6 +1007,7 @@
     "iso3": "DNK",
     "iso_numeric": "208",
     "name": "Denmark",
+    "name_es": "Dinamarca",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -978,6 +1028,7 @@
     "iso3": "DJI",
     "iso_numeric": "262",
     "name": "Djibouti",
+    "name_es": "Djibouti",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -997,6 +1048,7 @@
     "iso3": "DMA",
     "iso_numeric": "212",
     "name": "Dominica",
+    "name_es": "Dominica",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1016,6 +1068,7 @@
     "iso3": "DOM",
     "iso_numeric": "214",
     "name": "Dominican Republic",
+    "name_es": "República Dominicana",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1036,6 +1089,7 @@
     "iso3": "COD",
     "iso_numeric": "180",
     "name": "DR Congo",
+    "name_es": "Congo (Rep. Dem.)",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1056,6 +1110,7 @@
     "iso3": "ECU",
     "iso_numeric": "218",
     "name": "Ecuador",
+    "name_es": "Ecuador",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1076,6 +1131,7 @@
     "iso3": "EGY",
     "iso_numeric": "818",
     "name": "Egypt",
+    "name_es": "Egipto",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1095,6 +1151,7 @@
     "iso3": "SLV",
     "iso_numeric": "222",
     "name": "El Salvador",
+    "name_es": "El Salvador",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1115,6 +1172,7 @@
     "iso3": "GNQ",
     "iso_numeric": "226",
     "name": "Equatorial Guinea",
+    "name_es": "Guinea Ecuatorial",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1135,6 +1193,7 @@
     "iso3": "ERI",
     "iso_numeric": "232",
     "name": "Eritrea",
+    "name_es": "Eritrea",
     "years": {
       "population": "2025",
       "pop_0_14_pct": "2025"
@@ -1152,6 +1211,7 @@
     "iso3": "EST",
     "iso_numeric": "233",
     "name": "Estonia",
+    "name_es": "Estonia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1172,6 +1232,7 @@
     "iso3": "SWZ",
     "iso_numeric": "748",
     "name": "Eswatini",
+    "name_es": "Suazilandia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1192,6 +1253,7 @@
     "iso3": "ETH",
     "iso_numeric": "231",
     "name": "Ethiopia",
+    "name_es": "Etiopía",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1212,6 +1274,7 @@
     "iso3": "FRO",
     "iso_numeric": "234",
     "name": "Faroe Islands",
+    "name_es": "Islas Faroe",
     "years": {
       "gdp_usd": "2024",
       "population": "2025",
@@ -1231,6 +1294,7 @@
     "iso3": "FJI",
     "iso_numeric": "242",
     "name": "Fiji",
+    "name_es": "Fiyi",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1251,6 +1315,7 @@
     "iso3": "FIN",
     "iso_numeric": "246",
     "name": "Finland",
+    "name_es": "Finlandia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1271,6 +1336,7 @@
     "iso3": "FRA",
     "iso_numeric": "250",
     "name": "France",
+    "name_es": "Francia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1291,6 +1357,7 @@
     "iso3": "PYF",
     "iso_numeric": "258",
     "name": "French Polynesia",
+    "name_es": "Polinesia Francesa",
     "years": {
       "gdp_usd": "2024",
       "population": "2025",
@@ -1309,6 +1376,7 @@
     "iso3": "GAB",
     "iso_numeric": "266",
     "name": "Gabon",
+    "name_es": "Gabón",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1329,6 +1397,7 @@
     "iso3": "GMB",
     "iso_numeric": "270",
     "name": "Gambia",
+    "name_es": "Gambia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1348,6 +1417,7 @@
     "iso3": "GEO",
     "iso_numeric": "268",
     "name": "Georgia",
+    "name_es": "Georgia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1368,6 +1438,7 @@
     "iso3": "DEU",
     "iso_numeric": "276",
     "name": "Germany",
+    "name_es": "Alemania",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1388,6 +1459,7 @@
     "iso3": "GHA",
     "iso_numeric": "288",
     "name": "Ghana",
+    "name_es": "Ghana",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1408,6 +1480,7 @@
     "iso3": "GIB",
     "iso_numeric": "292",
     "name": "Gibraltar",
+    "name_es": "Gibraltar",
     "years": {
       "population": "2025",
       "pop_0_14_pct": "2025"
@@ -1425,6 +1498,7 @@
     "iso3": "GRC",
     "iso_numeric": "300",
     "name": "Greece",
+    "name_es": "Grecia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1445,6 +1519,7 @@
     "iso3": "GRL",
     "iso_numeric": "304",
     "name": "Greenland",
+    "name_es": "Groenlandia",
     "years": {
       "gdp_usd": "2023",
       "population": "2025",
@@ -1464,6 +1539,7 @@
     "iso3": "GRD",
     "iso_numeric": "308",
     "name": "Grenada",
+    "name_es": "Grenada",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1483,6 +1559,7 @@
     "iso3": "GUM",
     "iso_numeric": "316",
     "name": "Guam",
+    "name_es": "Guam",
     "years": {
       "gdp_usd": "2022",
       "population": "2025",
@@ -1501,6 +1578,7 @@
     "iso3": "GTM",
     "iso_numeric": "320",
     "name": "Guatemala",
+    "name_es": "Guatemala",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1521,6 +1599,7 @@
     "iso3": "GIN",
     "iso_numeric": "324",
     "name": "Guinea",
+    "name_es": "Guinea",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1540,6 +1619,7 @@
     "iso3": "GNB",
     "iso_numeric": "624",
     "name": "Guinea-Bissau",
+    "name_es": "Guinea-Bisáu",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1560,6 +1640,7 @@
     "iso3": "GUY",
     "iso_numeric": "328",
     "name": "Guyana",
+    "name_es": "Guyana",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1579,6 +1660,7 @@
     "iso3": "HTI",
     "iso_numeric": "332",
     "name": "Haiti",
+    "name_es": "Haití",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1598,6 +1680,7 @@
     "iso3": "HND",
     "iso_numeric": "340",
     "name": "Honduras",
+    "name_es": "Honduras",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1617,6 +1700,7 @@
     "iso3": "HKG",
     "iso_numeric": "344",
     "name": "Hong Kong",
+    "name_es": "Hong Kong",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1636,6 +1720,7 @@
     "iso3": "HUN",
     "iso_numeric": "348",
     "name": "Hungary",
+    "name_es": "Hungría",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1656,6 +1741,7 @@
     "iso3": "ISL",
     "iso_numeric": "352",
     "name": "Iceland",
+    "name_es": "Islandia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1676,6 +1762,7 @@
     "iso3": "IND",
     "iso_numeric": "356",
     "name": "India",
+    "name_es": "India",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1696,6 +1783,7 @@
     "iso3": "IDN",
     "iso_numeric": "360",
     "name": "Indonesia",
+    "name_es": "Indonesia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1715,6 +1803,7 @@
     "iso3": "IRN",
     "iso_numeric": "364",
     "name": "Iran",
+    "name_es": "Iran",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1734,6 +1823,7 @@
     "iso3": "IRQ",
     "iso_numeric": "368",
     "name": "Iraq",
+    "name_es": "Irak",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1753,6 +1843,7 @@
     "iso3": "IRL",
     "iso_numeric": "372",
     "name": "Ireland",
+    "name_es": "Irlanda",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1773,6 +1864,7 @@
     "iso3": "IMN",
     "iso_numeric": "833",
     "name": "Isle of Man",
+    "name_es": "Isla de Man",
     "years": {
       "gdp_usd": "2023",
       "population": "2025",
@@ -1791,6 +1883,7 @@
     "iso3": "ISR",
     "iso_numeric": "376",
     "name": "Israel",
+    "name_es": "Israel",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1811,6 +1904,7 @@
     "iso3": "ITA",
     "iso_numeric": "380",
     "name": "Italy",
+    "name_es": "Italia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1831,6 +1925,7 @@
     "iso3": "CIV",
     "iso_numeric": "384",
     "name": "Ivory Coast",
+    "name_es": "Costa de Marfil",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1851,6 +1946,7 @@
     "iso3": "JAM",
     "iso_numeric": "388",
     "name": "Jamaica",
+    "name_es": "Jamaica",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1870,6 +1966,7 @@
     "iso3": "JPN",
     "iso_numeric": "392",
     "name": "Japan",
+    "name_es": "Japón",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1890,6 +1987,7 @@
     "iso3": "JOR",
     "iso_numeric": "400",
     "name": "Jordan",
+    "name_es": "Jordania",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1910,6 +2008,7 @@
     "iso3": "KAZ",
     "iso_numeric": "398",
     "name": "Kazakhstan",
+    "name_es": "Kazajistán",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1930,6 +2029,7 @@
     "iso3": "KEN",
     "iso_numeric": "404",
     "name": "Kenya",
+    "name_es": "Kenia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1950,6 +2050,7 @@
     "iso3": "KIR",
     "iso_numeric": "296",
     "name": "Kiribati",
+    "name_es": "Kiribati",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1970,6 +2071,7 @@
     "iso3": "KWT",
     "iso_numeric": "414",
     "name": "Kuwait",
+    "name_es": "Kuwait",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1989,6 +2091,7 @@
     "iso3": "KGZ",
     "iso_numeric": "417",
     "name": "Kyrgyzstan",
+    "name_es": "Kirguizistán",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2009,6 +2112,7 @@
     "iso3": "LAO",
     "iso_numeric": "418",
     "name": "Laos",
+    "name_es": "Laos",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2029,6 +2133,7 @@
     "iso3": "LVA",
     "iso_numeric": "428",
     "name": "Latvia",
+    "name_es": "Letonia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2049,6 +2154,7 @@
     "iso3": "LBN",
     "iso_numeric": "422",
     "name": "Lebanon",
+    "name_es": "Líbano",
     "years": {
       "gdp_usd": "2024",
       "population": "2025",
@@ -2069,6 +2175,7 @@
     "iso3": "LSO",
     "iso_numeric": "426",
     "name": "Lesotho",
+    "name_es": "Lesotho",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2089,6 +2196,7 @@
     "iso3": "LBR",
     "iso_numeric": "430",
     "name": "Liberia",
+    "name_es": "Liberia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2108,6 +2216,7 @@
     "iso3": "LBY",
     "iso_numeric": "434",
     "name": "Libya",
+    "name_es": "Libia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2127,6 +2236,7 @@
     "iso3": "LIE",
     "iso_numeric": "438",
     "name": "Liechtenstein",
+    "name_es": "Liechtenstein",
     "years": {
       "gdp_usd": "2024",
       "population": "2025",
@@ -2145,6 +2255,7 @@
     "iso3": "LTU",
     "iso_numeric": "440",
     "name": "Lithuania",
+    "name_es": "Lituania",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2165,6 +2276,7 @@
     "iso3": "LUX",
     "iso_numeric": "442",
     "name": "Luxembourg",
+    "name_es": "Luxemburgo",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2185,6 +2297,7 @@
     "iso3": "MAC",
     "iso_numeric": "446",
     "name": "Macau",
+    "name_es": "Macao",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2205,6 +2318,7 @@
     "iso3": "MDG",
     "iso_numeric": "450",
     "name": "Madagascar",
+    "name_es": "Madagascar",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2225,6 +2339,7 @@
     "iso3": "MWI",
     "iso_numeric": "454",
     "name": "Malawi",
+    "name_es": "Malawi",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2245,6 +2360,7 @@
     "iso3": "MYS",
     "iso_numeric": "458",
     "name": "Malaysia",
+    "name_es": "Malasia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2265,6 +2381,7 @@
     "iso3": "MDV",
     "iso_numeric": "462",
     "name": "Maldives",
+    "name_es": "Maldivas",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2285,6 +2402,7 @@
     "iso3": "MLI",
     "iso_numeric": "466",
     "name": "Mali",
+    "name_es": "Mali",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2304,6 +2422,7 @@
     "iso3": "MLT",
     "iso_numeric": "470",
     "name": "Malta",
+    "name_es": "Malta",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2324,6 +2443,7 @@
     "iso3": "MHL",
     "iso_numeric": "584",
     "name": "Marshall Islands",
+    "name_es": "Islas Marshall",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2343,6 +2463,7 @@
     "iso3": "MRT",
     "iso_numeric": "478",
     "name": "Mauritania",
+    "name_es": "Mauritania",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2362,6 +2483,7 @@
     "iso3": "MUS",
     "iso_numeric": "480",
     "name": "Mauritius",
+    "name_es": "Mauricio",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2382,6 +2504,7 @@
     "iso3": "MEX",
     "iso_numeric": "484",
     "name": "Mexico",
+    "name_es": "México",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2402,6 +2525,7 @@
     "iso3": "FSM",
     "iso_numeric": "583",
     "name": "Micronesia",
+    "name_es": "Micronesia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2421,6 +2545,7 @@
     "iso3": "MDA",
     "iso_numeric": "498",
     "name": "Moldova",
+    "name_es": "Moldavia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2441,6 +2566,7 @@
     "iso3": "MCO",
     "iso_numeric": "492",
     "name": "Monaco",
+    "name_es": "Mónaco",
     "years": {
       "gdp_usd": "2024",
       "population": "2025",
@@ -2459,6 +2585,7 @@
     "iso3": "MNG",
     "iso_numeric": "496",
     "name": "Mongolia",
+    "name_es": "Mongolia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2479,6 +2606,7 @@
     "iso3": "MNE",
     "iso_numeric": "499",
     "name": "Montenegro",
+    "name_es": "Montenegro",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2498,6 +2626,7 @@
     "iso3": "MAR",
     "iso_numeric": "504",
     "name": "Morocco",
+    "name_es": "Marruecos",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2518,6 +2647,7 @@
     "iso3": "MOZ",
     "iso_numeric": "508",
     "name": "Mozambique",
+    "name_es": "Mozambique",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2538,6 +2668,7 @@
     "iso3": "MMR",
     "iso_numeric": "104",
     "name": "Myanmar",
+    "name_es": "Myanmar",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2557,6 +2688,7 @@
     "iso3": "NAM",
     "iso_numeric": "516",
     "name": "Namibia",
+    "name_es": "Namibia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2577,6 +2709,7 @@
     "iso3": "NRU",
     "iso_numeric": "520",
     "name": "Nauru",
+    "name_es": "Nauru",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2597,6 +2730,7 @@
     "iso3": "NPL",
     "iso_numeric": "524",
     "name": "Nepal",
+    "name_es": "Nepal",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2617,6 +2751,7 @@
     "iso3": "NLD",
     "iso_numeric": "528",
     "name": "Netherlands",
+    "name_es": "Países Bajos",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2637,6 +2772,7 @@
     "iso3": "NCL",
     "iso_numeric": "540",
     "name": "New Caledonia",
+    "name_es": "Nueva Caledonia",
     "years": {
       "gdp_usd": "2024",
       "population": "2025",
@@ -2655,6 +2791,7 @@
     "iso3": "NZL",
     "iso_numeric": "554",
     "name": "New Zealand",
+    "name_es": "Nueva Zelanda",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2675,6 +2812,7 @@
     "iso3": "NIC",
     "iso_numeric": "558",
     "name": "Nicaragua",
+    "name_es": "Nicaragua",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2695,6 +2833,7 @@
     "iso3": "NER",
     "iso_numeric": "562",
     "name": "Niger",
+    "name_es": "Níger",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2714,6 +2853,7 @@
     "iso3": "NGA",
     "iso_numeric": "566",
     "name": "Nigeria",
+    "name_es": "Nigeria",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2733,6 +2873,7 @@
     "iso3": "PRK",
     "iso_numeric": "408",
     "name": "North Korea",
+    "name_es": "Corea del Norte",
     "years": {
       "population": "2025",
       "pop_0_14_pct": "2025"
@@ -2750,6 +2891,7 @@
     "iso3": "MKD",
     "iso_numeric": "807",
     "name": "North Macedonia",
+    "name_es": "Macedonia del Norte",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2770,6 +2912,7 @@
     "iso3": "MNP",
     "iso_numeric": "580",
     "name": "Northern Mariana Islands",
+    "name_es": "Islas Marianas del Norte",
     "years": {
       "gdp_usd": "2022",
       "population": "2025",
@@ -2788,6 +2931,7 @@
     "iso3": "NOR",
     "iso_numeric": "578",
     "name": "Norway",
+    "name_es": "Noruega",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2808,6 +2952,7 @@
     "iso3": "OMN",
     "iso_numeric": "512",
     "name": "Oman",
+    "name_es": "Omán",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2827,6 +2972,7 @@
     "iso3": "PAK",
     "iso_numeric": "586",
     "name": "Pakistan",
+    "name_es": "Pakistán",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2846,6 +2992,7 @@
     "iso3": "PLW",
     "iso_numeric": "585",
     "name": "Palau",
+    "name_es": "Palau",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2865,6 +3012,7 @@
     "iso3": "PSE",
     "iso_numeric": "275",
     "name": "Palestine",
+    "name_es": "Palestina",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2885,6 +3033,7 @@
     "iso3": "PAN",
     "iso_numeric": "591",
     "name": "Panama",
+    "name_es": "Panamá",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2905,6 +3054,7 @@
     "iso3": "PNG",
     "iso_numeric": "598",
     "name": "Papua New Guinea",
+    "name_es": "Papúa Nueva Guinea",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2925,6 +3075,7 @@
     "iso3": "PRY",
     "iso_numeric": "600",
     "name": "Paraguay",
+    "name_es": "Paraguay",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2945,6 +3096,7 @@
     "iso3": "PER",
     "iso_numeric": "604",
     "name": "Peru",
+    "name_es": "Perú",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2965,6 +3117,7 @@
     "iso3": "PHL",
     "iso_numeric": "608",
     "name": "Philippines",
+    "name_es": "Filipinas",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2985,6 +3138,7 @@
     "iso3": "POL",
     "iso_numeric": "616",
     "name": "Poland",
+    "name_es": "Polonia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3005,6 +3159,7 @@
     "iso3": "PRT",
     "iso_numeric": "620",
     "name": "Portugal",
+    "name_es": "Portugal",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3025,6 +3180,7 @@
     "iso3": "PRI",
     "iso_numeric": "630",
     "name": "Puerto Rico",
+    "name_es": "Puerto Rico",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3044,6 +3200,7 @@
     "iso3": "QAT",
     "iso_numeric": "634",
     "name": "Qatar",
+    "name_es": "Catar",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3063,6 +3220,7 @@
     "iso3": "COG",
     "iso_numeric": "178",
     "name": "Republic of the Congo",
+    "name_es": "Congo",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3083,6 +3241,7 @@
     "iso3": "ROU",
     "iso_numeric": "642",
     "name": "Romania",
+    "name_es": "Rumania",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3103,6 +3262,7 @@
     "iso3": "RUS",
     "iso_numeric": "643",
     "name": "Russia",
+    "name_es": "Rusia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3123,6 +3283,7 @@
     "iso3": "RWA",
     "iso_numeric": "646",
     "name": "Rwanda",
+    "name_es": "Ruanda",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3143,6 +3304,7 @@
     "iso3": "KNA",
     "iso_numeric": "659",
     "name": "Saint Kitts and Nevis",
+    "name_es": "San Cristóbal y Nieves",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3162,6 +3324,7 @@
     "iso3": "LCA",
     "iso_numeric": "662",
     "name": "Saint Lucia",
+    "name_es": "Santa Lucía",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3181,6 +3344,7 @@
     "iso3": "MAF",
     "iso_numeric": "663",
     "name": "Saint Martin",
+    "name_es": "Saint Martin",
     "years": {
       "gdp_usd": "2021",
       "population": "2025",
@@ -3199,6 +3363,7 @@
     "iso3": "VCT",
     "iso_numeric": "670",
     "name": "Saint Vincent and the Grenadines",
+    "name_es": "San Vicente y Granadinas",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3218,6 +3383,7 @@
     "iso3": "WSM",
     "iso_numeric": "882",
     "name": "Samoa",
+    "name_es": "Samoa",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3238,6 +3404,7 @@
     "iso3": "SMR",
     "iso_numeric": "674",
     "name": "San Marino",
+    "name_es": "San Marino",
     "years": {
       "gdp_usd": "2023",
       "population": "2025",
@@ -3258,6 +3425,7 @@
     "iso3": "STP",
     "iso_numeric": "678",
     "name": "São Tomé and Príncipe",
+    "name_es": "Santo Tomé y Príncipe",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3277,6 +3445,7 @@
     "iso3": "SAU",
     "iso_numeric": "682",
     "name": "Saudi Arabia",
+    "name_es": "Arabia Saudí",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3297,6 +3466,7 @@
     "iso3": "SEN",
     "iso_numeric": "686",
     "name": "Senegal",
+    "name_es": "Senegal",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3317,6 +3487,7 @@
     "iso3": "SRB",
     "iso_numeric": "688",
     "name": "Serbia",
+    "name_es": "Serbia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3337,6 +3508,7 @@
     "iso3": "SYC",
     "iso_numeric": "690",
     "name": "Seychelles",
+    "name_es": "Seychelles",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3356,6 +3528,7 @@
     "iso3": "SLE",
     "iso_numeric": "694",
     "name": "Sierra Leone",
+    "name_es": "Sierra Leone",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3375,6 +3548,7 @@
     "iso3": "SGP",
     "iso_numeric": "702",
     "name": "Singapore",
+    "name_es": "Singapur",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3395,6 +3569,7 @@
     "iso3": "SXM",
     "iso_numeric": "534",
     "name": "Sint Maarten",
+    "name_es": "Sint Maarten",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3414,6 +3589,7 @@
     "iso3": "SVK",
     "iso_numeric": "703",
     "name": "Slovakia",
+    "name_es": "Eslovaquia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3434,6 +3610,7 @@
     "iso3": "SVN",
     "iso_numeric": "705",
     "name": "Slovenia",
+    "name_es": "Eslovenia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3454,6 +3631,7 @@
     "iso3": "SLB",
     "iso_numeric": "090",
     "name": "Solomon Islands",
+    "name_es": "Islas Salomón",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3474,6 +3652,7 @@
     "iso3": "SOM",
     "iso_numeric": "706",
     "name": "Somalia",
+    "name_es": "Somalia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3494,6 +3673,7 @@
     "iso3": "ZAF",
     "iso_numeric": "710",
     "name": "South Africa",
+    "name_es": "Sudáfrica",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3514,6 +3694,7 @@
     "iso3": "KOR",
     "iso_numeric": "410",
     "name": "South Korea",
+    "name_es": "Corea del Sur",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3534,6 +3715,7 @@
     "iso3": "SSD",
     "iso_numeric": "728",
     "name": "South Sudan",
+    "name_es": "Sudán del Sur",
     "years": {
       "population": "2025",
       "pop_0_14_pct": "2025"
@@ -3551,6 +3733,7 @@
     "iso3": "ESP",
     "iso_numeric": "724",
     "name": "Spain",
+    "name_es": "España",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3571,6 +3754,7 @@
     "iso3": "LKA",
     "iso_numeric": "144",
     "name": "Sri Lanka",
+    "name_es": "Sri Lanka",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3591,6 +3775,7 @@
     "iso3": "SDN",
     "iso_numeric": "729",
     "name": "Sudan",
+    "name_es": "Sudán",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3610,6 +3795,7 @@
     "iso3": "SUR",
     "iso_numeric": "740",
     "name": "Suriname",
+    "name_es": "Surinam",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3629,6 +3815,7 @@
     "iso3": "SWE",
     "iso_numeric": "752",
     "name": "Sweden",
+    "name_es": "Suecia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3649,6 +3836,7 @@
     "iso3": "CHE",
     "iso_numeric": "756",
     "name": "Switzerland",
+    "name_es": "Suiza",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3669,6 +3857,7 @@
     "iso3": "SYR",
     "iso_numeric": "760",
     "name": "Syria",
+    "name_es": "Siria",
     "years": {
       "gdp_usd": "2022",
       "population": "2025",
@@ -3688,6 +3877,7 @@
     "iso3": "TJK",
     "iso_numeric": "762",
     "name": "Tajikistan",
+    "name_es": "Tayikistán",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3708,6 +3898,7 @@
     "iso3": "TZA",
     "iso_numeric": "834",
     "name": "Tanzania",
+    "name_es": "Tanzania",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3728,6 +3919,7 @@
     "iso3": "THA",
     "iso_numeric": "764",
     "name": "Thailand",
+    "name_es": "Tailandia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3748,6 +3940,7 @@
     "iso3": "TLS",
     "iso_numeric": "626",
     "name": "Timor-Leste",
+    "name_es": "Timor Oriental",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3768,6 +3961,7 @@
     "iso3": "TGO",
     "iso_numeric": "768",
     "name": "Togo",
+    "name_es": "Togo",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3788,6 +3982,7 @@
     "iso3": "TON",
     "iso_numeric": "776",
     "name": "Tonga",
+    "name_es": "Tonga",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3808,6 +4003,7 @@
     "iso3": "TTO",
     "iso_numeric": "780",
     "name": "Trinidad and Tobago",
+    "name_es": "Trinidad y Tobago",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3827,6 +4023,7 @@
     "iso3": "TUN",
     "iso_numeric": "788",
     "name": "Tunisia",
+    "name_es": "Túnez",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3846,6 +4043,7 @@
     "iso3": "TUR",
     "iso_numeric": "792",
     "name": "Türkiye",
+    "name_es": "Turquía",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3866,6 +4064,7 @@
     "iso3": "TKM",
     "iso_numeric": "795",
     "name": "Turkmenistan",
+    "name_es": "Turkmenistán",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3885,6 +4084,7 @@
     "iso3": "TCA",
     "iso_numeric": "796",
     "name": "Turks and Caicos Islands",
+    "name_es": "Islas Turks y Caicos",
     "years": {
       "gdp_usd": "2024",
       "population": "2025",
@@ -3904,6 +4104,7 @@
     "iso3": "TUV",
     "iso_numeric": "798",
     "name": "Tuvalu",
+    "name_es": "Tuvalu",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3923,6 +4124,7 @@
     "iso3": "UGA",
     "iso_numeric": "800",
     "name": "Uganda",
+    "name_es": "Uganda",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3943,6 +4145,7 @@
     "iso3": "UKR",
     "iso_numeric": "804",
     "name": "Ukraine",
+    "name_es": "Ucrania",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3963,6 +4166,7 @@
     "iso3": "ARE",
     "iso_numeric": "784",
     "name": "United Arab Emirates",
+    "name_es": "Emiratos Árabes Unidos",
     "years": {
       "gdp_usd": "2024",
       "population": "2025",
@@ -3983,6 +4187,7 @@
     "iso3": "GBR",
     "iso_numeric": "826",
     "name": "United Kingdom",
+    "name_es": "Reino Unido",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -4003,6 +4208,7 @@
     "iso3": "USA",
     "iso_numeric": "840",
     "name": "United States",
+    "name_es": "Estados Unidos",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -4023,6 +4229,7 @@
     "iso3": "VIR",
     "iso_numeric": "850",
     "name": "United States Virgin Islands",
+    "name_es": "Islas Vírgenes de los Estados Unidos",
     "years": {
       "gdp_usd": "2022",
       "population": "2025",
@@ -4042,6 +4249,7 @@
     "iso3": "URY",
     "iso_numeric": "858",
     "name": "Uruguay",
+    "name_es": "Uruguay",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -4062,6 +4270,7 @@
     "iso3": "UZB",
     "iso_numeric": "860",
     "name": "Uzbekistan",
+    "name_es": "Uzbekistán",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -4082,6 +4291,7 @@
     "iso3": "VUT",
     "iso_numeric": "548",
     "name": "Vanuatu",
+    "name_es": "Vanuatu",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -4102,6 +4312,7 @@
     "iso3": "VEN",
     "iso_numeric": "862",
     "name": "Venezuela",
+    "name_es": "Venezuela",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -4120,6 +4331,7 @@
     "iso3": "VNM",
     "iso_numeric": "704",
     "name": "Vietnam",
+    "name_es": "Vietnam",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -4139,6 +4351,7 @@
     "iso3": "YEM",
     "iso_numeric": "887",
     "name": "Yemen",
+    "name_es": "Yemen",
     "years": {
       "population": "2025",
       "pop_0_14_pct": "2025"
@@ -4156,6 +4369,7 @@
     "iso3": "ZMB",
     "iso_numeric": "894",
     "name": "Zambia",
+    "name_es": "Zambia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -4176,6 +4390,7 @@
     "iso3": "ZWE",
     "iso_numeric": "716",
     "name": "Zimbabwe",
+    "name_es": "Zimbabue",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",

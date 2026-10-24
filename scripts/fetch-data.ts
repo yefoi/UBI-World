@@ -22,6 +22,7 @@ interface CountryData {
   iso3: string
   iso_numeric: string
   name: string
+  name_es?: string
   gdp_usd?: number
   population?: number
   pop_0_14_pct?: number
@@ -109,6 +110,7 @@ async function main() {
       iso3,
       iso_numeric: wc.ccn3,
       name: wc.name.common,
+      name_es: wc.translations?.spa?.common,
       years: {},
       missing: [],
     }
