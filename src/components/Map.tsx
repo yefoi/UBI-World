@@ -2,38 +2,52 @@
 import { geoPath, geoNaturalEarth1 } from 'd3-geo'
 import { feature } from 'topojson-client'
 import world from 'world-atlas/countries-110m.json'
-import type { CountryRawData } from '../model/ubi'
-import type { calculateUbi } from '../model/ubi'
+import type { Translations, Lang } from '../i18n/translations'
+import type { CountryRawData, UbiResult } from '../model/ubi'
+import { countryName } from '../utils/country'
+import { formatPct } from '../utils/format'
+import {
+  categoryLabelKey,
+  metricColor,
+  NO_DATA_COLOR,
+  type MapMetric,
+} from './mapColors'
 
 interface Props {
-  t: any
+  t: Translations
+  lang: Lang
   countries: CountryRawData[]
-  results: Map<string, ReturnType<typeof calculateUbi>>
-  metric: 'category' | 'gap'
+  results: Map<string, UbiResult>
+  metric: MapMetric
   selectedIso3: string | null
   onCountryClick: (iso3: string | null) => void
 }
 
-const categoryColors: Record<string, string> = {
-  'Viable hoy': '#22c55e',
-  'Viable con IA moderada': '#84cc16',
-  'Requiere IA extrema': '#f59e0b',
-  'Inviable': '#ef4444',
-  'Sin datos': '#9ca3af',
+function tooltipText(result: UbiResult | undefined, metric: MapMetric, t: Translations): string {
+  if (!result || !result.hasData || result.category === 'Sin datos') return t.noData
+  switch (metric) {
+    case 'category':
+      return t[categoryLabelKey(result.category)]
+    case 'gap':
+      return `${t.gapTotal}: ${formatPct(result.gapPctGdp)} ${t.ofGdp}`
+    case 'cost':
+      return `${t.summaryCost}: ${formatPct(result.netCostPctGdp)} ${t.ofGdp}`
+    case 'needed':
+      return result.aiGrowthNeededPct === Infinity
+        ? `${t.aiGrowthNeeded}: ∞`
+        : `${t.aiGrowthNeeded}: +${formatPct(result.aiGrowthNeededPct)} ${t.ofGdp}`
+  }
 }
 
-const NO_DATA = '#9ca3af'
-
-function gapColor(gap: number | undefined): string {
-  if (gap === undefined || !Number.isFinite(gap)) return NO_DATA
-  if (gap <= 0) return '#22c55e'
-  if (gap < 3) return '#84cc16'
-  if (gap < 8) return '#f59e0b'
-  if (gap < 20) return '#f97316'
-  return '#ef4444'
-}
-
-function WorldMap({ t, countries, results, metric, selectedIso3, onCountryClick }: Props) {
+function WorldMap({
+  t,
+  lang,
+  countries,
+  results,
+  metric,
+  selectedIso3,
+  onCountryClick,
+}: Props) {
   const svgRef = useRef<SVGSVGElement>(null)
 
   useEffect(() => {
@@ -53,65 +67,63 @@ function WorldMap({ t, countries, results, metric, selectedIso3, onCountryClick 
     const path = geoPath().projection(projection)
 
     const byNumeric = new Map<string, CountryRawData>()
-    for (const c of countries) {
-      if (c.iso_numeric) byNumeric.set(String(Number(c.iso_numeric)), c)
+    for (const country of countries) {
+      if (country.iso_numeric) byNumeric.set(String(Number(country.iso_numeric)), country)
     }
 
     // @ts-ignore - world-atlas types
     const features = feature(world, world.objects.countries).features as any[]
 
-    const g = document.createElementNS('http://www.w3.org/2000/svg', 'g')
+    const group = document.createElementNS('http://www.w3.org/2000/svg', 'g')
 
-    for (const f of features) {
-      const numericId = f.id !== undefined ? String(Number(f.id)) : undefined
+    for (const shape of features) {
+      const numericId = shape.id !== undefined ? String(Number(shape.id)) : undefined
       const country = numericId ? byNumeric.get(numericId) : undefined
       const result = country ? results.get(country.iso3) : undefined
 
       const pathEl = document.createElementNS('http://www.w3.org/2000/svg', 'path')
-      pathEl.setAttribute('d', path(f) || '')
+      pathEl.setAttribute('d', path(shape) || '')
       pathEl.setAttribute('class', 'country')
+      pathEl.setAttribute('fill', metricColor(result, metric))
 
       if (!result || result.category === 'Sin datos') {
-        pathEl.setAttribute('fill', NO_DATA)
         pathEl.setAttribute('data-nodata', 'true')
-      } else if (metric === 'category') {
-        pathEl.setAttribute('fill', categoryColors[result.category] || NO_DATA)
-      } else {
-        pathEl.setAttribute('fill', gapColor(result.gapPctGdp))
+        pathEl.setAttribute('fill', NO_DATA_COLOR)
       }
 
-      const label = country?.name || f.properties?.name || ''
-      const cat = result ? t[categoryKey(result.category)] : t.noData
+      const label = country ? countryName(country, lang) : shape.properties?.name || ''
+      const valueText = tooltipText(result, metric, t)
       const titleEl = document.createElementNS('http://www.w3.org/2000/svg', 'title')
-      titleEl.textContent = `${label} — ${cat}`
-      pathEl.appendChild(titleEl)
+      titleEl.textContent = `${label} — ${valueText}`
 
-      if (selectedIso3 && country?.iso3 === selectedIso3) {
-        pathEl.setAttribute('class', 'country selected')
+      if (country) {
+        const isSelected = selectedIso3 === country.iso3
+        pathEl.setAttribute('tabindex', '0')
+        pathEl.setAttribute('role', 'button')
+        pathEl.setAttribute('aria-label', `${label}: ${valueText}`)
+        pathEl.setAttribute('aria-pressed', String(isSelected))
+        pathEl.setAttribute('data-iso3', country.iso3)
+        if (isSelected) pathEl.setAttribute('class', 'country selected')
+
+        const activate = () => onCountryClick(isSelected ? null : country.iso3)
+        pathEl.addEventListener('click', activate)
+        pathEl.addEventListener('keydown', (event) => {
+          const key = (event as KeyboardEvent).key
+          if (key === 'Enter' || key === ' ') {
+            event.preventDefault()
+            activate()
+          }
+        })
       }
 
-      pathEl.addEventListener('click', () => {
-        if (!country) return
-        onCountryClick(country.iso3 === selectedIso3 ? null : country.iso3)
-      })
-
-      g.appendChild(pathEl)
+      pathEl.appendChild(titleEl)
+      group.appendChild(pathEl)
     }
 
-    svg.appendChild(g)
-  }, [countries, results, metric, selectedIso3, onCountryClick, t])
+    svg.appendChild(group)
+  }, [countries, results, metric, selectedIso3, onCountryClick, t, lang])
 
-  return <svg ref={svgRef} className="map-svg" aria-label="World map" />
-}
-
-function categoryKey(c: string): string {
-  switch (c) {
-    case 'Viable hoy': return 'viableNow'
-    case 'Viable con IA moderada': return 'viableModerate'
-    case 'Requiere IA extrema': return 'extremeAI'
-    case 'Inviable': return 'notViable'
-    default: return 'noData'
-  }
+  return <svg ref={svgRef} className="map-svg" aria-label={t.title} role="img" />
 }
 
 export default WorldMap
