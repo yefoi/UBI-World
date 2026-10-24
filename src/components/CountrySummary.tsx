@@ -3,6 +3,7 @@ import type { CountryRawData, UbiParams, UbiResult } from '../model/ubi'
 import { countryName } from '../utils/country'
 import { categoryReason } from '../utils/explain'
 import { fillTemplate, formatNumber, formatPct, formatPctValue } from '../utils/format'
+import { summarize } from '../utils/summarize'
 import { indicatorLabel } from '../utils/indicators'
 import { categoryLabelKey } from './mapColors'
 
@@ -54,6 +55,7 @@ function CountrySummary({ t, lang, country, result, params, onClose }: Props) {
         </div>
       ) : (
         <>
+          <p className="plain-summary">{summarize(result, t)}</p>
           <p className="category-reason">{categoryReason(result, params, t)}</p>
 
           <div className="kpis">
@@ -90,7 +92,9 @@ function CountrySummary({ t, lang, country, result, params, onClose }: Props) {
               </span>
               <span className="kpi-sub">
                 {(result.gapPctGdp ?? 0) > 0 && result.aiGrowthNeededPct !== undefined
-                  ? `${t.aiGrowthNeeded}: ${formatPct(result.aiGrowthNeededPct)} ${t.ofGdp}`
+                  ? result.aiGrowthNeededPct === Infinity
+                    ? t.impossibleShort
+                    : `${t.aiGrowthNeeded}: ${formatPct(result.aiGrowthNeededPct)} ${t.ofGdp}`
                   : ' '}
               </span>
             </div>

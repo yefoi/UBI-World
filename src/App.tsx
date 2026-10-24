@@ -5,7 +5,8 @@ import type { CountryRawData } from './model/ubi'
 import { calculateUbi } from './model/ubi'
 import { defaultUbiParams, presets } from './utils/presets'
 import { getDict, type Lang } from './i18n/translations'
-import { searchFromState, stateFromSearch } from './utils/urlState'
+import { countryName } from './utils/country'
+import { searchFromState, stateFromSearch, type Mode } from './utils/urlState'
 import { useMediaQuery } from './hooks/useMediaQuery'
 import WorldMap from './components/Map'
 import Legend from './components/Legend'
@@ -13,19 +14,39 @@ import CountrySearch from './components/CountrySearch'
 import CountrySummary from './components/CountrySummary'
 import CountryBreakdown from './components/CountryBreakdown'
 import Controls from './components/Controls'
+import GlossaryDialog from './components/GlossaryDialog'
+import Tour from './components/Tour'
 import type { MapMetric } from './components/mapColors'
 
 const countriesData = countriesDataRaw as CountryRawData[]
+const TOUR_STORAGE_KEY = 'ubi-world-tour-v1'
 
 function App() {
   const [searchParams, setSearchParams] = useSearchParams()
-  const initial = useMemo(() => stateFromSearch(searchParams.toString()), []) // solo al montar
+  const initial = useMemo(() => {
+    const state = stateFromSearch(searchParams.toString())
+    if (state.mode === 'simple') {
+      state.metric = 'category'
+      state.params = { ...state.params, ubiAmountType: 'pct_gdp_pc_ppa' }
+    }
+    return state
+  }, []) // solo al montar
 
   const [lang, setLang] = useState<Lang>(initial.lang)
   const [params, setParams] = useState(() => initial.params || defaultUbiParams)
   const [selectedIso3, setSelectedIso3] = useState<string | null>(initial.iso3)
   const [metric, setMetric] = useState<MapMetric>(initial.metric)
+  const [mode, setMode] = useState<Mode>(initial.mode)
   const [search, setSearch] = useState('')
+  const [glossaryOpen, setGlossaryOpen] = useState(false)
+  const [tourOpen, setTourOpen] = useState(() => {
+    if (import.meta.env.MODE === 'test') return false
+    try {
+      return localStorage.getItem(TOUR_STORAGE_KEY) !== 'done'
+    } catch {
+      return true
+    }
+  })
 
   const isWide = useMediaQuery('(min-width: 900px)')
   const t = getDict(lang)
@@ -36,18 +57,20 @@ function App() {
   }, [lang])
 
   useEffect(() => {
-    const next = searchFromState({ lang, metric, iso3: selectedIso3, params })
+    const next = searchFromState({ lang, metric, mode, iso3: selectedIso3, params })
     if (next !== searchParams.toString()) {
       setSearchParams(next, { replace: true })
     }
-  }, [lang, metric, selectedIso3, params, searchParams, setSearchParams])
+  }, [lang, metric, mode, selectedIso3, params, searchParams, setSearchParams])
 
   useEffect(() => {
     if (isWide || !selectedIso3) return
     if (previousSelection.current === selectedIso3) return
     previousSelection.current = selectedIso3
     const target = document.getElementById('resultado')
-    target?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    if (target && typeof target.scrollIntoView === 'function') {
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }
   }, [selectedIso3, isWide])
 
   const results = useMemo(() => {
@@ -62,6 +85,28 @@ function App() {
   const selectedCountry = selectedIso3
     ? countriesData.find((country) => country.iso3 === selectedIso3) ?? null
     : null
+
+  useEffect(() => {
+    const name = selectedCountry ? countryName(selectedCountry, lang) : null
+    document.title = name ? `${name} · ${t.title}` : `${t.title} · ${t.subtitle}`
+  }, [selectedCountry, lang, t.title, t.subtitle])
+
+  const changeMode = (next: Mode) => {
+    setMode(next)
+    if (next === 'simple') {
+      setMetric('category')
+      setParams((current) => ({ ...current, ubiAmountType: 'pct_gdp_pc_ppa' }))
+    }
+  }
+
+  const closeTour = () => {
+    setTourOpen(false)
+    try {
+      localStorage.setItem(TOUR_STORAGE_KEY, 'done')
+    } catch {
+      // sin almacenamiento: se volverá a mostrar en la próxima visita
+    }
+  }
 
   const mapSection = (
     <section className="map-col">
@@ -104,6 +149,43 @@ function App() {
     />
   )
 
+  const controls = (
+    <Controls
+      t={t}
+      lang={lang}
+      params={params}
+      setParams={setParams}
+      presets={presets}
+      metric={metric}
+      setMetric={setMetric}
+      mode={mode}
+      setMode={changeMode}
+    />
+  )
+
+  const breakdown = selectedCountry ? (
+    mode === 'advanced' ? (
+      <CountryBreakdown
+        t={t}
+        lang={lang}
+        country={selectedCountry}
+        result={selectedResult}
+        params={params}
+      />
+    ) : (
+      <details className="advanced-panel breakdown-panel">
+        <summary>{t.showTechnical}</summary>
+        <CountryBreakdown
+          t={t}
+          lang={lang}
+          country={selectedCountry}
+          result={selectedResult}
+          params={params}
+        />
+      </details>
+    )
+  ) : null
+
   return (
     <div className="app">
       <header className="header">
@@ -117,6 +199,12 @@ function App() {
             <p className="subtitle">{t.subtitle}</p>
           </div>
           <div className="header-actions">
+            <button type="button" className="link-btn" onClick={() => setTourOpen(true)}>
+              {t.howItWorks}
+            </button>
+            <button type="button" className="link-btn" onClick={() => setGlossaryOpen(true)}>
+              {t.glossary}
+            </button>
             <Link to={lang === 'es' ? '/metodologia' : '/methodology'} className="link">
               {t.methodology}
             </Link>
@@ -136,25 +224,8 @@ function App() {
           <aside className="sidebar">
             {searchBox}
             {summary}
-            <Controls
-              t={t}
-              lang={lang}
-              params={params}
-              setParams={setParams}
-              presets={presets}
-              metric={metric}
-              setMetric={setMetric}
-              collapsible={false}
-            />
-            {selectedCountry && (
-              <CountryBreakdown
-                t={t}
-                lang={lang}
-                country={selectedCountry}
-                result={selectedResult}
-                params={params}
-              />
-            )}
+            {controls}
+            {breakdown}
           </aside>
           {mapSection}
         </main>
@@ -165,31 +236,19 @@ function App() {
             {summary}
           </div>
           {mapSection}
-          <Controls
-            t={t}
-            lang={lang}
-            params={params}
-            setParams={setParams}
-            presets={presets}
-            metric={metric}
-            setMetric={setMetric}
-            collapsible
-          />
-          {selectedCountry && (
-            <details className="advanced-panel breakdown-panel">
-              <summary>{t.breakdownTitle}</summary>
-              <CountryBreakdown
-                t={t}
-                lang={lang}
-                country={selectedCountry}
-                result={selectedResult}
-                params={params}
-              />
-            </details>
-          )}
+          {controls}
+          {breakdown}
           <div className="disclaimer">{t.disclaimer}</div>
         </main>
       )}
+
+      <GlossaryDialog
+        open={glossaryOpen}
+        onClose={() => setGlossaryOpen(false)}
+        lang={lang}
+        t={t}
+      />
+      <Tour open={tourOpen} onClose={closeTour} t={t} />
     </div>
   )
 }

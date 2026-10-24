@@ -1,7 +1,9 @@
 import type { Translations, Lang } from '../i18n/translations'
 import type { UbiParams } from '../model/ubi'
 import type { Preset } from '../utils/presets'
+import type { Mode } from '../utils/urlState'
 import { METRIC_OPTIONS, type MapMetric } from './mapColors'
+import InfoTip from './InfoTip'
 
 interface Props {
   t: Translations
@@ -11,10 +13,11 @@ interface Props {
   presets: Preset[]
   metric: MapMetric
   setMetric: (metric: MapMetric) => void
-  collapsible: boolean
+  mode: Mode
+  setMode: (mode: Mode) => void
 }
 
-function Controls({ t, lang, params, setParams, presets, metric, setMetric, collapsible }: Props) {
+function Controls({ t, lang, params, setParams, presets, metric, setMetric, mode, setMode }: Props) {
   const updateParam = <K extends keyof UbiParams>(key: K, value: UbiParams[K]) => {
     setParams({ ...params, [key]: value })
   }
@@ -23,24 +26,99 @@ function Controls({ t, lang, params, setParams, presets, metric, setMetric, coll
     setParams({ ...params, ...preset.params })
   }
 
-  const content = (
+  const modeTabs = (
+    <div className="mode-tabs" role="tablist" aria-label={`${t.modeSimple} / ${t.modeAdvanced}`}>
+      <button
+        type="button"
+        role="tab"
+        aria-selected={mode === 'simple'}
+        className={mode === 'simple' ? 'mode-tab active' : 'mode-tab'}
+        onClick={() => setMode('simple')}
+      >
+        {t.modeSimple}
+      </button>
+      <button
+        type="button"
+        role="tab"
+        aria-selected={mode === 'advanced'}
+        className={mode === 'advanced' ? 'mode-tab active' : 'mode-tab'}
+        onClick={() => setMode('advanced')}
+      >
+        {t.modeAdvanced}
+      </button>
+    </div>
+  )
+
+  const presetsBlock = (
+    <div className="control-section">
+      <span className="control-label">{t.presets}</span>
+      <div className="preset-buttons">
+        {presets.map((preset) => (
+          <button
+            key={preset.id}
+            type="button"
+            onClick={() => applyPreset(preset)}
+            className="preset-btn"
+          >
+            <strong>{lang === 'en' ? preset.name.en : preset.name.es}</strong>
+            <small>{lang === 'en' ? preset.description.en : preset.description.es}</small>
+          </button>
+        ))}
+      </div>
+    </div>
+  )
+
+  const simpleBlock = (
     <>
       <div className="control-section">
-        <span className="control-label">{t.presets}</span>
-        <div className="preset-buttons">
-          {presets.map((preset) => (
-            <button
-              key={preset.id}
-              type="button"
-              onClick={() => applyPreset(preset)}
-              className="preset-btn"
-            >
-              {lang === 'en' ? preset.name.en : preset.name.es}
-            </button>
-          ))}
+        <div className="label-row">
+          <label className="control-label" htmlFor="simple-amount">
+            {t.simpleAmount} ({params.ubiPctGdpPcPpa}%)
+          </label>
+          <InfoTip id="coste-vida" lang={lang} />
         </div>
+        <input
+          id="simple-amount"
+          type="range"
+          min="0"
+          max="80"
+          step="1"
+          value={params.ubiPctGdpPcPpa}
+          onChange={(event) => {
+            const value = Number(event.target.value)
+            setParams({ ...params, ubiAmountType: 'pct_gdp_pc_ppa', ubiPctGdpPcPpa: value })
+          }}
+        />
+        <p className="control-hint">{t.simpleAmountHint}</p>
       </div>
 
+      <div className="control-section">
+        <div className="label-row">
+          <label className="control-label" htmlFor="simple-substitution">
+            {t.publicSpendingReplace} ({params.publicSpendingReplacedPct}%)
+          </label>
+          <InfoTip id="gasto-reaprovechado" lang={lang} />
+        </div>
+        <input
+          id="simple-substitution"
+          type="range"
+          min="0"
+          max="80"
+          step="5"
+          value={params.publicSpendingReplacedPct}
+          onChange={(event) =>
+            updateParam('publicSpendingReplacedPct', Number(event.target.value))
+          }
+        />
+        <p className="control-hint">{t.replaceHint}</p>
+      </div>
+
+      <p className="control-hint simple-note">{t.simpleNote}</p>
+    </>
+  )
+
+  const advancedBlock = (
+    <>
       <div className="control-section">
         <label className="control-label" htmlFor="metric-select">
           {t.metric}
@@ -59,9 +137,12 @@ function Controls({ t, lang, params, setParams, presets, metric, setMetric, coll
       </div>
 
       <div className="control-section">
-        <label className="control-label" htmlFor="ubi-amount-type">
-          {t.ubiAmount}
-        </label>
+        <div className="label-row">
+          <label className="control-label" htmlFor="ubi-amount-type">
+            {t.ubiAmount}
+          </label>
+          <InfoTip id="renta-basica" lang={lang} />
+        </div>
         <select
           id="ubi-amount-type"
           value={params.ubiAmountType}
@@ -97,15 +178,20 @@ function Controls({ t, lang, params, setParams, presets, metric, setMetric, coll
               value={params.ubiUsdMonthPpa}
               onChange={(event) => updateParam('ubiUsdMonthPpa', Number(event.target.value))}
             />
-            <div className="value">{params.ubiUsdMonthPpa} US$ PPA/mes</div>
+            <div className="value">
+              {params.ubiUsdMonthPpa} {t.perMonthPpp}
+            </div>
           </>
         )}
       </div>
 
       <div className="control-section">
-        <label className="control-label" htmlFor="coverage">
-          {t.coverage}
-        </label>
+        <div className="label-row">
+          <label className="control-label" htmlFor="coverage">
+            {t.coverage}
+          </label>
+          <InfoTip id="cobertura" lang={lang} />
+        </div>
         <select
           id="coverage"
           value={params.coverage}
@@ -119,9 +205,12 @@ function Controls({ t, lang, params, setParams, presets, metric, setMetric, coll
       </div>
 
       <div className="control-section">
-        <label className="control-label" htmlFor="substitution">
-          {t.publicSpendingReplace} ({params.publicSpendingReplacedPct}%)
-        </label>
+        <div className="label-row">
+          <label className="control-label" htmlFor="substitution">
+            {t.publicSpendingReplace} ({params.publicSpendingReplacedPct}%)
+          </label>
+          <InfoTip id="gasto-reaprovechado" lang={lang} />
+        </div>
         <input
           id="substitution"
           type="range"
@@ -137,9 +226,12 @@ function Controls({ t, lang, params, setParams, presets, metric, setMetric, coll
       </div>
 
       <div className="control-section">
-        <label className="control-label" htmlFor="ai-growth">
-          {t.aiGrowth} ({params.aiGrowthG}%)
-        </label>
+        <div className="label-row">
+          <label className="control-label" htmlFor="ai-growth">
+            {t.aiGrowth} ({params.aiGrowthG}%)
+          </label>
+          <InfoTip id="ia-extra" lang={lang} />
+        </div>
         <input
           id="ai-growth"
           type="range"
@@ -152,9 +244,12 @@ function Controls({ t, lang, params, setParams, presets, metric, setMetric, coll
       </div>
 
       <div className="control-section">
-        <label className="control-label" htmlFor="state-capture">
-          {t.stateCapture} ({params.stateCapturePct}%)
-        </label>
+        <div className="label-row">
+          <label className="control-label" htmlFor="state-capture">
+            {t.stateCapture} ({params.stateCapturePct}%)
+          </label>
+          <InfoTip id="ia-extra" lang={lang} />
+        </div>
         <input
           id="state-capture"
           type="range"
@@ -167,9 +262,12 @@ function Controls({ t, lang, params, setParams, presets, metric, setMetric, coll
       </div>
 
       <div className="control-section">
-        <label className="control-label" htmlFor="domestic-ai">
-          {t.domesticAi} ({params.domesticAiPct}%)
-        </label>
+        <div className="label-row">
+          <label className="control-label" htmlFor="domestic-ai">
+            {t.domesticAi} ({params.domesticAiPct}%)
+          </label>
+          <InfoTip id="ia-extra" lang={lang} />
+        </div>
         <input
           id="domestic-ai"
           type="range"
@@ -182,9 +280,12 @@ function Controls({ t, lang, params, setParams, presets, metric, setMetric, coll
       </div>
 
       <div className="control-section">
-        <label className="control-label" htmlFor="fiscal-ceiling">
-          {t.fiscalCeiling} ({params.fiscalPressureCeilingPctGdp}%)
-        </label>
+        <div className="label-row">
+          <label className="control-label" htmlFor="fiscal-ceiling">
+            {t.fiscalCeiling} ({params.fiscalPressureCeilingPctGdp}%)
+          </label>
+          <InfoTip id="techo-fiscal" lang={lang} />
+        </div>
         <input
           id="fiscal-ceiling"
           type="range"
@@ -196,20 +297,18 @@ function Controls({ t, lang, params, setParams, presets, metric, setMetric, coll
             updateParam('fiscalPressureCeilingPctGdp', Number(event.target.value))
           }
         />
+        <p className="control-hint">{t.marginHint}</p>
       </div>
     </>
   )
 
-  if (collapsible) {
-    return (
-      <details className="advanced-panel">
-        <summary>{t.advancedParams}</summary>
-        <div className="controls">{content}</div>
-      </details>
-    )
-  }
-
-  return <div className="controls">{content}</div>
+  return (
+    <div className="controls">
+      {modeTabs}
+      {presetsBlock}
+      {mode === 'simple' ? simpleBlock : advancedBlock}
+    </div>
+  )
 }
 
 export default Controls

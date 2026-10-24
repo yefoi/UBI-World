@@ -2,6 +2,7 @@ import type { Translations, Lang } from '../i18n/translations'
 import type { CountryRawData, UbiParams, UbiResult } from '../model/ubi'
 import { fillTemplate, formatNumber, formatPct, formatPctValue } from '../utils/format'
 import { INDICATOR_KEYS, indicatorLabel } from '../utils/indicators'
+import InfoTip from './InfoTip'
 
 interface Props {
   t: Translations
@@ -67,8 +68,7 @@ function CountryBreakdown({ t, lang, country, result, params }: Props) {
               <i className="dot dot-ai" /> {t.fundingAi} {formatPct(ai)}
             </span>
             <span>
-              <i className="dot dot-gap" /> {t.fundingGap}{' '}
-              {formatPct(Math.max(0, gap))}
+              <i className="dot dot-gap" /> {t.fundingGap} {formatPct(Math.max(0, gap))}
             </span>
           </div>
         </>
@@ -81,7 +81,10 @@ function CountryBreakdown({ t, lang, country, result, params }: Props) {
       <h3>{t.howCalculated}</h3>
       <ol className="calc-steps">
         <li>
-          <strong>{t.stepPeople}</strong>
+          <div className="step-head">
+            <strong>{t.stepPeople}</strong>
+            <InfoTip id="renta-basica" lang={lang} />
+          </div>
           <p>
             {formatNumber(result.adultsCount, lang)} {t.adults.toLowerCase()} ×{' '}
             {formatNumber(result.ubiAdultPppMonth, lang)} {t.perMonthPpp}
@@ -91,77 +94,106 @@ function CountryBreakdown({ t, lang, country, result, params }: Props) {
                 + {formatNumber(result.childrenCount, lang)} {t.children.toLowerCase()} ×{' '}
                 {formatNumber(result.ubiChildPppMonth, lang)} {t.perMonthPpp}
               </>
-            )}
-            {' '}
+            )}{' '}
             <span className="muted">
-              (≈ {formatNumber(result.ubiAdultNominalMonth, lang)} {t.perMonthNominal} por adulto)
+              {fillTemplate(t.perAdultNote, {
+                value: formatNumber(result.ubiAdultNominalMonth, lang),
+                unit: t.perMonthNominal,
+              })}
             </span>
           </p>
         </li>
         <li>
-          <strong>{t.stepGross}</strong>
+          <div className="step-head">
+            <strong>{t.stepGross}</strong>
+            <InfoTip id="coste-bruto" lang={lang} />
+          </div>
           <p>
-            {formatPct(gross)} {t.ofGdp} ≈{' '}
-            {formatNumber(result.grossCostUsdYear, lang)} {t.perYearNominal}
+            {formatPct(gross)} {t.ofGdp} ≈ {formatNumber(result.grossCostUsdYear, lang)}{' '}
+            {t.perYearNominal}
           </p>
         </li>
         <li>
-          <strong>{t.stepReplace}</strong>
+          <div className="step-head">
+            <strong>{t.stepReplace}</strong>
+            <InfoTip id="gasto-reaprovechado" lang={lang} />
+          </div>
           <p>
-            {formatPct(govExp)} ({t.indGovExp.toLowerCase()}) ×{' '}
-            {params.publicSpendingReplacedPct}% = {formatPct(potentialReplaced)}
-            {' ' + t.ofGdp}. {formatPct(gross)} − {formatPct(replaced)} ={' '}
-            <strong>
-              {formatPct(net)} {t.ofGdp}
-            </strong>{' '}
-            {t.netCost.toLowerCase()}.
+            {fillTemplate(t.stepReplaceText, {
+              substitution: String(params.publicSpendingReplacedPct),
+              govExp: formatPct(govExp),
+              govLabel: t.indGovExp.toLowerCase(),
+              potential: formatPct(potentialReplaced),
+              ofGdp: t.ofGdp,
+              gross: formatPct(gross),
+              replaced: formatPct(replaced),
+              net: formatPct(net),
+            })}
           </p>
           <p className="muted">{t.replaceHint}</p>
         </li>
         <li>
-          <strong>{t.stepMargin}</strong>
+          <div className="step-head">
+            <strong>{t.stepMargin}</strong>
+            <InfoTip id="impuestos-nuevos" lang={lang} />
+          </div>
           <p>
-            {params.fiscalPressureCeilingPctGdp}% − {formatPct(taxRevenue)} ={' '}
-            <strong>
-              {formatPct(margin)} {t.ofGdp}
-            </strong>
-            .
+            {fillTemplate(t.stepMarginText, {
+              ceiling: String(params.fiscalPressureCeilingPctGdp),
+              tax: formatPct(taxRevenue),
+              margin: formatPct(margin),
+              ofGdp: t.ofGdp,
+            })}
           </p>
           <p className="muted">{t.marginHint}</p>
         </li>
         <li>
-          <strong>{t.stepAi}</strong>
+          <div className="step-head">
+            <strong>{t.stepAi}</strong>
+            <InfoTip id="ia-extra" lang={lang} />
+          </div>
           <p>
-            {params.aiGrowthG}% × {params.domesticAiPct}% × {params.stateCapturePct}% ={' '}
-            <strong>
-              {formatPct(ai)} {t.ofGdp}
-            </strong>
-            .
+            {fillTemplate(t.stepAiText, {
+              growth: String(params.aiGrowthG),
+              domestic: String(params.domesticAiPct),
+              capture: String(params.stateCapturePct),
+              ai: formatPct(ai),
+              ofGdp: t.ofGdp,
+            })}
           </p>
         </li>
         <li>
-          <strong>{t.stepGap}</strong>
+          <div className="step-head">
+            <strong>{t.stepGap}</strong>
+            <InfoTip id="brecha" lang={lang} />
+          </div>
           <p>
-            {formatPct(net)} − {formatPct(margin)} − {formatPct(ai)} ={' '}
-            <strong>
-              {formatPctValue(gap)}% {t.ofGdp}
-            </strong>
-            .
+            {fillTemplate(t.stepGapText, {
+              net: formatPct(net),
+              margin: formatPct(margin),
+              ai: formatPct(ai),
+              gap: `${formatPctValue(gap)}%`,
+              ofGdp: t.ofGdp,
+            })}
           </p>
         </li>
         <li>
-          <strong>{t.stepNeeded}</strong>
+          <div className="step-head">
+            <strong>{t.stepNeeded}</strong>
+          </div>
           {gap <= 0 ? (
             <p>{t.stepNeededNone}</p>
           ) : result.aiGrowthNeededPct === Infinity ? (
             <p>{t.stepNeededImpossible}</p>
           ) : (
             <p>
-              {formatPct(gap)} ÷ ({params.domesticAiPct}% × {params.stateCapturePct}%) ={' '}
-              <strong>
-                +{formatPct(result.aiGrowthNeededPct)} {t.ofGdp}
-              </strong>
-              .
+              {fillTemplate(t.stepNeededText, {
+                gap: formatPct(gap),
+                domestic: String(params.domesticAiPct),
+                capture: String(params.stateCapturePct),
+                needed: formatPct(result.aiGrowthNeededPct),
+                ofGdp: t.ofGdp,
+              })}
             </p>
           )}
         </li>

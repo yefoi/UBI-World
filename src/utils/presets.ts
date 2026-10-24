@@ -1,7 +1,7 @@
-// Presets globales
 export interface Preset {
   id: string
   name: { es: string; en: string }
+  description: { es: string; en: string }
   params: Partial<{
     ubiAmountType: 'pct_gdp_pc_ppa' | 'usd_month_ppa'
     ubiPctGdpPcPpa: number
@@ -20,6 +20,10 @@ export const presets: Preset[] = [
   {
     id: 'cauto',
     name: { es: 'Cauto', en: 'Cautious' },
+    description: {
+      es: 'Poca IA y mucha parte del gasto actual reaprovechada.',
+      en: 'Little AI and a large share of current spending reused.',
+    },
     params: {
       ubiPctGdpPcPpa: 15,
       coverage: 'adults_only',
@@ -33,6 +37,10 @@ export const presets: Preset[] = [
   {
     id: 'optimista_musk',
     name: { es: 'Optimista Musk', en: 'Musk Optimistic' },
+    description: {
+      es: 'La IA dispara la producción y el Estado capta buena parte.',
+      en: 'AI massively boosts output and the state captures a large share.',
+    },
     params: {
       ubiPctGdpPcPpa: 40,
       coverage: 'adults_and_children',
@@ -46,7 +54,11 @@ export const presets: Preset[] = [
   },
   {
     id: 'solo_erradicar_pobreza',
-    name: { es: 'Solo erradicar pobreza', en: 'Just eradicate poverty' },
+    name: { es: 'Solo erradicar la pobreza', en: 'Just end poverty' },
+    description: {
+      es: 'Un pago pequeño para cubrir lo básico, sin lujos.',
+      en: 'A small payment to cover the basics, no frills.',
+    },
     params: {
       ubiPctGdpPcPpa: 12,
       coverage: 'adults_and_children',

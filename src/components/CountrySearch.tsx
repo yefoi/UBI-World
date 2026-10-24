@@ -38,7 +38,7 @@ function CountrySearch({ t, lang, search, setSearch, countries, results, onSelec
         enterKeyHint="search"
       />
       {showResults && (
-        <div className="search-results" role="listbox" aria-label={t.searchCountry}>
+        <div className="search-results">
           {matches.length === 0 && <p className="search-empty">{t.noResults}</p>}
           {matches.map((country) => {
             const result = results.get(country.iso3)
@@ -46,8 +46,6 @@ function CountrySearch({ t, lang, search, setSearch, countries, results, onSelec
               <button
                 key={country.iso3}
                 type="button"
-                role="option"
-                aria-selected="false"
                 onClick={() => {
                   onSelect(country.iso3)
                   setSearch('')
