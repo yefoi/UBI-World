@@ -1,5 +1,6 @@
 export interface CountryRawData {
   iso3: string
+  iso_numeric?: string
   name: string
   gdp_usd?: number
   population?: number

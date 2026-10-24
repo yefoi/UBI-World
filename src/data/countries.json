@@ -1,139 +1,8 @@
 [
   {
-    "iso3": "1A",
-    "name": "1A",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 3797527236194.65,
-    "population": 503356133,
-    "pop_0_14_pct": 31.9625423206947,
-    "gdp_pc_ppa": 19783.1661012207
-  },
-  {
-    "iso3": "1W",
-    "name": "1W",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2022"
-    },
-    "missing": [],
-    "gdp_usd": 118350166039396,
-    "population": 8215424893,
-    "pop_0_14_pct": 24.4090574609901,
-    "gdp_pc_ppa": 25703.7416091769,
-    "tax_revenue_pct_gdp": 13.8637485648282,
-    "gov_exp_pct_gdp": 28.4897500384154
-  },
-  {
-    "iso3": "4E",
-    "name": "4E",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024"
-    },
-    "missing": [
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 23247334500847.4,
-    "population": 2143908411,
-    "pop_0_14_pct": 18.2292504999671,
-    "gdp_pc_ppa": 25083.7806139111,
-    "tax_revenue_pct_gdp": 7.67613021247399
-  },
-  {
-    "iso3": "7E",
-    "name": "7E",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 2815874458069.5,
-    "population": 253280471,
-    "pop_0_14_pct": 22.7316528041496,
-    "gdp_pc_ppa": 30030.257867286,
-    "tax_revenue_pct_gdp": 17.8210760459131,
-    "gov_exp_pct_gdp": 32.238802325932
-  },
-  {
-    "iso3": "8S",
-    "name": "8S",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2022",
-      "gov_exp_pct_gdp": "2022"
-    },
-    "missing": [],
-    "gdp_usd": 4578021773987.28,
-    "population": 1692252900,
-    "pop_0_14_pct": 24.5855012931206,
-    "gdp_pc_ppa": 11562.1850810909,
-    "tax_revenue_pct_gdp": 6.94615164259224,
-    "gov_exp_pct_gdp": 13.8009764072263
-  },
-  {
-    "iso3": "AD",
-    "name": "AD",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024"
-    },
-    "missing": [
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 4500982731.80784,
-    "population": 82904,
-    "pop_0_14_pct": 11.6181871912864,
-    "gdp_pc_ppa": 79566.7925868466,
-    "tax_revenue_pct_gdp": 15.5693338504029
-  },
-  {
-    "iso3": "AE",
-    "name": "AE",
-    "years": {
-      "gdp_usd": "2024",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2024",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 552324919095.872,
-    "population": 11513149,
-    "pop_0_14_pct": 15.9773973206416,
-    "gdp_pc_ppa": 79343.7793099888,
-    "tax_revenue_pct_gdp": 0.647516088466425,
-    "gov_exp_pct_gdp": 3.76871680953009
-  },
-  {
-    "iso3": "AF",
-    "name": "AF",
+    "iso3": "AFG",
+    "iso_numeric": "004",
+    "name": "Afghanistan",
     "years": {
       "gdp_usd": "2024",
       "population": "2025",
@@ -150,26 +19,9 @@
     "gdp_pc_ppa": 2236.19907311431
   },
   {
-    "iso3": "AG",
-    "name": "AG",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 2338196296.2963,
-    "population": 94209,
-    "pop_0_14_pct": 17.4692304834489,
-    "gdp_pc_ppa": 35832.4795485115
-  },
-  {
-    "iso3": "AL",
-    "name": "AL",
+    "iso3": "ALB",
+    "iso_numeric": "008",
+    "name": "Albania",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -187,27 +39,66 @@
     "gov_exp_pct_gdp": 25.4359718739727
   },
   {
-    "iso3": "AM",
-    "name": "AM",
+    "iso3": "DZA",
+    "iso_numeric": "012",
+    "name": "Algeria",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 287031225987.736,
+    "population": 47435312,
+    "pop_0_14_pct": 29.9254996986791,
+    "gdp_pc_ppa": 18586.2607480579
+  },
+  {
+    "iso3": "ASM",
+    "iso_numeric": "016",
+    "name": "American Samoa",
+    "years": {
+      "gdp_usd": "2022",
+      "population": "2025",
+      "pop_0_14_pct": "2025"
+    },
+    "missing": [
+      "gdp_pc_ppa",
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 871000000,
+    "population": 46029,
+    "pop_0_14_pct": 26.3478062504752
+  },
+  {
+    "iso3": "AND",
+    "iso_numeric": "020",
+    "name": "Andorra",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
       "pop_0_14_pct": "2025",
       "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
+      "tax_revenue_pct_gdp": "2024"
     },
-    "missing": [],
-    "gdp_usd": 29243452882.3545,
-    "population": 3086700,
-    "pop_0_14_pct": 18.9875606484226,
-    "gdp_pc_ppa": 24754.2118320452,
-    "tax_revenue_pct_gdp": 22.3660356767883,
-    "gov_exp_pct_gdp": 20.9471499751251
+    "missing": [
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 4500982731.80784,
+    "population": 82904,
+    "pop_0_14_pct": 11.6181871912864,
+    "gdp_pc_ppa": 79566.7925868466,
+    "tax_revenue_pct_gdp": 15.5693338504029
   },
   {
-    "iso3": "AO",
-    "name": "AO",
+    "iso3": "AGO",
+    "iso_numeric": "024",
+    "name": "Angola",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -225,8 +116,28 @@
     "tax_revenue_pct_gdp": 7.58797309525612
   },
   {
-    "iso3": "AR",
-    "name": "AR",
+    "iso3": "ATG",
+    "iso_numeric": "028",
+    "name": "Antigua and Barbuda",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 2338196296.2963,
+    "population": 94209,
+    "pop_0_14_pct": 17.4692304834489,
+    "gdp_pc_ppa": 35832.4795485115
+  },
+  {
+    "iso3": "ARG",
+    "iso_numeric": "032",
+    "name": "Argentina",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -244,25 +155,9 @@
     "gov_exp_pct_gdp": 21.00878925888
   },
   {
-    "iso3": "AS",
-    "name": "AS",
-    "years": {
-      "gdp_usd": "2022",
-      "population": "2025",
-      "pop_0_14_pct": "2025"
-    },
-    "missing": [
-      "gdp_pc_ppa",
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 871000000,
-    "population": 46029,
-    "pop_0_14_pct": 26.3478062504752
-  },
-  {
-    "iso3": "AT",
-    "name": "AT",
+    "iso3": "ARM",
+    "iso_numeric": "051",
+    "name": "Armenia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -272,16 +167,36 @@
       "gov_exp_pct_gdp": "2023"
     },
     "missing": [],
-    "gdp_usd": 579470021095.418,
-    "population": 9208163,
-    "pop_0_14_pct": 14.14725441413,
-    "gdp_pc_ppa": 76777.5421537618,
-    "tax_revenue_pct_gdp": 25.7804428492832,
-    "gov_exp_pct_gdp": 46.0304036608475
+    "gdp_usd": 29243452882.3545,
+    "population": 3086700,
+    "pop_0_14_pct": 18.9875606484226,
+    "gdp_pc_ppa": 24754.2118320452,
+    "tax_revenue_pct_gdp": 22.3660356767883,
+    "gov_exp_pct_gdp": 20.9471499751251
   },
   {
-    "iso3": "AU",
-    "name": "AU",
+    "iso3": "ABW",
+    "iso_numeric": "533",
+    "name": "Aruba",
+    "years": {
+      "gdp_usd": "2024",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2024"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 4167588070.29217,
+    "population": 108785,
+    "pop_0_14_pct": 16.5191058508056,
+    "gdp_pc_ppa": 51712.1531358934
+  },
+  {
+    "iso3": "AUS",
+    "iso_numeric": "036",
+    "name": "Australia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -299,26 +214,29 @@
     "gov_exp_pct_gdp": 27.5833132925557
   },
   {
-    "iso3": "AW",
-    "name": "AW",
+    "iso3": "AUT",
+    "iso_numeric": "040",
+    "name": "Austria",
     "years": {
-      "gdp_usd": "2024",
+      "gdp_usd": "2025",
       "population": "2025",
       "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2024"
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
     },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 4167588070.29217,
-    "population": 108785,
-    "pop_0_14_pct": 16.5191058508056,
-    "gdp_pc_ppa": 51712.1531358934
+    "missing": [],
+    "gdp_usd": 579470021095.418,
+    "population": 9208163,
+    "pop_0_14_pct": 14.14725441413,
+    "gdp_pc_ppa": 76777.5421537618,
+    "tax_revenue_pct_gdp": 25.7804428492832,
+    "gov_exp_pct_gdp": 46.0304036608475
   },
   {
-    "iso3": "AZ",
-    "name": "AZ",
+    "iso3": "AZE",
+    "iso_numeric": "031",
+    "name": "Azerbaijan",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -336,268 +254,9 @@
     "gov_exp_pct_gdp": 23.0088211493834
   },
   {
-    "iso3": "B8",
-    "name": "B8",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2022"
-    },
-    "missing": [],
-    "gdp_usd": 2762562481345.2,
-    "population": 99814596,
-    "pop_0_14_pct": 14.779864815479,
-    "gdp_pc_ppa": 52849.0502475199,
-    "tax_revenue_pct_gdp": 18.5778311576536,
-    "gov_exp_pct_gdp": 37.2574766576636
-  },
-  {
-    "iso3": "BA",
-    "name": "BA",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 32599982936.3931,
-    "population": 3140095,
-    "pop_0_14_pct": 12.8485423452885,
-    "gdp_pc_ppa": 25814.2641520511,
-    "tax_revenue_pct_gdp": 20.221417887462,
-    "gov_exp_pct_gdp": 35.2955105967778
-  },
-  {
-    "iso3": "BB",
-    "name": "BB",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 8016550000,
-    "population": 282623,
-    "pop_0_14_pct": 17.0636907405081,
-    "gdp_pc_ppa": 25893.8676913012
-  },
-  {
-    "iso3": "BD",
-    "name": "BD",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2021",
-      "gov_exp_pct_gdp": "2021"
-    },
-    "missing": [],
-    "gdp_usd": 456319229255.578,
-    "population": 175686899,
-    "pop_0_14_pct": 27.645743159125,
-    "gdp_pc_ppa": 10153.7083791829,
-    "tax_revenue_pct_gdp": 7.64236301017901,
-    "gov_exp_pct_gdp": 8.3242513417429
-  },
-  {
-    "iso3": "BE",
-    "name": "BE",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2022"
-    },
-    "missing": [],
-    "gdp_usd": 725466462859.646,
-    "population": 11941781,
-    "pop_0_14_pct": 15.7038467920041,
-    "gdp_pc_ppa": 74675.607672673,
-    "tax_revenue_pct_gdp": 22.9598994570701,
-    "gov_exp_pct_gdp": 39.7114397532252
-  },
-  {
-    "iso3": "BF",
-    "name": "BF",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 27627297461.3181,
-    "population": 24074580,
-    "pop_0_14_pct": 41.1699311057555,
-    "gdp_pc_ppa": 3071.62546744866,
-    "tax_revenue_pct_gdp": 18.6826372667856,
-    "gov_exp_pct_gdp": 19.5749797669613
-  },
-  {
-    "iso3": "BG",
-    "name": "BG",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 130777235529.606,
-    "population": 6433302,
-    "pop_0_14_pct": 14.3997234665952,
-    "gdp_pc_ppa": 44451.1001576913,
-    "tax_revenue_pct_gdp": 20.6721408609361,
-    "gov_exp_pct_gdp": 35.7558276611108
-  },
-  {
-    "iso3": "BH",
-    "name": "BH",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 48965725531.9149,
-    "population": 1600366,
-    "pop_0_14_pct": 18.4203856616879,
-    "gdp_pc_ppa": 70996.7821254802
-  },
-  {
-    "iso3": "BI",
-    "name": "BI",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2021",
-      "gov_exp_pct_gdp": "2021"
-    },
-    "missing": [],
-    "gdp_usd": 3364713864.08488,
-    "population": 14390003,
-    "pop_0_14_pct": 43.9812536516238,
-    "gdp_pc_ppa": 1248.05425025467,
-    "tax_revenue_pct_gdp": 12.6719556010603,
-    "gov_exp_pct_gdp": 12.2568570624235
-  },
-  {
-    "iso3": "BJ",
-    "name": "BJ",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 24566420903.5337,
-    "population": 14814460,
-    "pop_0_14_pct": 41.2595376834369,
-    "gdp_pc_ppa": 4816.87504692826
-  },
-  {
-    "iso3": "BM",
-    "name": "BM",
-    "years": {
-      "gdp_usd": "2024",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2024"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 9194499000,
-    "population": 64555,
-    "pop_0_14_pct": 13.352283729252,
-    "gdp_pc_ppa": 118727.973294368
-  },
-  {
-    "iso3": "BN",
-    "name": "BN",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 15031980994.1121,
-    "population": 466330,
-    "pop_0_14_pct": 20.625929464189,
-    "gdp_pc_ppa": 92429.9262686398
-  },
-  {
-    "iso3": "BO",
-    "name": "BO",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 64768947525.3256,
-    "population": 12581843,
-    "pop_0_14_pct": 29.4403184589221,
-    "gdp_pc_ppa": 12873.0394876629
-  },
-  {
-    "iso3": "BR",
-    "name": "BR",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 2279920092492.13,
-    "population": 212812405,
-    "pop_0_14_pct": 19.3866212827208,
-    "gdp_pc_ppa": 23433.2897595431,
-    "tax_revenue_pct_gdp": 15.4102340832552,
-    "gov_exp_pct_gdp": 32.4311004876294
-  },
-  {
-    "iso3": "BS",
-    "name": "BS",
+    "iso3": "BHS",
+    "iso_numeric": "044",
+    "name": "Bahamas",
     "years": {
       "gdp_usd": "2024",
       "population": "2025",
@@ -615,8 +274,9 @@
     "gov_exp_pct_gdp": 20.347142731791
   },
   {
-    "iso3": "BT",
-    "name": "BT",
+    "iso3": "BHR",
+    "iso_numeric": "048",
+    "name": "Bahrain",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -627,33 +287,54 @@
       "tax_revenue_pct_gdp",
       "gov_exp_pct_gdp"
     ],
-    "gdp_usd": 3579320145.13077,
-    "population": 796682,
-    "pop_0_14_pct": 20.3610853270724,
-    "gdp_pc_ppa": 19594.0028382994
+    "gdp_usd": 48965725531.9149,
+    "population": 1600366,
+    "pop_0_14_pct": 18.4203856616879,
+    "gdp_pc_ppa": 70996.7821254802
   },
   {
-    "iso3": "BW",
-    "name": "BW",
+    "iso3": "BGD",
+    "iso_numeric": "050",
+    "name": "Bangladesh",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
       "pop_0_14_pct": "2025",
       "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2023",
-      "gov_exp_pct_gdp": "2024"
+      "tax_revenue_pct_gdp": "2021",
+      "gov_exp_pct_gdp": "2021"
     },
     "missing": [],
-    "gdp_usd": 19928479839.4476,
-    "population": 2562122,
-    "pop_0_14_pct": 31.9566554598103,
-    "gdp_pc_ppa": 20697.9104661898,
-    "tax_revenue_pct_gdp": 22.4198951581769,
-    "gov_exp_pct_gdp": 26.5275298391025
+    "gdp_usd": 456319229255.578,
+    "population": 175686899,
+    "pop_0_14_pct": 27.645743159125,
+    "gdp_pc_ppa": 10153.7083791829,
+    "tax_revenue_pct_gdp": 7.64236301017901,
+    "gov_exp_pct_gdp": 8.3242513417429
   },
   {
-    "iso3": "BY",
-    "name": "BY",
+    "iso3": "BRB",
+    "iso_numeric": "052",
+    "name": "Barbados",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 8016550000,
+    "population": 282623,
+    "pop_0_14_pct": 17.0636907405081,
+    "gdp_pc_ppa": 25893.8676913012
+  },
+  {
+    "iso3": "BLR",
+    "iso_numeric": "112",
+    "name": "Belarus",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -671,8 +352,29 @@
     "gov_exp_pct_gdp": 28.4675083787373
   },
   {
-    "iso3": "BZ",
-    "name": "BZ",
+    "iso3": "BEL",
+    "iso_numeric": "056",
+    "name": "Belgium",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2022"
+    },
+    "missing": [],
+    "gdp_usd": 725466462859.646,
+    "population": 11941781,
+    "pop_0_14_pct": 15.7038467920041,
+    "gdp_pc_ppa": 74675.607672673,
+    "tax_revenue_pct_gdp": 22.9598994570701,
+    "gov_exp_pct_gdp": 39.7114397532252
+  },
+  {
+    "iso3": "BLZ",
+    "iso_numeric": "084",
+    "name": "Belize",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -689,233 +391,9 @@
     "gdp_pc_ppa": 14965.7521203147
   },
   {
-    "iso3": "CA",
-    "name": "CA",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 2319899772425.92,
-    "population": 41651653,
-    "pop_0_14_pct": 14.980307512278,
-    "gdp_pc_ppa": 66745.8248561648,
-    "tax_revenue_pct_gdp": 13.7145570395982,
-    "gov_exp_pct_gdp": 19.0564147253424
-  },
-  {
-    "iso3": "CD",
-    "name": "CD",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2022",
-      "gov_exp_pct_gdp": "2022"
-    },
-    "missing": [],
-    "gdp_usd": 91030531316.9936,
-    "population": 112832473,
-    "pop_0_14_pct": 45.9497905359213,
-    "gdp_pc_ppa": 1919.82250200565,
-    "tax_revenue_pct_gdp": 10.6622824647321,
-    "gov_exp_pct_gdp": 12.4487617400964
-  },
-  {
-    "iso3": "CF",
-    "name": "CF",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2021",
-      "gov_exp_pct_gdp": "2021"
-    },
-    "missing": [],
-    "gdp_usd": 3066109226.40165,
-    "population": 5513282,
-    "pop_0_14_pct": 48.682635860092,
-    "gdp_pc_ppa": 1313.8765680523,
-    "tax_revenue_pct_gdp": 8.20629229709995,
-    "gov_exp_pct_gdp": 11.6613898280077
-  },
-  {
-    "iso3": "CG",
-    "name": "CG",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2021",
-      "gov_exp_pct_gdp": "2021"
-    },
-    "missing": [],
-    "gdp_usd": 16306633778.765,
-    "population": 6484437,
-    "pop_0_14_pct": 39.9430436289226,
-    "gdp_pc_ppa": 7248.44439070757,
-    "tax_revenue_pct_gdp": 6.50908825817085,
-    "gov_exp_pct_gdp": 16.132138958121
-  },
-  {
-    "iso3": "CH",
-    "name": "CH",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 1043529899250.92,
-    "population": 9092436,
-    "pop_0_14_pct": 14.8834431802057,
-    "gdp_pc_ppa": 102513.347221899,
-    "tax_revenue_pct_gdp": 9.45066745280502,
-    "gov_exp_pct_gdp": 16.1136054672178
-  },
-  {
-    "iso3": "CI",
-    "name": "CI",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2023",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 99773555666.1988,
-    "population": 32711547,
-    "pop_0_14_pct": 40.4553985241878,
-    "gdp_pc_ppa": 8208.90898574972,
-    "tax_revenue_pct_gdp": 13.0371915910548,
-    "gov_exp_pct_gdp": 17.8812303499603
-  },
-  {
-    "iso3": "CL",
-    "name": "CL",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 357371159574.862,
-    "population": 19859921,
-    "pop_0_14_pct": 16.5470018737738,
-    "gdp_pc_ppa": 37774.0879069903,
-    "tax_revenue_pct_gdp": 18.2645857950519,
-    "gov_exp_pct_gdp": 24.5587474981752
-  },
-  {
-    "iso3": "CM",
-    "name": "CM",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2021",
-      "gov_exp_pct_gdp": "2021"
-    },
-    "missing": [],
-    "gdp_usd": 58933453923.761,
-    "population": 29879337,
-    "pop_0_14_pct": 41.1173982876528,
-    "gdp_pc_ppa": 5787.85440270861,
-    "tax_revenue_pct_gdp": 11.3415157249134,
-    "gov_exp_pct_gdp": 12.4228090170574
-  },
-  {
-    "iso3": "CN",
-    "name": "CN",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024"
-    },
-    "missing": [
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 19498039388042.6,
-    "population": 1406585000,
-    "pop_0_14_pct": 15.4072909264023,
-    "gdp_pc_ppa": 29333.3311051433,
-    "tax_revenue_pct_gdp": 7.01806095279297
-  },
-  {
-    "iso3": "CO",
-    "name": "CO",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 457410034202.523,
-    "population": 53425635,
-    "pop_0_14_pct": 19.9929217500838,
-    "gdp_pc_ppa": 22640.4224606513,
-    "tax_revenue_pct_gdp": 15.2199717362872,
-    "gov_exp_pct_gdp": 33.2804845516298
-  },
-  {
-    "iso3": "CR",
-    "name": "CR",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 102904921157.478,
-    "population": 5152950,
-    "pop_0_14_pct": 18.308580521837,
-    "gdp_pc_ppa": 33814.7696296148,
-    "tax_revenue_pct_gdp": 13.4597568416377,
-    "gov_exp_pct_gdp": 28.5737298467752
-  },
-  {
-    "iso3": "CU",
-    "name": "CU",
-    "years": {
-      "population": "2025",
-      "pop_0_14_pct": "2025"
-    },
-    "missing": [
-      "gdp_usd",
-      "gdp_pc_ppa",
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "population": 10937203,
-    "pop_0_14_pct": 15.0237672728682
-  },
-  {
-    "iso3": "CV",
-    "name": "CV",
+    "iso3": "BEN",
+    "iso_numeric": "204",
+    "name": "Benin",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -926,14 +404,15 @@
       "tax_revenue_pct_gdp",
       "gov_exp_pct_gdp"
     ],
-    "gdp_usd": 3056630435.32463,
-    "population": 527326,
-    "pop_0_14_pct": 24.6949938889737,
-    "gdp_pc_ppa": 12165.2989335356
+    "gdp_usd": 24566420903.5337,
+    "population": 14814460,
+    "pop_0_14_pct": 41.2595376834369,
+    "gdp_pc_ppa": 4816.87504692826
   },
   {
-    "iso3": "CW",
-    "name": "CW",
+    "iso3": "BMU",
+    "iso_numeric": "060",
+    "name": "Bermuda",
     "years": {
       "gdp_usd": "2024",
       "population": "2025",
@@ -944,71 +423,15 @@
       "tax_revenue_pct_gdp",
       "gov_exp_pct_gdp"
     ],
-    "gdp_usd": 3561178212.2905,
-    "population": 156263,
-    "pop_0_14_pct": 14.6037188590036,
-    "gdp_pc_ppa": 32740.7736763943
+    "gdp_usd": 9194499000,
+    "population": 64555,
+    "pop_0_14_pct": 13.352283729252,
+    "gdp_pc_ppa": 118727.973294368
   },
   {
-    "iso3": "CY",
-    "name": "CY",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 41225787247.3309,
-    "population": 1370754,
-    "pop_0_14_pct": 16.0809671173675,
-    "gdp_pc_ppa": 64574.62109375,
-    "tax_revenue_pct_gdp": 23.9417875708341,
-    "gov_exp_pct_gdp": 38.4593865037483
-  },
-  {
-    "iso3": "CZ",
-    "name": "CZ",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2022"
-    },
-    "missing": [],
-    "gdp_usd": 391026962800.475,
-    "population": 10886878,
-    "pop_0_14_pct": 15.085690166576,
-    "gdp_pc_ppa": 60487.2877495391,
-    "tax_revenue_pct_gdp": 18.6481947859548,
-    "gov_exp_pct_gdp": 34.4426537105922
-  },
-  {
-    "iso3": "DE",
-    "name": "DE",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2022"
-    },
-    "missing": [],
-    "gdp_usd": 5050922925047.05,
-    "population": 83491249,
-    "pop_0_14_pct": 13.8859014629835,
-    "gdp_pc_ppa": 75406.6888111618,
-    "tax_revenue_pct_gdp": 10.890812364142,
-    "gov_exp_pct_gdp": 31.174891399437
-  },
-  {
-    "iso3": "DJ",
-    "name": "DJ",
+    "iso3": "BTN",
+    "iso_numeric": "064",
+    "name": "Bhutan",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1019,33 +442,15 @@
       "tax_revenue_pct_gdp",
       "gov_exp_pct_gdp"
     ],
-    "gdp_usd": 4624533092.31886,
-    "population": 1184076,
-    "pop_0_14_pct": 28.8031220955741,
-    "gdp_pc_ppa": 8451.96838146073
+    "gdp_usd": 3579320145.13077,
+    "population": 796682,
+    "pop_0_14_pct": 20.3610853270724,
+    "gdp_pc_ppa": 19594.0028382994
   },
   {
-    "iso3": "DK",
-    "name": "DK",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 462526660468.393,
-    "population": 6009169,
-    "pop_0_14_pct": 15.5619810189309,
-    "gdp_pc_ppa": 83218.071525634,
-    "tax_revenue_pct_gdp": 33.3582767843919,
-    "gov_exp_pct_gdp": 33.3385713177252
-  },
-  {
-    "iso3": "DM",
-    "name": "DM",
+    "iso3": "BOL",
+    "iso_numeric": "068",
+    "name": "Bolivia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1056,14 +461,15 @@
       "tax_revenue_pct_gdp",
       "gov_exp_pct_gdp"
     ],
-    "gdp_usd": 723859259.259259,
-    "population": 65871,
-    "pop_0_14_pct": 17.6115619046173,
-    "gdp_pc_ppa": 22713.1288027433
+    "gdp_usd": 64768947525.3256,
+    "population": 12581843,
+    "pop_0_14_pct": 29.4403184589221,
+    "gdp_pc_ppa": 12873.0394876629
   },
   {
-    "iso3": "DO",
-    "name": "DO",
+    "iso3": "BIH",
+    "iso_numeric": "070",
+    "name": "Bosnia and Herzegovina",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1073,53 +479,37 @@
       "gov_exp_pct_gdp": "2023"
     },
     "missing": [],
-    "gdp_usd": 127407463759.043,
-    "population": 11520487,
-    "pop_0_14_pct": 26.1990877642586,
-    "gdp_pc_ppa": 28721.0964580217,
-    "tax_revenue_pct_gdp": 14.7034417605733,
-    "gov_exp_pct_gdp": 18.066236602366
+    "gdp_usd": 32599982936.3931,
+    "population": 3140095,
+    "pop_0_14_pct": 12.8485423452885,
+    "gdp_pc_ppa": 25814.2641520511,
+    "tax_revenue_pct_gdp": 20.221417887462,
+    "gov_exp_pct_gdp": 35.2955105967778
   },
   {
-    "iso3": "DZ",
-    "name": "DZ",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 287031225987.736,
-    "population": 47435312,
-    "pop_0_14_pct": 29.9254996986791,
-    "gdp_pc_ppa": 18586.2607480579
-  },
-  {
-    "iso3": "EC",
-    "name": "EC",
+    "iso3": "BWA",
+    "iso_numeric": "072",
+    "name": "Botswana",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
       "pop_0_14_pct": "2025",
       "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2022",
-      "gov_exp_pct_gdp": "2022"
+      "tax_revenue_pct_gdp": "2023",
+      "gov_exp_pct_gdp": "2024"
     },
     "missing": [],
-    "gdp_usd": 130320560400,
-    "population": 18289896,
-    "pop_0_14_pct": 23.8989740564955,
-    "gdp_pc_ppa": 16756.6539631307,
-    "tax_revenue_pct_gdp": 13.0891981784206,
-    "gov_exp_pct_gdp": 30.4365983203311
+    "gdp_usd": 19928479839.4476,
+    "population": 2562122,
+    "pop_0_14_pct": 31.9566554598103,
+    "gdp_pc_ppa": 20697.9104661898,
+    "tax_revenue_pct_gdp": 22.4198951581769,
+    "gov_exp_pct_gdp": 26.5275298391025
   },
   {
-    "iso3": "EE",
-    "name": "EE",
+    "iso3": "BRA",
+    "iso_numeric": "076",
+    "name": "Brazil",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1129,34 +519,17 @@
       "gov_exp_pct_gdp": "2023"
     },
     "missing": [],
-    "gdp_usd": 47030833798.5866,
-    "population": 1366475,
-    "pop_0_14_pct": 15.2537657190128,
-    "gdp_pc_ppa": 52105.5093433416,
-    "tax_revenue_pct_gdp": 22.6679583165361,
-    "gov_exp_pct_gdp": 37.6884300915577
+    "gdp_usd": 2279920092492.13,
+    "population": 212812405,
+    "pop_0_14_pct": 19.3866212827208,
+    "gdp_pc_ppa": 23433.2897595431,
+    "tax_revenue_pct_gdp": 15.4102340832552,
+    "gov_exp_pct_gdp": 32.4311004876294
   },
   {
-    "iso3": "EG",
-    "name": "EG",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 365254630179.737,
-    "population": 118365995,
-    "pop_0_14_pct": 31.5562617099458,
-    "gdp_pc_ppa": 20204.0130500153
-  },
-  {
-    "iso3": "ER",
-    "name": "ER",
+    "iso3": "VGB",
+    "iso_numeric": "092",
+    "name": "British Virgin Islands",
     "years": {
       "population": "2025",
       "pop_0_14_pct": "2025"
@@ -1167,69 +540,13 @@
       "tax_revenue_pct_gdp",
       "gov_exp_pct_gdp"
     ],
-    "population": 3607003,
-    "pop_0_14_pct": 37.590556481378
+    "population": 39732,
+    "pop_0_14_pct": 14.083106815665
   },
   {
-    "iso3": "ES",
-    "name": "ES",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 1906453309985.88,
-    "population": 49355143,
-    "pop_0_14_pct": 12.6191319691698,
-    "gdp_pc_ppa": 59867.6944716701,
-    "tax_revenue_pct_gdp": 14.934361142298,
-    "gov_exp_pct_gdp": 34.0441499010857
-  },
-  {
-    "iso3": "ET",
-    "name": "ET",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 126358758448.356,
-    "population": 135472051,
-    "pop_0_14_pct": 38.7797271142655,
-    "gdp_pc_ppa": 3621.67487597821,
-    "tax_revenue_pct_gdp": 3.39819259732559,
-    "gov_exp_pct_gdp": 6.12162158600518
-  },
-  {
-    "iso3": "EU",
-    "name": "EU",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2022"
-    },
-    "missing": [],
-    "gdp_usd": 21243212570163.3,
-    "population": 451127411,
-    "pop_0_14_pct": 14.2074274558604,
-    "gdp_pc_ppa": 65503.0695908092,
-    "tax_revenue_pct_gdp": 19.7822230360115,
-    "gov_exp_pct_gdp": 39.3351784702831
-  },
-  {
-    "iso3": "F2",
-    "name": "F2",
+    "iso3": "BRN",
+    "iso_numeric": "096",
+    "name": "Brunei",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1240,14 +557,15 @@
       "tax_revenue_pct_gdp",
       "gov_exp_pct_gdp"
     ],
-    "gdp_usd": 1878671727974.76,
-    "population": 1103451863,
-    "pop_0_14_pct": 37.3314282968263,
-    "gdp_pc_ppa": 6998.76980548608
+    "gdp_usd": 15031980994.1121,
+    "population": 466330,
+    "pop_0_14_pct": 20.625929464189,
+    "gdp_pc_ppa": 92429.9262686398
   },
   {
-    "iso3": "FI",
-    "name": "FI",
+    "iso3": "BGR",
+    "iso_numeric": "100",
+    "name": "Bulgaria",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1257,16 +575,17 @@
       "gov_exp_pct_gdp": "2023"
     },
     "missing": [],
-    "gdp_usd": 317039368819.607,
-    "population": 5646436,
-    "pop_0_14_pct": 14.3301135030412,
-    "gdp_pc_ppa": 65884.4876972259,
-    "tax_revenue_pct_gdp": 25.3281786132257,
-    "gov_exp_pct_gdp": 44.9061372502335
+    "gdp_usd": 130777235529.606,
+    "population": 6433302,
+    "pop_0_14_pct": 14.3997234665952,
+    "gdp_pc_ppa": 44451.1001576913,
+    "tax_revenue_pct_gdp": 20.6721408609361,
+    "gov_exp_pct_gdp": 35.7558276611108
   },
   {
-    "iso3": "FJ",
-    "name": "FJ",
+    "iso3": "BFA",
+    "iso_numeric": "854",
+    "name": "Burkina Faso",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1276,71 +595,17 @@
       "gov_exp_pct_gdp": "2023"
     },
     "missing": [],
-    "gdp_usd": 6198013062.06553,
-    "population": 933154,
-    "pop_0_14_pct": 26.8285155352088,
-    "gdp_pc_ppa": 16337.5722970567,
-    "tax_revenue_pct_gdp": 23.9464341913943,
-    "gov_exp_pct_gdp": 27.7596127035997
+    "gdp_usd": 27627297461.3181,
+    "population": 24074580,
+    "pop_0_14_pct": 41.1699311057555,
+    "gdp_pc_ppa": 3071.62546744866,
+    "tax_revenue_pct_gdp": 18.6826372667856,
+    "gov_exp_pct_gdp": 19.5749797669613
   },
   {
-    "iso3": "FM",
-    "name": "FM",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 501797600,
-    "population": 113683,
-    "pop_0_14_pct": 31.4941547988705,
-    "gdp_pc_ppa": 4604.39540764468
-  },
-  {
-    "iso3": "FO",
-    "name": "FO",
-    "years": {
-      "gdp_usd": "2024",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2024"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 4052937169.76536,
-    "population": 54900,
-    "pop_0_14_pct": 19.8700034820496,
-    "gdp_pc_ppa": 82089.2832575392
-  },
-  {
-    "iso3": "FR",
-    "name": "FR",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 3366315927447.33,
-    "population": 68720337,
-    "pop_0_14_pct": 16.2248746749936,
-    "gdp_pc_ppa": 63975.353585864,
-    "tax_revenue_pct_gdp": 22.778486344686,
-    "gov_exp_pct_gdp": 47.2580360132692
-  },
-  {
-    "iso3": "GA",
-    "name": "GA",
+    "iso3": "BDI",
+    "iso_numeric": "108",
+    "name": "Burundi",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -1350,641 +615,17 @@
       "gov_exp_pct_gdp": "2021"
     },
     "missing": [],
-    "gdp_usd": 21427119323.2764,
-    "population": 2593130,
-    "pop_0_14_pct": 36.2428486506362,
-    "gdp_pc_ppa": 22218.341068445,
-    "tax_revenue_pct_gdp": 9.49032554464136,
-    "gov_exp_pct_gdp": 14.0519584891347
+    "gdp_usd": 3364713864.08488,
+    "population": 14390003,
+    "pop_0_14_pct": 43.9812536516238,
+    "gdp_pc_ppa": 1248.05425025467,
+    "tax_revenue_pct_gdp": 12.6719556010603,
+    "gov_exp_pct_gdp": 12.2568570624235
   },
   {
-    "iso3": "GB",
-    "name": "GB",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 4002587541846.01,
-    "population": 69487000,
-    "pop_0_14_pct": 16.9647729892849,
-    "gdp_pc_ppa": 64606.4955066338,
-    "tax_revenue_pct_gdp": 26.8890215407942,
-    "gov_exp_pct_gdp": 41.2292290721047
-  },
-  {
-    "iso3": "GD",
-    "name": "GD",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 1420173228.56948,
-    "population": 117303,
-    "pop_0_14_pct": 19.0109417025067,
-    "gdp_pc_ppa": 21345.9653408221
-  },
-  {
-    "iso3": "GE",
-    "name": "GE",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 38143612855.1367,
-    "population": 3935766,
-    "pop_0_14_pct": 20.4880721239109,
-    "gdp_pc_ppa": 29414.3813424216,
-    "tax_revenue_pct_gdp": 24.2581681938283,
-    "gov_exp_pct_gdp": 25.241719707501
-  },
-  {
-    "iso3": "GH",
-    "name": "GH",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2023",
-      "gov_exp_pct_gdp": "2022"
-    },
-    "missing": [],
-    "gdp_usd": 114209905278.717,
-    "population": 35064272,
-    "pop_0_14_pct": 35.4296770309437,
-    "gdp_pc_ppa": 8610.2796922986,
-    "tax_revenue_pct_gdp": 12.393098457103,
-    "gov_exp_pct_gdp": 22.6789929500877
-  },
-  {
-    "iso3": "GI",
-    "name": "GI",
-    "years": {
-      "population": "2025",
-      "pop_0_14_pct": "2025"
-    },
-    "missing": [
-      "gdp_usd",
-      "gdp_pc_ppa",
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "population": 40126,
-    "pop_0_14_pct": 17.587100633006
-  },
-  {
-    "iso3": "GL",
-    "name": "GL",
-    "years": {
-      "gdp_usd": "2023",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2023"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 3326543974.39193,
-    "population": 56831,
-    "pop_0_14_pct": 20.7410596561096,
-    "gdp_pc_ppa": 78905.5801137274
-  },
-  {
-    "iso3": "GM",
-    "name": "GM",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 2593673987.53306,
-    "population": 2822093,
-    "pop_0_14_pct": 39.723265675511,
-    "gdp_pc_ppa": 3705.64184038599
-  },
-  {
-    "iso3": "GN",
-    "name": "GN",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 28346024753.2924,
-    "population": 15099727,
-    "pop_0_14_pct": 40.5483688546157,
-    "gdp_pc_ppa": 4934.65125959855
-  },
-  {
-    "iso3": "GQ",
-    "name": "GQ",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2022",
-      "gov_exp_pct_gdp": "2022"
-    },
-    "missing": [],
-    "gdp_usd": 12823210425.9217,
-    "population": 1938431,
-    "pop_0_14_pct": 37.0865406093898,
-    "gdp_pc_ppa": 16133.1056143137,
-    "tax_revenue_pct_gdp": 6.5959868257378,
-    "gov_exp_pct_gdp": 11.0452921646904
-  },
-  {
-    "iso3": "GR",
-    "name": "GR",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 280635521324.441,
-    "population": 10413962,
-    "pop_0_14_pct": 12.8514587384882,
-    "gdp_pc_ppa": 45263.6498511586,
-    "tax_revenue_pct_gdp": 27.3811388505066,
-    "gov_exp_pct_gdp": 47.3019610078935
-  },
-  {
-    "iso3": "GT",
-    "name": "GT",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 123306008821.471,
-    "population": 18687881,
-    "pop_0_14_pct": 31.0259646070637,
-    "gdp_pc_ppa": 15197.0831415082,
-    "tax_revenue_pct_gdp": 11.6299581317282,
-    "gov_exp_pct_gdp": 13.5099500396777
-  },
-  {
-    "iso3": "GU",
-    "name": "GU",
-    "years": {
-      "gdp_usd": "2022",
-      "population": "2025",
-      "pop_0_14_pct": "2025"
-    },
-    "missing": [
-      "gdp_pc_ppa",
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 6910000000,
-    "population": 168999,
-    "pop_0_14_pct": 25.867685216141
-  },
-  {
-    "iso3": "GW",
-    "name": "GW",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 2527930272.92988,
-    "population": 2249515,
-    "pop_0_14_pct": 38.3251723149212,
-    "gdp_pc_ppa": 3293.09532269486,
-    "tax_revenue_pct_gdp": 8.3038460722115,
-    "gov_exp_pct_gdp": 15.5376266451373
-  },
-  {
-    "iso3": "GY",
-    "name": "GY",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 27097477218.2254,
-    "population": 835986,
-    "pop_0_14_pct": 28.9333194575029,
-    "gdp_pc_ppa": 97899.0116180627
-  },
-  {
-    "iso3": "HK",
-    "name": "HK",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 427310315921.993,
-    "population": 7498900,
-    "pop_0_14_pct": 10.3113664597281,
-    "gdp_pc_ppa": 80422.8129947646
-  },
-  {
-    "iso3": "HN",
-    "name": "HN",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 39601409103.3005,
-    "population": 11005850,
-    "pop_0_14_pct": 30.2626526012372,
-    "gdp_pc_ppa": 7871.09129065536
-  },
-  {
-    "iso3": "HR",
-    "name": "HR",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2023",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 105060182186.274,
-    "population": 3876200,
-    "pop_0_14_pct": 13.7024318115671,
-    "gdp_pc_ppa": 50946.1671131832,
-    "tax_revenue_pct_gdp": 21.1835412825499,
-    "gov_exp_pct_gdp": 38.1252645669689
-  },
-  {
-    "iso3": "HT",
-    "name": "HT",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 32077278409.2339,
-    "population": 11906095,
-    "pop_0_14_pct": 30.7870535726847,
-    "gdp_pc_ppa": 3133.72347930529
-  },
-  {
-    "iso3": "HU",
-    "name": "HU",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2022"
-    },
-    "missing": [],
-    "gdp_usd": 246490213513.054,
-    "population": 9514251,
-    "pop_0_14_pct": 14.352453368551,
-    "gdp_pc_ppa": 49837.6008411067,
-    "tax_revenue_pct_gdp": 22.7430789981067,
-    "gov_exp_pct_gdp": 42.4178061387445
-  },
-  {
-    "iso3": "ID",
-    "name": "ID",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 1445642584163.81,
-    "population": 285721236,
-    "pop_0_14_pct": 24.2472504288188,
-    "gdp_pc_ppa": 17659.7921291587
-  },
-  {
-    "iso3": "IE",
-    "name": "IE",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2022"
-    },
-    "missing": [],
-    "gdp_usd": 721701359046.313,
-    "population": 5484367,
-    "pop_0_14_pct": 18.0959201693884,
-    "gdp_pc_ppa": 155089.413131749,
-    "tax_revenue_pct_gdp": 17.9419509627541,
-    "gov_exp_pct_gdp": 19.2427274217679
-  },
-  {
-    "iso3": "IL",
-    "name": "IL",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 610777842873.595,
-    "population": 10122800,
-    "pop_0_14_pct": 27.1639326374024,
-    "gdp_pc_ppa": 59716.9735387228,
-    "tax_revenue_pct_gdp": 23.2419259606462,
-    "gov_exp_pct_gdp": 37.348337781417
-  },
-  {
-    "iso3": "IM",
-    "name": "IM",
-    "years": {
-      "gdp_usd": "2023",
-      "population": "2025",
-      "pop_0_14_pct": "2025"
-    },
-    "missing": [
-      "gdp_pc_ppa",
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 7576129932.79381,
-    "population": 84118,
-    "pop_0_14_pct": 13.9053834768808
-  },
-  {
-    "iso3": "IN",
-    "name": "IN",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2022",
-      "gov_exp_pct_gdp": "2022"
-    },
-    "missing": [],
-    "gdp_usd": 3956067115771.63,
-    "population": 1463865525,
-    "pop_0_14_pct": 24.1952667831956,
-    "gdp_pc_ppa": 11747.9160436011,
-    "tax_revenue_pct_gdp": 6.93372148022965,
-    "gov_exp_pct_gdp": 13.7280694252264
-  },
-  {
-    "iso3": "IQ",
-    "name": "IQ",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 254367293538.462,
-    "population": 47020774,
-    "pop_0_14_pct": 36.0269984071296,
-    "gdp_pc_ppa": 14266.7965348226
-  },
-  {
-    "iso3": "IR",
-    "name": "IR",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 362682115433.364,
-    "population": 92417681,
-    "pop_0_14_pct": 22.0217357542222,
-    "gdp_pc_ppa": 19699.2193549189
-  },
-  {
-    "iso3": "IS",
-    "name": "IS",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2023",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 38582528789.0033,
-    "population": 392404,
-    "pop_0_14_pct": 17.5179402710751,
-    "gdp_pc_ppa": 83431.2131434311,
-    "tax_revenue_pct_gdp": 23.1574850740894,
-    "gov_exp_pct_gdp": 32.0496243351256
-  },
-  {
-    "iso3": "IT",
-    "name": "IT",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 2551556954100.35,
-    "population": 58915656,
-    "pop_0_14_pct": 11.6571656432714,
-    "gdp_pc_ppa": 62802.5108384276,
-    "tax_revenue_pct_gdp": 25.6045418430039,
-    "gov_exp_pct_gdp": 47.2773607528737
-  },
-  {
-    "iso3": "JG",
-    "name": "JG",
-    "years": {
-      "gdp_usd": "2023",
-      "population": "2025",
-      "pop_0_14_pct": "2025"
-    },
-    "missing": [
-      "gdp_pc_ppa",
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 12507320838.3932,
-    "population": 168466,
-    "pop_0_14_pct": 14.033478764135
-  },
-  {
-    "iso3": "JM",
-    "name": "JM",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 22704903217.5631,
-    "population": 2837077,
-    "pop_0_14_pct": 18.2849957394537,
-    "gdp_pc_ppa": 13291.253767787
-  },
-  {
-    "iso3": "JO",
-    "name": "JO",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2023",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 61610052535.2113,
-    "population": 11520684,
-    "pop_0_14_pct": 30.196204921678,
-    "gdp_pc_ppa": 12631.6299394746,
-    "tax_revenue_pct_gdp": 15.5196043957928,
-    "gov_exp_pct_gdp": 25.8858328291716
-  },
-  {
-    "iso3": "JP",
-    "name": "JP",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "gov_exp_pct_gdp": "2022"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp"
-    ],
-    "gdp_usd": 4435162999976.94,
-    "population": 123366734,
-    "pop_0_14_pct": 11.2383980634698,
-    "gdp_pc_ppa": 55421.8797530311,
-    "gov_exp_pct_gdp": 20.0582116003984
-  },
-  {
-    "iso3": "KE",
-    "name": "KE",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2023",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 135941278878.815,
-    "population": 57532493,
-    "pop_0_14_pct": 36.2577929332716,
-    "gdp_pc_ppa": 7015.93578839722,
-    "tax_revenue_pct_gdp": 14.0631113797385,
-    "gov_exp_pct_gdp": 27.8446410955634
-  },
-  {
-    "iso3": "KG",
-    "name": "KG",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 22623752095.4613,
-    "population": 7343064,
-    "pop_0_14_pct": 31.9082109892695,
-    "gdp_pc_ppa": 9219.51443675205,
-    "tax_revenue_pct_gdp": 19.6152650825459,
-    "gov_exp_pct_gdp": 23.7050047610836
-  },
-  {
-    "iso3": "KH",
-    "name": "KH",
+    "iso3": "KHM",
+    "iso_numeric": "116",
+    "name": "Cambodia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2002,79 +643,29 @@
     "gov_exp_pct_gdp": 12.9497206702999
   },
   {
-    "iso3": "KI",
-    "name": "KI",
+    "iso3": "CMR",
+    "iso_numeric": "120",
+    "name": "Cameroon",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
       "pop_0_14_pct": "2025",
       "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2023",
-      "gov_exp_pct_gdp": "2023"
+      "tax_revenue_pct_gdp": "2021",
+      "gov_exp_pct_gdp": "2021"
     },
     "missing": [],
-    "gdp_usd": 349227254.158833,
-    "population": 136488,
-    "pop_0_14_pct": 34.3644336336028,
-    "gdp_pc_ppa": 3936.61263730517,
-    "tax_revenue_pct_gdp": 17.531915667426,
-    "gov_exp_pct_gdp": 83.6811106250911
+    "gdp_usd": 58933453923.761,
+    "population": 29879337,
+    "pop_0_14_pct": 41.1173982876528,
+    "gdp_pc_ppa": 5787.85440270861,
+    "tax_revenue_pct_gdp": 11.3415157249134,
+    "gov_exp_pct_gdp": 12.4228090170574
   },
   {
-    "iso3": "KM",
-    "name": "KM",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 1814920856.27026,
-    "population": 882847,
-    "pop_0_14_pct": 36.8698444521846,
-    "gdp_pc_ppa": 4238.26133409182
-  },
-  {
-    "iso3": "KN",
-    "name": "KN",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 1183514814.81481,
-    "population": 46922,
-    "pop_0_14_pct": 18.3359440768091,
-    "gdp_pc_ppa": 36777.262691657
-  },
-  {
-    "iso3": "KP",
-    "name": "KP",
-    "years": {
-      "population": "2025",
-      "pop_0_14_pct": "2025"
-    },
-    "missing": [
-      "gdp_usd",
-      "gdp_pc_ppa",
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "population": 26571036,
-    "pop_0_14_pct": 18.9282698851435
-  },
-  {
-    "iso3": "KR",
-    "name": "KR",
+    "iso3": "CAN",
+    "iso_numeric": "124",
+    "name": "Canada",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2084,16 +675,17 @@
       "gov_exp_pct_gdp": "2023"
     },
     "missing": [],
-    "gdp_usd": 1872374961553.15,
-    "population": 51684564,
-    "pop_0_14_pct": 10.2044670479846,
-    "gdp_pc_ppa": 63124.9152183625,
-    "tax_revenue_pct_gdp": 13.2937188380388,
-    "gov_exp_pct_gdp": 28.3225119832631
+    "gdp_usd": 2319899772425.92,
+    "population": 41651653,
+    "pop_0_14_pct": 14.980307512278,
+    "gdp_pc_ppa": 66745.8248561648,
+    "tax_revenue_pct_gdp": 13.7145570395982,
+    "gov_exp_pct_gdp": 19.0564147253424
   },
   {
-    "iso3": "KW",
-    "name": "KW",
+    "iso3": "CPV",
+    "iso_numeric": "132",
+    "name": "Cape Verde",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2104,14 +696,15 @@
       "tax_revenue_pct_gdp",
       "gov_exp_pct_gdp"
     ],
-    "gdp_usd": 157209026926.418,
-    "population": 4865298,
-    "pop_0_14_pct": 17.973071445874,
-    "gdp_pc_ppa": 56467.7272075432
+    "gdp_usd": 3056630435.32463,
+    "population": 527326,
+    "pop_0_14_pct": 24.6949938889737,
+    "gdp_pc_ppa": 12165.2989335356
   },
   {
-    "iso3": "KY",
-    "name": "KY",
+    "iso3": "CYM",
+    "iso_numeric": "136",
+    "name": "Cayman Islands",
     "years": {
       "gdp_usd": "2024",
       "population": "2025",
@@ -2128,524 +721,9 @@
     "gdp_pc_ppa": 92201.086358256
   },
   {
-    "iso3": "KZ",
-    "name": "KZ",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2023",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 306239209650.024,
-    "population": 20843754,
-    "pop_0_14_pct": 29.1373946090183,
-    "gdp_pc_ppa": 44293.4839632441,
-    "tax_revenue_pct_gdp": 11.8924774148637,
-    "gov_exp_pct_gdp": 17.4457811545455
-  },
-  {
-    "iso3": "LA",
-    "name": "LA",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2022",
-      "gov_exp_pct_gdp": "2022"
-    },
-    "missing": [],
-    "gdp_usd": 18302970218.5902,
-    "population": 7873046,
-    "pop_0_14_pct": 29.839672589216,
-    "gdp_pc_ppa": 10382.9990718948,
-    "tax_revenue_pct_gdp": 12.1129327825423,
-    "gov_exp_pct_gdp": 10.3160241648868
-  },
-  {
-    "iso3": "LB",
-    "name": "LB",
-    "years": {
-      "gdp_usd": "2024",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2024",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2021"
-    },
-    "missing": [],
-    "gdp_usd": 25971643441.3408,
-    "population": 5849421,
-    "pop_0_14_pct": 25.5876800103532,
-    "gdp_pc_ppa": 11917.4502960889,
-    "tax_revenue_pct_gdp": 11.1389424540703,
-    "gov_exp_pct_gdp": 6.29571108447612
-  },
-  {
-    "iso3": "LC",
-    "name": "LC",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 2656444444.44444,
-    "population": 180149,
-    "pop_0_14_pct": 17.2451692765433,
-    "gdp_pc_ppa": 28673.8437920214
-  },
-  {
-    "iso3": "LI",
-    "name": "LI",
-    "years": {
-      "gdp_usd": "2024",
-      "population": "2025",
-      "pop_0_14_pct": "2025"
-    },
-    "missing": [
-      "gdp_pc_ppa",
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 8905764270.4054,
-    "population": 41024,
-    "pop_0_14_pct": 14.2269736842105
-  },
-  {
-    "iso3": "LK",
-    "name": "LK",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2023",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 108825231671.196,
-    "population": 21756000,
-    "pop_0_14_pct": 21.7008153500529,
-    "gdp_pc_ppa": 17065.0298635432,
-    "tax_revenue_pct_gdp": 9.87891768094967,
-    "gov_exp_pct_gdp": 18.0350543940866
-  },
-  {
-    "iso3": "LR",
-    "name": "LR",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 5245938900,
-    "population": 5731206,
-    "pop_0_14_pct": 39.0803610967744,
-    "gdp_pc_ppa": 1981.09483342188
-  },
-  {
-    "iso3": "LS",
-    "name": "LS",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2022"
-    },
-    "missing": [],
-    "gdp_usd": 2573572920.05159,
-    "population": 2363325,
-    "pop_0_14_pct": 34.1020668130847,
-    "gdp_pc_ppa": 3184.11725194709,
-    "tax_revenue_pct_gdp": 35.4194711264231,
-    "gov_exp_pct_gdp": 40.2346111006294
-  },
-  {
-    "iso3": "LT",
-    "name": "LT",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 95210150818.3512,
-    "population": 2888774,
-    "pop_0_14_pct": 14.5052134263816,
-    "gdp_pc_ppa": 56837.8067003598,
-    "tax_revenue_pct_gdp": 21.8686469645785,
-    "gov_exp_pct_gdp": 33.859828121368
-  },
-  {
-    "iso3": "LU",
-    "name": "LU",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 101157829491.107,
-    "population": 686970,
-    "pop_0_14_pct": 15.7458959355783,
-    "gdp_pc_ppa": 156542.075847247,
-    "tax_revenue_pct_gdp": 28.636905101724,
-    "gov_exp_pct_gdp": 42.2321737913696
-  },
-  {
-    "iso3": "LV",
-    "name": "LV",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 48618869160.3254,
-    "population": 1847785,
-    "pop_0_14_pct": 15.1872424886394,
-    "gdp_pc_ppa": 46136.689377286,
-    "tax_revenue_pct_gdp": 17.6470478263995,
-    "gov_exp_pct_gdp": 34.1951936826963
-  },
-  {
-    "iso3": "LY",
-    "name": "LY",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 48098909613.6316,
-    "population": 7458555,
-    "pop_0_14_pct": 26.8472061174856,
-    "gdp_pc_ppa": 16521.3998152838
-  },
-  {
-    "iso3": "MA",
-    "name": "MA",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 182374250612.28,
-    "population": 38430770,
-    "pop_0_14_pct": 25.1994729743901,
-    "gdp_pc_ppa": 11111.7080078125,
-    "tax_revenue_pct_gdp": 22.6813286123676,
-    "gov_exp_pct_gdp": 26.6111381429324
-  },
-  {
-    "iso3": "MC",
-    "name": "MC",
-    "years": {
-      "gdp_usd": "2024",
-      "population": "2025",
-      "pop_0_14_pct": "2025"
-    },
-    "missing": [
-      "gdp_pc_ppa",
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 11125788838.2812,
-    "population": 38341,
-    "pop_0_14_pct": 13.7711588117159
-  },
-  {
-    "iso3": "MD",
-    "name": "MD",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 20351796275.2943,
-    "population": 2360527,
-    "pop_0_14_pct": 19.5343421651874,
-    "gdp_pc_ppa": 19995.7590923995,
-    "tax_revenue_pct_gdp": 18.7906434604242,
-    "gov_exp_pct_gdp": 34.4725442262112
-  },
-  {
-    "iso3": "ME",
-    "name": "ME",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 9232801464.79257,
-    "population": 623129,
-    "pop_0_14_pct": 17.8804827975326,
-    "gdp_pc_ppa": 35422.6449824931
-  },
-  {
-    "iso3": "MF",
-    "name": "MF",
-    "years": {
-      "gdp_usd": "2021",
-      "population": "2025",
-      "pop_0_14_pct": "2025"
-    },
-    "missing": [
-      "gdp_pc_ppa",
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 649206262.847519,
-    "population": 24941,
-    "pop_0_14_pct": 21.0581183216054
-  },
-  {
-    "iso3": "MG",
-    "name": "MG",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 19620352035.7899,
-    "population": 32740678,
-    "pop_0_14_pct": 38.9376603624397,
-    "gdp_pc_ppa": 1952.48426903369,
-    "tax_revenue_pct_gdp": 10.9446747862351,
-    "gov_exp_pct_gdp": 11.0354551048712
-  },
-  {
-    "iso3": "MH",
-    "name": "MH",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 308000000,
-    "population": 36282,
-    "pop_0_14_pct": 33.8942175183287,
-    "gdp_pc_ppa": 8964.32212870807
-  },
-  {
-    "iso3": "MK",
-    "name": "MK",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 19101199817.0174,
-    "population": 1820909,
-    "pop_0_14_pct": 16.5297710706471,
-    "gdp_pc_ppa": 28028.5664230631,
-    "tax_revenue_pct_gdp": 18.7571347667176,
-    "gov_exp_pct_gdp": 33.3785817447945
-  },
-  {
-    "iso3": "ML",
-    "name": "ML",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 30069148580.7688,
-    "population": 25198821,
-    "pop_0_14_pct": 45.7939034966377,
-    "gdp_pc_ppa": 3502.76132351788
-  },
-  {
-    "iso3": "MM",
-    "name": "MM",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 81665773809.5238,
-    "population": 54850648,
-    "pop_0_14_pct": 24.0786362268683,
-    "gdp_pc_ppa": 6011.53492175516
-  },
-  {
-    "iso3": "MN",
-    "name": "MN",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2021"
-    },
-    "missing": [],
-    "gdp_usd": 25369107325.4549,
-    "population": 3568978,
-    "pop_0_14_pct": 31.5602200676694,
-    "gdp_pc_ppa": 20797.7652692242,
-    "tax_revenue_pct_gdp": 16.8548718595202,
-    "gov_exp_pct_gdp": 31.6966486780552
-  },
-  {
-    "iso3": "MO",
-    "name": "MO",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 52061007670.169,
-    "population": 685900,
-    "pop_0_14_pct": 13.7089391100086,
-    "gdp_pc_ppa": 137030.679100085,
-    "tax_revenue_pct_gdp": 27.4162061856349,
-    "gov_exp_pct_gdp": 19.5867260271728
-  },
-  {
-    "iso3": "MP",
-    "name": "MP",
-    "years": {
-      "gdp_usd": "2022",
-      "population": "2025",
-      "pop_0_14_pct": "2025"
-    },
-    "missing": [
-      "gdp_pc_ppa",
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 1096000000,
-    "population": 43541,
-    "pop_0_14_pct": 21.2250663175664
-  },
-  {
-    "iso3": "MR",
-    "name": "MR",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 11679910946.4371,
-    "population": 5315065,
-    "pop_0_14_pct": 42.3845750131537,
-    "gdp_pc_ppa": 7675.51996658445
-  },
-  {
-    "iso3": "MT",
-    "name": "MT",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 27771821560.9411,
-    "population": 579704,
-    "pop_0_14_pct": 12.8992216793025,
-    "gdp_pc_ppa": 72210.3392223985,
-    "tax_revenue_pct_gdp": 24.0777855096016,
-    "gov_exp_pct_gdp": 33.6715285211806
-  },
-  {
-    "iso3": "MU",
-    "name": "MU",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 16157804491.7614,
-    "population": 1243741,
-    "pop_0_14_pct": 14.5371347561795,
-    "gdp_pc_ppa": 33666.64355884,
-    "tax_revenue_pct_gdp": 20.5321450223193,
-    "gov_exp_pct_gdp": 29.1424031344469
-  },
-  {
-    "iso3": "MV",
-    "name": "MV",
+    "iso3": "CAF",
+    "iso_numeric": "140",
+    "name": "Central African Republic",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2655,128 +733,17 @@
       "gov_exp_pct_gdp": "2021"
     },
     "missing": [],
-    "gdp_usd": 7741066860.6337,
-    "population": 529676,
-    "pop_0_14_pct": 19.0365430942689,
-    "gdp_pc_ppa": 28554.8945669737,
-    "tax_revenue_pct_gdp": 19.4532482767244,
-    "gov_exp_pct_gdp": 29.475529855381
+    "gdp_usd": 3066109226.40165,
+    "population": 5513282,
+    "pop_0_14_pct": 48.682635860092,
+    "gdp_pc_ppa": 1313.8765680523,
+    "tax_revenue_pct_gdp": 8.20629229709995,
+    "gov_exp_pct_gdp": 11.6613898280077
   },
   {
-    "iso3": "MW",
-    "name": "MW",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2022"
-    },
-    "missing": [],
-    "gdp_usd": 14918276698.303,
-    "population": 22216120,
-    "pop_0_14_pct": 40.1264766333292,
-    "gdp_pc_ppa": 1899.29166528127,
-    "tax_revenue_pct_gdp": 15.5978477117661,
-    "gov_exp_pct_gdp": 20.1738542237372
-  },
-  {
-    "iso3": "MX",
-    "name": "MX",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 1832641364775.52,
-    "population": 131946900,
-    "pop_0_14_pct": 24.0910608737303,
-    "gdp_pc_ppa": 25868.4787520629,
-    "tax_revenue_pct_gdp": 14.8241106773063,
-    "gov_exp_pct_gdp": 22.4594139014718
-  },
-  {
-    "iso3": "MY",
-    "name": "MY",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 472193128644.597,
-    "population": 35977838,
-    "pop_0_14_pct": 21.3091653811994,
-    "gdp_pc_ppa": 41497.6746089548,
-    "tax_revenue_pct_gdp": 12.4304744518644,
-    "gov_exp_pct_gdp": 17.0088733715367
-  },
-  {
-    "iso3": "MZ",
-    "name": "MZ",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2022"
-    },
-    "missing": [],
-    "gdp_usd": 22337997046.1913,
-    "population": 35631653,
-    "pop_0_14_pct": 44.1685262258251,
-    "gdp_pc_ppa": 1697.94109338132,
-    "tax_revenue_pct_gdp": 21.8458736303603,
-    "gov_exp_pct_gdp": 26.0030656391346
-  },
-  {
-    "iso3": "NA",
-    "name": "NA",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 15080340653.5276,
-    "population": 3092816,
-    "pop_0_14_pct": 36.6506386654365,
-    "gdp_pc_ppa": 11985.7200318677,
-    "tax_revenue_pct_gdp": 33.8715291719611,
-    "gov_exp_pct_gdp": 36.1640496720365
-  },
-  {
-    "iso3": "NC",
-    "name": "NC",
-    "years": {
-      "gdp_usd": "2024",
-      "population": "2025",
-      "pop_0_14_pct": "2025"
-    },
-    "missing": [
-      "gdp_pc_ppa",
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 8548919387.12607,
-    "population": 295333,
-    "pop_0_14_pct": 21.0894143221381
-  },
-  {
-    "iso3": "NE",
-    "name": "NE",
+    "iso3": "TCD",
+    "iso_numeric": "148",
+    "name": "Chad",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2787,32 +754,15 @@
       "tax_revenue_pct_gdp",
       "gov_exp_pct_gdp"
     ],
-    "gdp_usd": 21646191388.2507,
-    "population": 27917831,
-    "pop_0_14_pct": 46.2263651499287,
-    "gdp_pc_ppa": 2177.25014417163
+    "gdp_usd": 21472835225.4338,
+    "population": 21003705,
+    "pop_0_14_pct": 45.961619628537,
+    "gdp_pc_ppa": 2902.7406157583
   },
   {
-    "iso3": "NG",
-    "name": "NG",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 290794361542.112,
-    "population": 237527782,
-    "pop_0_14_pct": 40.5197233739162,
-    "gdp_pc_ppa": 9531.61073275049
-  },
-  {
-    "iso3": "NI",
-    "name": "NI",
+    "iso3": "CHL",
+    "iso_numeric": "152",
+    "name": "Chile",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2822,73 +772,17 @@
       "gov_exp_pct_gdp": "2023"
     },
     "missing": [],
-    "gdp_usd": 22237167113.0916,
-    "population": 7007502,
-    "pop_0_14_pct": 28.3126497859009,
-    "gdp_pc_ppa": 9283.92301511154,
-    "tax_revenue_pct_gdp": 20.0900618147754,
-    "gov_exp_pct_gdp": 16.2819509055953
+    "gdp_usd": 357371159574.862,
+    "population": 19859921,
+    "pop_0_14_pct": 16.5470018737738,
+    "gdp_pc_ppa": 37774.0879069903,
+    "tax_revenue_pct_gdp": 18.2645857950519,
+    "gov_exp_pct_gdp": 24.5587474981752
   },
   {
-    "iso3": "NL",
-    "name": "NL",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 1332767651100.39,
-    "population": 18087633,
-    "pop_0_14_pct": 14.9340629566357,
-    "gdp_pc_ppa": 87320.1477254029,
-    "tax_revenue_pct_gdp": 25.2758922306144,
-    "gov_exp_pct_gdp": 39.9696990762123
-  },
-  {
-    "iso3": "NO",
-    "name": "NO",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 530755719438.879,
-    "population": 5610870,
-    "pop_0_14_pct": 15.9239141743008,
-    "gdp_pc_ppa": 104043.666429243,
-    "tax_revenue_pct_gdp": 24.5424706002351,
-    "gov_exp_pct_gdp": 34.518210681823
-  },
-  {
-    "iso3": "NP",
-    "name": "NP",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2023",
-      "gov_exp_pct_gdp": "2021"
-    },
-    "missing": [],
-    "gdp_usd": 45489810283.1132,
-    "population": 29618118,
-    "pop_0_14_pct": 28.0519719053718,
-    "gdp_pc_ppa": 6175.15897150244,
-    "tax_revenue_pct_gdp": 13.9448572556808,
-    "gov_exp_pct_gdp": 19.4418821873399
-  },
-  {
-    "iso3": "NR",
-    "name": "NR",
+    "iso3": "CHN",
+    "iso_numeric": "156",
+    "name": "China",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2899,34 +793,16 @@
     "missing": [
       "gov_exp_pct_gdp"
     ],
-    "gdp_usd": 176040043.932346,
-    "population": 12025,
-    "pop_0_14_pct": 37.1543802752484,
-    "gdp_pc_ppa": 14200.486778198,
-    "tax_revenue_pct_gdp": 21.4203125
+    "gdp_usd": 19498039388042.6,
+    "population": 1406585000,
+    "pop_0_14_pct": 15.4072909264023,
+    "gdp_pc_ppa": 29333.3311051433,
+    "tax_revenue_pct_gdp": 7.01806095279297
   },
   {
-    "iso3": "NZ",
-    "name": "NZ",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2022"
-    },
-    "missing": [],
-    "gdp_usd": 264057413739.965,
-    "population": 5324700,
-    "pop_0_14_pct": 17.877542961127,
-    "gdp_pc_ppa": 57350.3627657521,
-    "tax_revenue_pct_gdp": 29.5208304137113,
-    "gov_exp_pct_gdp": 35.4955182384826
-  },
-  {
-    "iso3": "OE",
-    "name": "OE",
+    "iso3": "COL",
+    "iso_numeric": "170",
+    "name": "Colombia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2936,16 +812,17 @@
       "gov_exp_pct_gdp": "2023"
     },
     "missing": [],
-    "gdp_usd": 72543267888365.3,
-    "population": 1402243571,
-    "pop_0_14_pct": 16.4481011502309,
-    "gdp_pc_ppa": 64192.5290195702,
-    "tax_revenue_pct_gdp": 15.7244277342539,
-    "gov_exp_pct_gdp": 30.4272756577517
+    "gdp_usd": 457410034202.523,
+    "population": 53425635,
+    "pop_0_14_pct": 19.9929217500838,
+    "gdp_pc_ppa": 22640.4224606513,
+    "tax_revenue_pct_gdp": 15.2199717362872,
+    "gov_exp_pct_gdp": 33.2804845516298
   },
   {
-    "iso3": "OM",
-    "name": "OM",
+    "iso3": "COM",
+    "iso_numeric": "174",
+    "name": "Comoros",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -2956,69 +833,15 @@
       "tax_revenue_pct_gdp",
       "gov_exp_pct_gdp"
     ],
-    "gdp_usd": 109604780696.23,
-    "population": 5494691,
-    "pop_0_14_pct": 24.3203302970085,
-    "gdp_pc_ppa": 42295.1761223734
+    "gdp_usd": 1814920856.27026,
+    "population": 882847,
+    "pop_0_14_pct": 36.8698444521846,
+    "gdp_pc_ppa": 4238.26133409182
   },
   {
-    "iso3": "PA",
-    "name": "PA",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2021"
-    },
-    "missing": [],
-    "gdp_usd": 90462600000,
-    "population": 4571189,
-    "pop_0_14_pct": 24.5261681369989,
-    "gdp_pc_ppa": 43902.1632084954,
-    "tax_revenue_pct_gdp": 7.17760169037387,
-    "gov_exp_pct_gdp": 17.1412565556766
-  },
-  {
-    "iso3": "PE",
-    "name": "PE",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2021",
-      "gov_exp_pct_gdp": "2021"
-    },
-    "missing": [],
-    "gdp_usd": 334854659181.893,
-    "population": 34576665,
-    "pop_0_14_pct": 23.6140674642855,
-    "gdp_pc_ppa": 18816.1045522938,
-    "tax_revenue_pct_gdp": 15.9189020036855,
-    "gov_exp_pct_gdp": 22.8389646747493
-  },
-  {
-    "iso3": "PF",
-    "name": "PF",
-    "years": {
-      "gdp_usd": "2024",
-      "population": "2025",
-      "pop_0_14_pct": "2025"
-    },
-    "missing": [
-      "gdp_pc_ppa",
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 6323716355.05009,
-    "population": 282465,
-    "pop_0_14_pct": 18.4527286566477
-  },
-  {
-    "iso3": "PG",
-    "name": "PG",
+    "iso3": "CRI",
+    "iso_numeric": "188",
+    "name": "Costa Rica",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3028,277 +851,17 @@
       "gov_exp_pct_gdp": "2023"
     },
     "missing": [],
-    "gdp_usd": 32498658653.8415,
-    "population": 10762817,
-    "pop_0_14_pct": 33.145602122567,
-    "gdp_pc_ppa": 5214.768271628,
-    "tax_revenue_pct_gdp": 15.5435093385912,
-    "gov_exp_pct_gdp": 20.3235953856532
+    "gdp_usd": 102904921157.478,
+    "population": 5152950,
+    "pop_0_14_pct": 18.308580521837,
+    "gdp_pc_ppa": 33814.7696296148,
+    "tax_revenue_pct_gdp": 13.4597568416377,
+    "gov_exp_pct_gdp": 28.5737298467752
   },
   {
-    "iso3": "PH",
-    "name": "PH",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 487086123720.417,
-    "population": 116786962,
-    "pop_0_14_pct": 27.1388610693595,
-    "gdp_pc_ppa": 12576.9867435109,
-    "tax_revenue_pct_gdp": 14.369653991008,
-    "gov_exp_pct_gdp": 16.8805903400909
-  },
-  {
-    "iso3": "PK",
-    "name": "PK",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 407307214476.222,
-    "population": 255219554,
-    "pop_0_14_pct": 36.244101546694,
-    "gdp_pc_ppa": 6573.41613369925
-  },
-  {
-    "iso3": "PL",
-    "name": "PL",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 1035491784197.44,
-    "population": 36435861,
-    "pop_0_14_pct": 14.4603840660905,
-    "gdp_pc_ppa": 54262.4040405236,
-    "tax_revenue_pct_gdp": 17.389703708732,
-    "gov_exp_pct_gdp": 39.0982392627941
-  },
-  {
-    "iso3": "PR",
-    "name": "PR",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 129368484000,
-    "population": 3184835,
-    "pop_0_14_pct": 11.2396433147636,
-    "gdp_pc_ppa": 52195.5534213472
-  },
-  {
-    "iso3": "PS",
-    "name": "PS",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "gov_exp_pct_gdp": "2021"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp"
-    ],
-    "gdp_usd": 17167100000,
-    "population": 5413596,
-    "pop_0_14_pct": 37.5908894034535,
-    "gdp_pc_ppa": 4999.71301859773,
-    "gov_exp_pct_gdp": 26.1664917273852
-  },
-  {
-    "iso3": "PT",
-    "name": "PT",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 346639825141.821,
-    "population": 10804871,
-    "pop_0_14_pct": 12.7139902880698,
-    "gdp_pc_ppa": 53145.7317498942,
-    "tax_revenue_pct_gdp": 22.3472676749446,
-    "gov_exp_pct_gdp": 37.1595074085006
-  },
-  {
-    "iso3": "PW",
-    "name": "PW",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 345000000,
-    "population": 17663,
-    "pop_0_14_pct": 17.9363057324841,
-    "gdp_pc_ppa": 23051.6787122681
-  },
-  {
-    "iso3": "PY",
-    "name": "PY",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 49278227554.3339,
-    "population": 7013078,
-    "pop_0_14_pct": 28.3712036548862,
-    "gdp_pc_ppa": 20181.4242826808,
-    "tax_revenue_pct_gdp": 11.3333046408497,
-    "gov_exp_pct_gdp": 18.94568644434
-  },
-  {
-    "iso3": "QA",
-    "name": "QA",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 215559615384.615,
-    "population": 2972215,
-    "pop_0_14_pct": 15.0002960632256,
-    "gdp_pc_ppa": 128882.934242572
-  },
-  {
-    "iso3": "RO",
-    "name": "RO",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2022"
-    },
-    "missing": [],
-    "gdp_usd": 428677977854.826,
-    "population": 19020271,
-    "pop_0_14_pct": 15.5552851325905,
-    "gdp_pc_ppa": 50895.081617639,
-    "tax_revenue_pct_gdp": 16.2063555287274,
-    "gov_exp_pct_gdp": 37.3030637489096
-  },
-  {
-    "iso3": "RS",
-    "name": "RS",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2022",
-      "gov_exp_pct_gdp": "2022"
-    },
-    "missing": [],
-    "gdp_usd": 99953324472.9042,
-    "population": 6549143,
-    "pop_0_14_pct": 14.2579001258626,
-    "gdp_pc_ppa": 33909.7605745332,
-    "tax_revenue_pct_gdp": 23.8929959453301,
-    "gov_exp_pct_gdp": 35.4627580017931
-  },
-  {
-    "iso3": "RU",
-    "name": "RU",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 2561310169358.74,
-    "population": 143513328,
-    "pop_0_14_pct": 17.027484657309,
-    "gdp_pc_ppa": 49568.140625,
-    "tax_revenue_pct_gdp": 10.8718510370824,
-    "gov_exp_pct_gdp": 29.9691335018192
-  },
-  {
-    "iso3": "RW",
-    "name": "RW",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 16372132990.2271,
-    "population": 14569341,
-    "pop_0_14_pct": 37.01944504626,
-    "gdp_pc_ppa": 4164.436605809,
-    "tax_revenue_pct_gdp": 12.6924765057502,
-    "gov_exp_pct_gdp": 17.9714861804371
-  },
-  {
-    "iso3": "S1",
-    "name": "S1",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 337311651764.51,
-    "population": 20347135,
-    "pop_0_14_pct": 24.1654432227369,
-    "gdp_pc_ppa": 30378.738821689
-  },
-  {
-    "iso3": "S2",
-    "name": "S2",
+    "iso3": "HRV",
+    "iso_numeric": "191",
+    "name": "Croatia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3308,296 +871,17 @@
       "gov_exp_pct_gdp": "2023"
     },
     "missing": [],
-    "gdp_usd": 13005809518.6945,
-    "population": 2755649,
-    "pop_0_14_pct": 33.0102718035354,
-    "gdp_pc_ppa": 8735.40490937936,
-    "tax_revenue_pct_gdp": 20.9241813306231,
-    "gov_exp_pct_gdp": 31.1404006446027
+    "gdp_usd": 105060182186.274,
+    "population": 3876200,
+    "pop_0_14_pct": 13.7024318115671,
+    "gdp_pc_ppa": 50946.1671131832,
+    "tax_revenue_pct_gdp": 21.1835412825499,
+    "gov_exp_pct_gdp": 38.1252645669689
   },
   {
-    "iso3": "S3",
-    "name": "S3",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 95141207521.3621,
-    "population": 4556558,
-    "pop_0_14_pct": 21.5994624744025,
-    "gdp_pc_ppa": 42963.806092907
-  },
-  {
-    "iso3": "S4",
-    "name": "S4",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2023",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 228636677706.691,
-    "population": 13034928,
-    "pop_0_14_pct": 23.1925799336432,
-    "gdp_pc_ppa": 30603.52331318,
-    "tax_revenue_pct_gdp": 22.011776274568,
-    "gov_exp_pct_gdp": 35.0770843379385
-  },
-  {
-    "iso3": "SA",
-    "name": "SA",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 1276942933333.33,
-    "population": 36973555,
-    "pop_0_14_pct": 23.6210800290965,
-    "gdp_pc_ppa": 73783.5613906833,
-    "tax_revenue_pct_gdp": 8.09115587851805,
-    "gov_exp_pct_gdp": 24.219126573207
-  },
-  {
-    "iso3": "SB",
-    "name": "SB",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2022"
-    },
-    "missing": [],
-    "gdp_usd": 1749572442.95016,
-    "population": 838645,
-    "pop_0_14_pct": 36.5575800502119,
-    "gdp_pc_ppa": 2787.61656406214,
-    "tax_revenue_pct_gdp": 23.2738445550553,
-    "gov_exp_pct_gdp": 28.8903334458529
-  },
-  {
-    "iso3": "SC",
-    "name": "SC",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 2387022853.48583,
-    "population": 122730,
-    "pop_0_14_pct": 19.7660012727964,
-    "gdp_pc_ppa": 35854.0281615068
-  },
-  {
-    "iso3": "SD",
-    "name": "SD",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 60162634574.4689,
-    "population": 51662147,
-    "pop_0_14_pct": 40.2133389828597,
-    "gdp_pc_ppa": 2192.27221679688
-  },
-  {
-    "iso3": "SE",
-    "name": "SE",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2022"
-    },
-    "missing": [],
-    "gdp_usd": 668998664082.081,
-    "population": 10596620,
-    "pop_0_14_pct": 16.7064916282657,
-    "gdp_pc_ppa": 72528.8892631159,
-    "tax_revenue_pct_gdp": 27.2263453447308,
-    "gov_exp_pct_gdp": 32.505108387211
-  },
-  {
-    "iso3": "SG",
-    "name": "SG",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 603869516998.738,
-    "population": 6111175,
-    "pop_0_14_pct": 11.6891623727803,
-    "gdp_pc_ppa": 163353.990260152,
-    "tax_revenue_pct_gdp": 13.5602685073681,
-    "gov_exp_pct_gdp": 17.109108094367
-  },
-  {
-    "iso3": "SI",
-    "name": "SI",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 79648204979.3618,
-    "population": 2130986,
-    "pop_0_14_pct": 14.4822660731425,
-    "gdp_pc_ppa": 59244.7106359661,
-    "tax_revenue_pct_gdp": 20.9851312589996,
-    "gov_exp_pct_gdp": 42.8744911319917
-  },
-  {
-    "iso3": "SK",
-    "name": "SK",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2022"
-    },
-    "missing": [],
-    "gdp_usd": 154530066506.895,
-    "population": 5413813,
-    "pop_0_14_pct": 15.5700735778549,
-    "gdp_pc_ppa": 49308.7048471448,
-    "tax_revenue_pct_gdp": 19.1422953144335,
-    "gov_exp_pct_gdp": 39.7740575217895
-  },
-  {
-    "iso3": "SL",
-    "name": "SL",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 7464157904.43509,
-    "population": 8819794,
-    "pop_0_14_pct": 37.6507206404141,
-    "gdp_pc_ppa": 3716.89410482498
-  },
-  {
-    "iso3": "SM",
-    "name": "SM",
-    "years": {
-      "gdp_usd": "2023",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2023",
-      "tax_revenue_pct_gdp": "2023",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 2027243193.5116,
-    "population": 34109,
-    "pop_0_14_pct": 11.8504728572492,
-    "gdp_pc_ppa": 78810.3378046111,
-    "tax_revenue_pct_gdp": 17.2694010431737,
-    "gov_exp_pct_gdp": 40.4897504883926
-  },
-  {
-    "iso3": "SN",
-    "name": "SN",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2023",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 37006536238.3731,
-    "population": 18931966,
-    "pop_0_14_pct": 37.7428065911695,
-    "gdp_pc_ppa": 5463.21828561328,
-    "tax_revenue_pct_gdp": 19.5370790023371,
-    "gov_exp_pct_gdp": 23.5632436487827
-  },
-  {
-    "iso3": "SO",
-    "name": "SO",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 12995200000.2658,
-    "population": 19654739,
-    "pop_0_14_pct": 46.5538794486154,
-    "gdp_pc_ppa": 1642.77032278186,
-    "tax_revenue_pct_gdp": 2.23869244477274,
-    "gov_exp_pct_gdp": 6.34830985941583
-  },
-  {
-    "iso3": "SR",
-    "name": "SR",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 4523657796.86421,
-    "population": 639850,
-    "pop_0_14_pct": 25.3373446901618,
-    "gdp_pc_ppa": 22652.3952637959
-  },
-  {
-    "iso3": "SS",
-    "name": "SS",
+    "iso3": "CUB",
+    "iso_numeric": "192",
+    "name": "Cuba",
     "years": {
       "population": "2025",
       "pop_0_14_pct": "2025"
@@ -3608,12 +892,92 @@
       "tax_revenue_pct_gdp",
       "gov_exp_pct_gdp"
     ],
-    "population": 12188788,
-    "pop_0_14_pct": 37.9863157846375
+    "population": 10937203,
+    "pop_0_14_pct": 15.0237672728682
   },
   {
-    "iso3": "ST",
-    "name": "ST",
+    "iso3": "CUW",
+    "iso_numeric": "531",
+    "name": "Curaçao",
+    "years": {
+      "gdp_usd": "2024",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2024"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 3561178212.2905,
+    "population": 156263,
+    "pop_0_14_pct": 14.6037188590036,
+    "gdp_pc_ppa": 32740.7736763943
+  },
+  {
+    "iso3": "CYP",
+    "iso_numeric": "196",
+    "name": "Cyprus",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 41225787247.3309,
+    "population": 1370754,
+    "pop_0_14_pct": 16.0809671173675,
+    "gdp_pc_ppa": 64574.62109375,
+    "tax_revenue_pct_gdp": 23.9417875708341,
+    "gov_exp_pct_gdp": 38.4593865037483
+  },
+  {
+    "iso3": "CZE",
+    "iso_numeric": "203",
+    "name": "Czechia",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2022"
+    },
+    "missing": [],
+    "gdp_usd": 391026962800.475,
+    "population": 10886878,
+    "pop_0_14_pct": 15.085690166576,
+    "gdp_pc_ppa": 60487.2877495391,
+    "tax_revenue_pct_gdp": 18.6481947859548,
+    "gov_exp_pct_gdp": 34.4426537105922
+  },
+  {
+    "iso3": "DNK",
+    "iso_numeric": "208",
+    "name": "Denmark",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 462526660468.393,
+    "population": 6009169,
+    "pop_0_14_pct": 15.5619810189309,
+    "gdp_pc_ppa": 83218.071525634,
+    "tax_revenue_pct_gdp": 33.3582767843919,
+    "gov_exp_pct_gdp": 33.3385713177252
+  },
+  {
+    "iso3": "DJI",
+    "iso_numeric": "262",
+    "name": "Djibouti",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3624,14 +988,113 @@
       "tax_revenue_pct_gdp",
       "gov_exp_pct_gdp"
     ],
-    "gdp_usd": 981293586.906408,
-    "population": 240254,
-    "pop_0_14_pct": 37.4553597442706,
-    "gdp_pc_ppa": 6388.47738664299
+    "gdp_usd": 4624533092.31886,
+    "population": 1184076,
+    "pop_0_14_pct": 28.8031220955741,
+    "gdp_pc_ppa": 8451.96838146073
   },
   {
-    "iso3": "SV",
-    "name": "SV",
+    "iso3": "DMA",
+    "iso_numeric": "212",
+    "name": "Dominica",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 723859259.259259,
+    "population": 65871,
+    "pop_0_14_pct": 17.6115619046173,
+    "gdp_pc_ppa": 22713.1288027433
+  },
+  {
+    "iso3": "DOM",
+    "iso_numeric": "214",
+    "name": "Dominican Republic",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 127407463759.043,
+    "population": 11520487,
+    "pop_0_14_pct": 26.1990877642586,
+    "gdp_pc_ppa": 28721.0964580217,
+    "tax_revenue_pct_gdp": 14.7034417605733,
+    "gov_exp_pct_gdp": 18.066236602366
+  },
+  {
+    "iso3": "COD",
+    "iso_numeric": "180",
+    "name": "DR Congo",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2022",
+      "gov_exp_pct_gdp": "2022"
+    },
+    "missing": [],
+    "gdp_usd": 91030531316.9936,
+    "population": 112832473,
+    "pop_0_14_pct": 45.9497905359213,
+    "gdp_pc_ppa": 1919.82250200565,
+    "tax_revenue_pct_gdp": 10.6622824647321,
+    "gov_exp_pct_gdp": 12.4487617400964
+  },
+  {
+    "iso3": "ECU",
+    "iso_numeric": "218",
+    "name": "Ecuador",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2022",
+      "gov_exp_pct_gdp": "2022"
+    },
+    "missing": [],
+    "gdp_usd": 130320560400,
+    "population": 18289896,
+    "pop_0_14_pct": 23.8989740564955,
+    "gdp_pc_ppa": 16756.6539631307,
+    "tax_revenue_pct_gdp": 13.0891981784206,
+    "gov_exp_pct_gdp": 30.4365983203311
+  },
+  {
+    "iso3": "EGY",
+    "iso_numeric": "818",
+    "name": "Egypt",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 365254630179.737,
+    "population": 118365995,
+    "pop_0_14_pct": 31.5562617099458,
+    "gdp_pc_ppa": 20204.0130500153
+  },
+  {
+    "iso3": "SLV",
+    "iso_numeric": "222",
+    "name": "El Salvador",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3649,44 +1112,66 @@
     "gov_exp_pct_gdp": 27.9180096903272
   },
   {
-    "iso3": "SX",
-    "name": "SX",
+    "iso3": "GNQ",
+    "iso_numeric": "226",
+    "name": "Equatorial Guinea",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
       "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2022",
+      "gov_exp_pct_gdp": "2022"
+    },
+    "missing": [],
+    "gdp_usd": 12823210425.9217,
+    "population": 1938431,
+    "pop_0_14_pct": 37.0865406093898,
+    "gdp_pc_ppa": 16133.1056143137,
+    "tax_revenue_pct_gdp": 6.5959868257378,
+    "gov_exp_pct_gdp": 11.0452921646904
+  },
+  {
+    "iso3": "ERI",
+    "iso_numeric": "232",
+    "name": "Eritrea",
+    "years": {
+      "population": "2025",
+      "pop_0_14_pct": "2025"
     },
     "missing": [
+      "gdp_usd",
+      "gdp_pc_ppa",
       "tax_revenue_pct_gdp",
       "gov_exp_pct_gdp"
     ],
-    "gdp_usd": 1887728480.44693,
-    "population": 43923,
-    "pop_0_14_pct": 14.8054550007968,
-    "gdp_pc_ppa": 56490.5015205836
+    "population": 3607003,
+    "pop_0_14_pct": 37.590556481378
   },
   {
-    "iso3": "SY",
-    "name": "SY",
+    "iso3": "EST",
+    "iso_numeric": "233",
+    "name": "Estonia",
     "years": {
-      "gdp_usd": "2022",
+      "gdp_usd": "2025",
       "population": "2025",
       "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2022"
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
     },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 23737634644.3994,
-    "population": 25620427,
-    "pop_0_14_pct": 28.4407365349675,
-    "gdp_pc_ppa": 4905.15252202552
+    "missing": [],
+    "gdp_usd": 47030833798.5866,
+    "population": 1366475,
+    "pop_0_14_pct": 15.2537657190128,
+    "gdp_pc_ppa": 52105.5093433416,
+    "tax_revenue_pct_gdp": 22.6679583165361,
+    "gov_exp_pct_gdp": 37.6884300915577
   },
   {
-    "iso3": "SZ",
-    "name": "SZ",
+    "iso3": "SWZ",
+    "iso_numeric": "748",
+    "name": "Eswatini",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3704,8 +1189,9 @@
     "gov_exp_pct_gdp": 24.6155754063595
   },
   {
-    "iso3": "T2",
-    "name": "T2",
+    "iso3": "ETH",
+    "iso_numeric": "231",
+    "name": "Ethiopia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3715,109 +1201,17 @@
       "gov_exp_pct_gdp": "2023"
     },
     "missing": [],
-    "gdp_usd": 7050566084338.85,
-    "population": 651467364,
-    "pop_0_14_pct": 22.3241509904074,
-    "gdp_pc_ppa": 23773.0633533423,
-    "tax_revenue_pct_gdp": 14.7120489848796,
-    "gov_exp_pct_gdp": 27.5884922035103
+    "gdp_usd": 126358758448.356,
+    "population": 135472051,
+    "pop_0_14_pct": 38.7797271142655,
+    "gdp_pc_ppa": 3621.67487597821,
+    "tax_revenue_pct_gdp": 3.39819259732559,
+    "gov_exp_pct_gdp": 6.12162158600518
   },
   {
-    "iso3": "T3",
-    "name": "T3",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 2115722770483.32,
-    "population": 748489811,
-    "pop_0_14_pct": 32.6440007114362,
-    "gdp_pc_ppa": 11663.1088560566
-  },
-  {
-    "iso3": "T4",
-    "name": "T4",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024"
-    },
-    "missing": [
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 23218679986475.4,
-    "population": 2117367063,
-    "pop_0_14_pct": 18.2205834770561,
-    "gdp_pc_ppa": 25366.6056330139,
-    "tax_revenue_pct_gdp": 7.67629294830011
-  },
-  {
-    "iso3": "T5",
-    "name": "T5",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2022",
-      "gov_exp_pct_gdp": "2022"
-    },
-    "missing": [],
-    "gdp_usd": 4578021773987.28,
-    "population": 1692252900,
-    "pop_0_14_pct": 24.5855012931206,
-    "gdp_pc_ppa": 11562.1850810909,
-    "tax_revenue_pct_gdp": 6.94615164259224,
-    "gov_exp_pct_gdp": 13.8009764072263
-  },
-  {
-    "iso3": "T6",
-    "name": "T6",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 2211221046102.8,
-    "population": 1321654217,
-    "pop_0_14_pct": 40.3797745629289,
-    "gdp_pc_ppa": 5785.99485616741
-  },
-  {
-    "iso3": "T7",
-    "name": "T7",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 7077191807196.39,
-    "population": 462559433,
-    "pop_0_14_pct": 19.8237188214271,
-    "gdp_pc_ppa": 39498.078452217,
-    "tax_revenue_pct_gdp": 14.5297724881016,
-    "gov_exp_pct_gdp": 32.2545033251129
-  },
-  {
-    "iso3": "TC",
-    "name": "TC",
+    "iso3": "FRO",
+    "iso_numeric": "234",
+    "name": "Faroe Islands",
     "years": {
       "gdp_usd": "2024",
       "population": "2025",
@@ -3828,14 +1222,113 @@
       "tax_revenue_pct_gdp",
       "gov_exp_pct_gdp"
     ],
-    "gdp_usd": 1745378000,
-    "population": 46855,
-    "pop_0_14_pct": 15.9749863940497,
-    "gdp_pc_ppa": 38009.5079479808
+    "gdp_usd": 4052937169.76536,
+    "population": 54900,
+    "pop_0_14_pct": 19.8700034820496,
+    "gdp_pc_ppa": 82089.2832575392
   },
   {
-    "iso3": "TD",
-    "name": "TD",
+    "iso3": "FJI",
+    "iso_numeric": "242",
+    "name": "Fiji",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 6198013062.06553,
+    "population": 933154,
+    "pop_0_14_pct": 26.8285155352088,
+    "gdp_pc_ppa": 16337.5722970567,
+    "tax_revenue_pct_gdp": 23.9464341913943,
+    "gov_exp_pct_gdp": 27.7596127035997
+  },
+  {
+    "iso3": "FIN",
+    "iso_numeric": "246",
+    "name": "Finland",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 317039368819.607,
+    "population": 5646436,
+    "pop_0_14_pct": 14.3301135030412,
+    "gdp_pc_ppa": 65884.4876972259,
+    "tax_revenue_pct_gdp": 25.3281786132257,
+    "gov_exp_pct_gdp": 44.9061372502335
+  },
+  {
+    "iso3": "FRA",
+    "iso_numeric": "250",
+    "name": "France",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 3366315927447.33,
+    "population": 68720337,
+    "pop_0_14_pct": 16.2248746749936,
+    "gdp_pc_ppa": 63975.353585864,
+    "tax_revenue_pct_gdp": 22.778486344686,
+    "gov_exp_pct_gdp": 47.2580360132692
+  },
+  {
+    "iso3": "PYF",
+    "iso_numeric": "258",
+    "name": "French Polynesia",
+    "years": {
+      "gdp_usd": "2024",
+      "population": "2025",
+      "pop_0_14_pct": "2025"
+    },
+    "missing": [
+      "gdp_pc_ppa",
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 6323716355.05009,
+    "population": 282465,
+    "pop_0_14_pct": 18.4527286566477
+  },
+  {
+    "iso3": "GAB",
+    "iso_numeric": "266",
+    "name": "Gabon",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2021",
+      "gov_exp_pct_gdp": "2021"
+    },
+    "missing": [],
+    "gdp_usd": 21427119323.2764,
+    "population": 2593130,
+    "pop_0_14_pct": 36.2428486506362,
+    "gdp_pc_ppa": 22218.341068445,
+    "tax_revenue_pct_gdp": 9.49032554464136,
+    "gov_exp_pct_gdp": 14.0519584891347
+  },
+  {
+    "iso3": "GMB",
+    "iso_numeric": "270",
+    "name": "Gambia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3846,14 +1339,323 @@
       "tax_revenue_pct_gdp",
       "gov_exp_pct_gdp"
     ],
-    "gdp_usd": 21472835225.4338,
-    "population": 21003705,
-    "pop_0_14_pct": 45.961619628537,
-    "gdp_pc_ppa": 2902.7406157583
+    "gdp_usd": 2593673987.53306,
+    "population": 2822093,
+    "pop_0_14_pct": 39.723265675511,
+    "gdp_pc_ppa": 3705.64184038599
   },
   {
-    "iso3": "TG",
-    "name": "TG",
+    "iso3": "GEO",
+    "iso_numeric": "268",
+    "name": "Georgia",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 38143612855.1367,
+    "population": 3935766,
+    "pop_0_14_pct": 20.4880721239109,
+    "gdp_pc_ppa": 29414.3813424216,
+    "tax_revenue_pct_gdp": 24.2581681938283,
+    "gov_exp_pct_gdp": 25.241719707501
+  },
+  {
+    "iso3": "DEU",
+    "iso_numeric": "276",
+    "name": "Germany",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2022"
+    },
+    "missing": [],
+    "gdp_usd": 5050922925047.05,
+    "population": 83491249,
+    "pop_0_14_pct": 13.8859014629835,
+    "gdp_pc_ppa": 75406.6888111618,
+    "tax_revenue_pct_gdp": 10.890812364142,
+    "gov_exp_pct_gdp": 31.174891399437
+  },
+  {
+    "iso3": "GHA",
+    "iso_numeric": "288",
+    "name": "Ghana",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2023",
+      "gov_exp_pct_gdp": "2022"
+    },
+    "missing": [],
+    "gdp_usd": 114209905278.717,
+    "population": 35064272,
+    "pop_0_14_pct": 35.4296770309437,
+    "gdp_pc_ppa": 8610.2796922986,
+    "tax_revenue_pct_gdp": 12.393098457103,
+    "gov_exp_pct_gdp": 22.6789929500877
+  },
+  {
+    "iso3": "GIB",
+    "iso_numeric": "292",
+    "name": "Gibraltar",
+    "years": {
+      "population": "2025",
+      "pop_0_14_pct": "2025"
+    },
+    "missing": [
+      "gdp_usd",
+      "gdp_pc_ppa",
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "population": 40126,
+    "pop_0_14_pct": 17.587100633006
+  },
+  {
+    "iso3": "GRC",
+    "iso_numeric": "300",
+    "name": "Greece",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 280635521324.441,
+    "population": 10413962,
+    "pop_0_14_pct": 12.8514587384882,
+    "gdp_pc_ppa": 45263.6498511586,
+    "tax_revenue_pct_gdp": 27.3811388505066,
+    "gov_exp_pct_gdp": 47.3019610078935
+  },
+  {
+    "iso3": "GRL",
+    "iso_numeric": "304",
+    "name": "Greenland",
+    "years": {
+      "gdp_usd": "2023",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2023"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 3326543974.39193,
+    "population": 56831,
+    "pop_0_14_pct": 20.7410596561096,
+    "gdp_pc_ppa": 78905.5801137274
+  },
+  {
+    "iso3": "GRD",
+    "iso_numeric": "308",
+    "name": "Grenada",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 1420173228.56948,
+    "population": 117303,
+    "pop_0_14_pct": 19.0109417025067,
+    "gdp_pc_ppa": 21345.9653408221
+  },
+  {
+    "iso3": "GUM",
+    "iso_numeric": "316",
+    "name": "Guam",
+    "years": {
+      "gdp_usd": "2022",
+      "population": "2025",
+      "pop_0_14_pct": "2025"
+    },
+    "missing": [
+      "gdp_pc_ppa",
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 6910000000,
+    "population": 168999,
+    "pop_0_14_pct": 25.867685216141
+  },
+  {
+    "iso3": "GTM",
+    "iso_numeric": "320",
+    "name": "Guatemala",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 123306008821.471,
+    "population": 18687881,
+    "pop_0_14_pct": 31.0259646070637,
+    "gdp_pc_ppa": 15197.0831415082,
+    "tax_revenue_pct_gdp": 11.6299581317282,
+    "gov_exp_pct_gdp": 13.5099500396777
+  },
+  {
+    "iso3": "GIN",
+    "iso_numeric": "324",
+    "name": "Guinea",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 28346024753.2924,
+    "population": 15099727,
+    "pop_0_14_pct": 40.5483688546157,
+    "gdp_pc_ppa": 4934.65125959855
+  },
+  {
+    "iso3": "GNB",
+    "iso_numeric": "624",
+    "name": "Guinea-Bissau",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 2527930272.92988,
+    "population": 2249515,
+    "pop_0_14_pct": 38.3251723149212,
+    "gdp_pc_ppa": 3293.09532269486,
+    "tax_revenue_pct_gdp": 8.3038460722115,
+    "gov_exp_pct_gdp": 15.5376266451373
+  },
+  {
+    "iso3": "GUY",
+    "iso_numeric": "328",
+    "name": "Guyana",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 27097477218.2254,
+    "population": 835986,
+    "pop_0_14_pct": 28.9333194575029,
+    "gdp_pc_ppa": 97899.0116180627
+  },
+  {
+    "iso3": "HTI",
+    "iso_numeric": "332",
+    "name": "Haiti",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 32077278409.2339,
+    "population": 11906095,
+    "pop_0_14_pct": 30.7870535726847,
+    "gdp_pc_ppa": 3133.72347930529
+  },
+  {
+    "iso3": "HND",
+    "iso_numeric": "340",
+    "name": "Honduras",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 39601409103.3005,
+    "population": 11005850,
+    "pop_0_14_pct": 30.2626526012372,
+    "gdp_pc_ppa": 7871.09129065536
+  },
+  {
+    "iso3": "HKG",
+    "iso_numeric": "344",
+    "name": "Hong Kong",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 427310315921.993,
+    "population": 7498900,
+    "pop_0_14_pct": 10.3113664597281,
+    "gdp_pc_ppa": 80422.8129947646
+  },
+  {
+    "iso3": "HUN",
+    "iso_numeric": "348",
+    "name": "Hungary",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2022"
+    },
+    "missing": [],
+    "gdp_usd": 246490213513.054,
+    "population": 9514251,
+    "pop_0_14_pct": 14.352453368551,
+    "gdp_pc_ppa": 49837.6008411067,
+    "tax_revenue_pct_gdp": 22.7430789981067,
+    "gov_exp_pct_gdp": 42.4178061387445
+  },
+  {
+    "iso3": "ISL",
+    "iso_numeric": "352",
+    "name": "Iceland",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3863,54 +1665,17 @@
       "gov_exp_pct_gdp": "2023"
     },
     "missing": [],
-    "gdp_usd": 11889949067.4697,
-    "population": 8591626,
-    "pop_0_14_pct": 40.4253513828465,
-    "gdp_pc_ppa": 4079.36376686718,
-    "tax_revenue_pct_gdp": 13.9214440832607,
-    "gov_exp_pct_gdp": 16.028611767784
+    "gdp_usd": 38582528789.0033,
+    "population": 392404,
+    "pop_0_14_pct": 17.5179402710751,
+    "gdp_pc_ppa": 83431.2131434311,
+    "tax_revenue_pct_gdp": 23.1574850740894,
+    "gov_exp_pct_gdp": 32.0496243351256
   },
   {
-    "iso3": "TH",
-    "name": "TH",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 577009981112.015,
-    "population": 71619863,
-    "pop_0_14_pct": 14.4141877233136,
-    "gdp_pc_ppa": 26250.0723587304,
-    "tax_revenue_pct_gdp": 15.1750172236637,
-    "gov_exp_pct_gdp": 20.7220010288103
-  },
-  {
-    "iso3": "TJ",
-    "name": "TJ",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 17660626562.4832,
-    "population": 10786734,
-    "pop_0_14_pct": 35.8670954464574,
-    "gdp_pc_ppa": 5923.47183321348,
-    "tax_revenue_pct_gdp": 10.7110753929,
-    "gov_exp_pct_gdp": 11.0194157341873
-  },
-  {
-    "iso3": "TL",
-    "name": "TL",
+    "iso3": "IND",
+    "iso_numeric": "356",
+    "name": "India",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3920,16 +1685,17 @@
       "gov_exp_pct_gdp": "2022"
     },
     "missing": [],
-    "gdp_usd": 1902180257.82737,
-    "population": 1418517,
-    "pop_0_14_pct": 33.1150655525928,
-    "gdp_pc_ppa": 4809.49016945191,
-    "tax_revenue_pct_gdp": 21.6431378705086,
-    "gov_exp_pct_gdp": 52.4935012893649
+    "gdp_usd": 3956067115771.63,
+    "population": 1463865525,
+    "pop_0_14_pct": 24.1952667831956,
+    "gdp_pc_ppa": 11747.9160436011,
+    "tax_revenue_pct_gdp": 6.93372148022965,
+    "gov_exp_pct_gdp": 13.7280694252264
   },
   {
-    "iso3": "TM",
-    "name": "TM",
+    "iso3": "IDN",
+    "iso_numeric": "360",
+    "name": "Indonesia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3940,14 +1706,15 @@
       "tax_revenue_pct_gdp",
       "gov_exp_pct_gdp"
     ],
-    "gdp_usd": 49828621355.6516,
-    "population": 7618847,
-    "pop_0_14_pct": 31.2185274741357,
-    "gdp_pc_ppa": 22601.5518373128
+    "gdp_usd": 1445642584163.81,
+    "population": 285721236,
+    "pop_0_14_pct": 24.2472504288188,
+    "gdp_pc_ppa": 17659.7921291587
   },
   {
-    "iso3": "TN",
-    "name": "TN",
+    "iso3": "IRN",
+    "iso_numeric": "364",
+    "name": "Iran",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3958,14 +1725,112 @@
       "tax_revenue_pct_gdp",
       "gov_exp_pct_gdp"
     ],
-    "gdp_usd": 57502836548.0878,
-    "population": 12348573,
-    "pop_0_14_pct": 23.5608681262199,
-    "gdp_pc_ppa": 15233.4885842318
+    "gdp_usd": 362682115433.364,
+    "population": 92417681,
+    "pop_0_14_pct": 22.0217357542222,
+    "gdp_pc_ppa": 19699.2193549189
   },
   {
-    "iso3": "TO",
-    "name": "TO",
+    "iso3": "IRQ",
+    "iso_numeric": "368",
+    "name": "Iraq",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 254367293538.462,
+    "population": 47020774,
+    "pop_0_14_pct": 36.0269984071296,
+    "gdp_pc_ppa": 14266.7965348226
+  },
+  {
+    "iso3": "IRL",
+    "iso_numeric": "372",
+    "name": "Ireland",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2022"
+    },
+    "missing": [],
+    "gdp_usd": 721701359046.313,
+    "population": 5484367,
+    "pop_0_14_pct": 18.0959201693884,
+    "gdp_pc_ppa": 155089.413131749,
+    "tax_revenue_pct_gdp": 17.9419509627541,
+    "gov_exp_pct_gdp": 19.2427274217679
+  },
+  {
+    "iso3": "IMN",
+    "iso_numeric": "833",
+    "name": "Isle of Man",
+    "years": {
+      "gdp_usd": "2023",
+      "population": "2025",
+      "pop_0_14_pct": "2025"
+    },
+    "missing": [
+      "gdp_pc_ppa",
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 7576129932.79381,
+    "population": 84118,
+    "pop_0_14_pct": 13.9053834768808
+  },
+  {
+    "iso3": "ISR",
+    "iso_numeric": "376",
+    "name": "Israel",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 610777842873.595,
+    "population": 10122800,
+    "pop_0_14_pct": 27.1639326374024,
+    "gdp_pc_ppa": 59716.9735387228,
+    "tax_revenue_pct_gdp": 23.2419259606462,
+    "gov_exp_pct_gdp": 37.348337781417
+  },
+  {
+    "iso3": "ITA",
+    "iso_numeric": "380",
+    "name": "Italy",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 2551556954100.35,
+    "population": 58915656,
+    "pop_0_14_pct": 11.6571656432714,
+    "gdp_pc_ppa": 62802.5108384276,
+    "tax_revenue_pct_gdp": 25.6045418430039,
+    "gov_exp_pct_gdp": 47.2773607528737
+  },
+  {
+    "iso3": "CIV",
+    "iso_numeric": "384",
+    "name": "Ivory Coast",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -3975,35 +1840,17 @@
       "gov_exp_pct_gdp": "2023"
     },
     "missing": [],
-    "gdp_usd": 679218218.578017,
-    "population": 103742,
-    "pop_0_14_pct": 34.9198010448998,
-    "gdp_pc_ppa": 8674.68048447494,
-    "tax_revenue_pct_gdp": 20.4538609329217,
-    "gov_exp_pct_gdp": 34.6540020354592
+    "gdp_usd": 99773555666.1988,
+    "population": 32711547,
+    "pop_0_14_pct": 40.4553985241878,
+    "gdp_pc_ppa": 8208.90898574972,
+    "tax_revenue_pct_gdp": 13.0371915910548,
+    "gov_exp_pct_gdp": 17.8812303499603
   },
   {
-    "iso3": "TR",
-    "name": "TR",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 1597293229287,
-    "population": 85878556,
-    "pop_0_14_pct": 21.0229035096437,
-    "gdp_pc_ppa": 45288.4750285273,
-    "tax_revenue_pct_gdp": 17.6239296509985,
-    "gov_exp_pct_gdp": 33.0277530817277
-  },
-  {
-    "iso3": "TT",
-    "name": "TT",
+    "iso3": "JAM",
+    "iso_numeric": "388",
+    "name": "Jamaica",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -4014,127 +1861,35 @@
       "tax_revenue_pct_gdp",
       "gov_exp_pct_gdp"
     ],
-    "gdp_usd": 25942749718.4685,
-    "population": 1367764,
-    "pop_0_14_pct": 17.4922823932687,
-    "gdp_pc_ppa": 37121.2050020847
+    "gdp_usd": 22704903217.5631,
+    "population": 2837077,
+    "pop_0_14_pct": 18.2849957394537,
+    "gdp_pc_ppa": 13291.253767787
   },
   {
-    "iso3": "TV",
-    "name": "TV",
+    "iso3": "JPN",
+    "iso_numeric": "392",
+    "name": "Japan",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
       "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
+      "gdp_pc_ppa": "2025",
+      "gov_exp_pct_gdp": "2022"
     },
     "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
+      "tax_revenue_pct_gdp"
     ],
-    "gdp_usd": 57345434.7234984,
-    "population": 9492,
-    "pop_0_14_pct": 33.0225453013064,
-    "gdp_pc_ppa": 6759.27941373717
+    "gdp_usd": 4435162999976.94,
+    "population": 123366734,
+    "pop_0_14_pct": 11.2383980634698,
+    "gdp_pc_ppa": 55421.8797530311,
+    "gov_exp_pct_gdp": 20.0582116003984
   },
   {
-    "iso3": "TZ",
-    "name": "TZ",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2024"
-    },
-    "missing": [],
-    "gdp_usd": 90143496090.4411,
-    "population": 70545865,
-    "pop_0_14_pct": 42.3404922457184,
-    "gdp_pc_ppa": 4470.9541015625,
-    "tax_revenue_pct_gdp": 12.260929249686,
-    "gov_exp_pct_gdp": 16.3411130288022
-  },
-  {
-    "iso3": "UA",
-    "name": "UA",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 214233312784.397,
-    "population": 38980376,
-    "pop_0_14_pct": 13.6943867127605,
-    "gdp_pc_ppa": 18904.98046875,
-    "tax_revenue_pct_gdp": 21.0177678568632,
-    "gov_exp_pct_gdp": 65.5600221546264
-  },
-  {
-    "iso3": "UG",
-    "name": "UG",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 61985829288.1496,
-    "population": 51384894,
-    "pop_0_14_pct": 43.1111622026505,
-    "gdp_pc_ppa": 3487.69797525182,
-    "tax_revenue_pct_gdp": 12.6255559227731,
-    "gov_exp_pct_gdp": 16.5833400364579
-  },
-  {
-    "iso3": "US",
-    "name": "US",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 30769700000000,
-    "population": 341784857,
-    "pop_0_14_pct": 17.0990415161586,
-    "gdp_pc_ppa": 90026.5163005744,
-    "tax_revenue_pct_gdp": 10.7694743667429,
-    "gov_exp_pct_gdp": 24.433337455127
-  },
-  {
-    "iso3": "UY",
-    "name": "UY",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 85347696277.6859,
-    "population": 3384688,
-    "pop_0_14_pct": 17.8970557995301,
-    "gdp_pc_ppa": 38314.8861221656,
-    "tax_revenue_pct_gdp": 17.862010224025,
-    "gov_exp_pct_gdp": 36.451913684213
-  },
-  {
-    "iso3": "UZ",
-    "name": "UZ",
+    "iso3": "JOR",
+    "iso_numeric": "400",
+    "name": "Jordan",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -4144,16 +1899,77 @@
       "gov_exp_pct_gdp": "2023"
     },
     "missing": [],
-    "gdp_usd": 147038081129.405,
-    "population": 37053428,
-    "pop_0_14_pct": 31.2904692650839,
-    "gdp_pc_ppa": 13601.2917473678,
-    "tax_revenue_pct_gdp": 11.0059302187391,
-    "gov_exp_pct_gdp": 22.344366105039
+    "gdp_usd": 61610052535.2113,
+    "population": 11520684,
+    "pop_0_14_pct": 30.196204921678,
+    "gdp_pc_ppa": 12631.6299394746,
+    "tax_revenue_pct_gdp": 15.5196043957928,
+    "gov_exp_pct_gdp": 25.8858328291716
   },
   {
-    "iso3": "V1",
-    "name": "V1",
+    "iso3": "KAZ",
+    "iso_numeric": "398",
+    "name": "Kazakhstan",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2023",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 306239209650.024,
+    "population": 20843754,
+    "pop_0_14_pct": 29.1373946090183,
+    "gdp_pc_ppa": 44293.4839632441,
+    "tax_revenue_pct_gdp": 11.8924774148637,
+    "gov_exp_pct_gdp": 17.4457811545455
+  },
+  {
+    "iso3": "KEN",
+    "iso_numeric": "404",
+    "name": "Kenya",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2023",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 135941278878.815,
+    "population": 57532493,
+    "pop_0_14_pct": 36.2577929332716,
+    "gdp_pc_ppa": 7015.93578839722,
+    "tax_revenue_pct_gdp": 14.0631113797385,
+    "gov_exp_pct_gdp": 27.8446410955634
+  },
+  {
+    "iso3": "KIR",
+    "iso_numeric": "296",
+    "name": "Kiribati",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2023",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 349227254.158833,
+    "population": 136488,
+    "pop_0_14_pct": 34.3644336336028,
+    "gdp_pc_ppa": 3936.61263730517,
+    "tax_revenue_pct_gdp": 17.531915667426,
+    "gov_exp_pct_gdp": 83.6811106250911
+  },
+  {
+    "iso3": "KWT",
+    "iso_numeric": "414",
+    "name": "Kuwait",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -4164,14 +1980,35 @@
       "tax_revenue_pct_gdp",
       "gov_exp_pct_gdp"
     ],
-    "gdp_usd": 1665770125125.74,
-    "population": 1133132223,
-    "pop_0_14_pct": 41.5995236827659,
-    "gdp_pc_ppa": 5479.27016520918
+    "gdp_usd": 157209026926.418,
+    "population": 4865298,
+    "pop_0_14_pct": 17.973071445874,
+    "gdp_pc_ppa": 56467.7272075432
   },
   {
-    "iso3": "V2",
-    "name": "V2",
+    "iso3": "KGZ",
+    "iso_numeric": "417",
+    "name": "Kyrgyzstan",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 22623752095.4613,
+    "population": 7343064,
+    "pop_0_14_pct": 31.9082109892695,
+    "gdp_pc_ppa": 9219.51443675205,
+    "tax_revenue_pct_gdp": 19.6152650825459,
+    "gov_exp_pct_gdp": 23.7050047610836
+  },
+  {
+    "iso3": "LAO",
+    "iso_numeric": "418",
+    "name": "Laos",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -4181,16 +2018,565 @@
       "gov_exp_pct_gdp": "2022"
     },
     "missing": [],
-    "gdp_usd": 16406032169247.4,
-    "population": 3592750579,
-    "pop_0_14_pct": 26.9232189394198,
-    "gdp_pc_ppa": 14620.932240004,
-    "tax_revenue_pct_gdp": 12.2279332373017,
-    "gov_exp_pct_gdp": 21.3463486825938
+    "gdp_usd": 18302970218.5902,
+    "population": 7873046,
+    "pop_0_14_pct": 29.839672589216,
+    "gdp_pc_ppa": 10382.9990718948,
+    "tax_revenue_pct_gdp": 12.1129327825423,
+    "gov_exp_pct_gdp": 10.3160241648868
   },
   {
-    "iso3": "V3",
-    "name": "V3",
+    "iso3": "LVA",
+    "iso_numeric": "428",
+    "name": "Latvia",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 48618869160.3254,
+    "population": 1847785,
+    "pop_0_14_pct": 15.1872424886394,
+    "gdp_pc_ppa": 46136.689377286,
+    "tax_revenue_pct_gdp": 17.6470478263995,
+    "gov_exp_pct_gdp": 34.1951936826963
+  },
+  {
+    "iso3": "LBN",
+    "iso_numeric": "422",
+    "name": "Lebanon",
+    "years": {
+      "gdp_usd": "2024",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2024",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2021"
+    },
+    "missing": [],
+    "gdp_usd": 25971643441.3408,
+    "population": 5849421,
+    "pop_0_14_pct": 25.5876800103532,
+    "gdp_pc_ppa": 11917.4502960889,
+    "tax_revenue_pct_gdp": 11.1389424540703,
+    "gov_exp_pct_gdp": 6.29571108447612
+  },
+  {
+    "iso3": "LSO",
+    "iso_numeric": "426",
+    "name": "Lesotho",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2022"
+    },
+    "missing": [],
+    "gdp_usd": 2573572920.05159,
+    "population": 2363325,
+    "pop_0_14_pct": 34.1020668130847,
+    "gdp_pc_ppa": 3184.11725194709,
+    "tax_revenue_pct_gdp": 35.4194711264231,
+    "gov_exp_pct_gdp": 40.2346111006294
+  },
+  {
+    "iso3": "LBR",
+    "iso_numeric": "430",
+    "name": "Liberia",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 5245938900,
+    "population": 5731206,
+    "pop_0_14_pct": 39.0803610967744,
+    "gdp_pc_ppa": 1981.09483342188
+  },
+  {
+    "iso3": "LBY",
+    "iso_numeric": "434",
+    "name": "Libya",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 48098909613.6316,
+    "population": 7458555,
+    "pop_0_14_pct": 26.8472061174856,
+    "gdp_pc_ppa": 16521.3998152838
+  },
+  {
+    "iso3": "LIE",
+    "iso_numeric": "438",
+    "name": "Liechtenstein",
+    "years": {
+      "gdp_usd": "2024",
+      "population": "2025",
+      "pop_0_14_pct": "2025"
+    },
+    "missing": [
+      "gdp_pc_ppa",
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 8905764270.4054,
+    "population": 41024,
+    "pop_0_14_pct": 14.2269736842105
+  },
+  {
+    "iso3": "LTU",
+    "iso_numeric": "440",
+    "name": "Lithuania",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 95210150818.3512,
+    "population": 2888774,
+    "pop_0_14_pct": 14.5052134263816,
+    "gdp_pc_ppa": 56837.8067003598,
+    "tax_revenue_pct_gdp": 21.8686469645785,
+    "gov_exp_pct_gdp": 33.859828121368
+  },
+  {
+    "iso3": "LUX",
+    "iso_numeric": "442",
+    "name": "Luxembourg",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 101157829491.107,
+    "population": 686970,
+    "pop_0_14_pct": 15.7458959355783,
+    "gdp_pc_ppa": 156542.075847247,
+    "tax_revenue_pct_gdp": 28.636905101724,
+    "gov_exp_pct_gdp": 42.2321737913696
+  },
+  {
+    "iso3": "MAC",
+    "iso_numeric": "446",
+    "name": "Macau",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 52061007670.169,
+    "population": 685900,
+    "pop_0_14_pct": 13.7089391100086,
+    "gdp_pc_ppa": 137030.679100085,
+    "tax_revenue_pct_gdp": 27.4162061856349,
+    "gov_exp_pct_gdp": 19.5867260271728
+  },
+  {
+    "iso3": "MDG",
+    "iso_numeric": "450",
+    "name": "Madagascar",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 19620352035.7899,
+    "population": 32740678,
+    "pop_0_14_pct": 38.9376603624397,
+    "gdp_pc_ppa": 1952.48426903369,
+    "tax_revenue_pct_gdp": 10.9446747862351,
+    "gov_exp_pct_gdp": 11.0354551048712
+  },
+  {
+    "iso3": "MWI",
+    "iso_numeric": "454",
+    "name": "Malawi",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2022"
+    },
+    "missing": [],
+    "gdp_usd": 14918276698.303,
+    "population": 22216120,
+    "pop_0_14_pct": 40.1264766333292,
+    "gdp_pc_ppa": 1899.29166528127,
+    "tax_revenue_pct_gdp": 15.5978477117661,
+    "gov_exp_pct_gdp": 20.1738542237372
+  },
+  {
+    "iso3": "MYS",
+    "iso_numeric": "458",
+    "name": "Malaysia",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 472193128644.597,
+    "population": 35977838,
+    "pop_0_14_pct": 21.3091653811994,
+    "gdp_pc_ppa": 41497.6746089548,
+    "tax_revenue_pct_gdp": 12.4304744518644,
+    "gov_exp_pct_gdp": 17.0088733715367
+  },
+  {
+    "iso3": "MDV",
+    "iso_numeric": "462",
+    "name": "Maldives",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2021",
+      "gov_exp_pct_gdp": "2021"
+    },
+    "missing": [],
+    "gdp_usd": 7741066860.6337,
+    "population": 529676,
+    "pop_0_14_pct": 19.0365430942689,
+    "gdp_pc_ppa": 28554.8945669737,
+    "tax_revenue_pct_gdp": 19.4532482767244,
+    "gov_exp_pct_gdp": 29.475529855381
+  },
+  {
+    "iso3": "MLI",
+    "iso_numeric": "466",
+    "name": "Mali",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 30069148580.7688,
+    "population": 25198821,
+    "pop_0_14_pct": 45.7939034966377,
+    "gdp_pc_ppa": 3502.76132351788
+  },
+  {
+    "iso3": "MLT",
+    "iso_numeric": "470",
+    "name": "Malta",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 27771821560.9411,
+    "population": 579704,
+    "pop_0_14_pct": 12.8992216793025,
+    "gdp_pc_ppa": 72210.3392223985,
+    "tax_revenue_pct_gdp": 24.0777855096016,
+    "gov_exp_pct_gdp": 33.6715285211806
+  },
+  {
+    "iso3": "MHL",
+    "iso_numeric": "584",
+    "name": "Marshall Islands",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 308000000,
+    "population": 36282,
+    "pop_0_14_pct": 33.8942175183287,
+    "gdp_pc_ppa": 8964.32212870807
+  },
+  {
+    "iso3": "MRT",
+    "iso_numeric": "478",
+    "name": "Mauritania",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 11679910946.4371,
+    "population": 5315065,
+    "pop_0_14_pct": 42.3845750131537,
+    "gdp_pc_ppa": 7675.51996658445
+  },
+  {
+    "iso3": "MUS",
+    "iso_numeric": "480",
+    "name": "Mauritius",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 16157804491.7614,
+    "population": 1243741,
+    "pop_0_14_pct": 14.5371347561795,
+    "gdp_pc_ppa": 33666.64355884,
+    "tax_revenue_pct_gdp": 20.5321450223193,
+    "gov_exp_pct_gdp": 29.1424031344469
+  },
+  {
+    "iso3": "MEX",
+    "iso_numeric": "484",
+    "name": "Mexico",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 1832641364775.52,
+    "population": 131946900,
+    "pop_0_14_pct": 24.0910608737303,
+    "gdp_pc_ppa": 25868.4787520629,
+    "tax_revenue_pct_gdp": 14.8241106773063,
+    "gov_exp_pct_gdp": 22.4594139014718
+  },
+  {
+    "iso3": "FSM",
+    "iso_numeric": "583",
+    "name": "Micronesia",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 501797600,
+    "population": 113683,
+    "pop_0_14_pct": 31.4941547988705,
+    "gdp_pc_ppa": 4604.39540764468
+  },
+  {
+    "iso3": "MDA",
+    "iso_numeric": "498",
+    "name": "Moldova",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 20351796275.2943,
+    "population": 2360527,
+    "pop_0_14_pct": 19.5343421651874,
+    "gdp_pc_ppa": 19995.7590923995,
+    "tax_revenue_pct_gdp": 18.7906434604242,
+    "gov_exp_pct_gdp": 34.4725442262112
+  },
+  {
+    "iso3": "MCO",
+    "iso_numeric": "492",
+    "name": "Monaco",
+    "years": {
+      "gdp_usd": "2024",
+      "population": "2025",
+      "pop_0_14_pct": "2025"
+    },
+    "missing": [
+      "gdp_pc_ppa",
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 11125788838.2812,
+    "population": 38341,
+    "pop_0_14_pct": 13.7711588117159
+  },
+  {
+    "iso3": "MNG",
+    "iso_numeric": "496",
+    "name": "Mongolia",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2021"
+    },
+    "missing": [],
+    "gdp_usd": 25369107325.4549,
+    "population": 3568978,
+    "pop_0_14_pct": 31.5602200676694,
+    "gdp_pc_ppa": 20797.7652692242,
+    "tax_revenue_pct_gdp": 16.8548718595202,
+    "gov_exp_pct_gdp": 31.6966486780552
+  },
+  {
+    "iso3": "MNE",
+    "iso_numeric": "499",
+    "name": "Montenegro",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 9232801464.79257,
+    "population": 623129,
+    "pop_0_14_pct": 17.8804827975326,
+    "gdp_pc_ppa": 35422.6449824931
+  },
+  {
+    "iso3": "MAR",
+    "iso_numeric": "504",
+    "name": "Morocco",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 182374250612.28,
+    "population": 38430770,
+    "pop_0_14_pct": 25.1994729743901,
+    "gdp_pc_ppa": 11111.7080078125,
+    "tax_revenue_pct_gdp": 22.6813286123676,
+    "gov_exp_pct_gdp": 26.6111381429324
+  },
+  {
+    "iso3": "MOZ",
+    "iso_numeric": "508",
+    "name": "Mozambique",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2022"
+    },
+    "missing": [],
+    "gdp_usd": 22337997046.1913,
+    "population": 35631653,
+    "pop_0_14_pct": 44.1685262258251,
+    "gdp_pc_ppa": 1697.94109338132,
+    "tax_revenue_pct_gdp": 21.8458736303603,
+    "gov_exp_pct_gdp": 26.0030656391346
+  },
+  {
+    "iso3": "MMR",
+    "iso_numeric": "104",
+    "name": "Myanmar",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 81665773809.5238,
+    "population": 54850648,
+    "pop_0_14_pct": 24.0786362268683,
+    "gdp_pc_ppa": 6011.53492175516
+  },
+  {
+    "iso3": "NAM",
+    "iso_numeric": "516",
+    "name": "Namibia",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 15080340653.5276,
+    "population": 3092816,
+    "pop_0_14_pct": 36.6506386654365,
+    "gdp_pc_ppa": 11985.7200318677,
+    "tax_revenue_pct_gdp": 33.8715291719611,
+    "gov_exp_pct_gdp": 36.1640496720365
+  },
+  {
+    "iso3": "NRU",
+    "iso_numeric": "520",
+    "name": "Nauru",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -4201,15 +2587,36 @@
     "missing": [
       "gov_exp_pct_gdp"
     ],
-    "gdp_usd": 31873985161936.8,
-    "population": 2330425681,
-    "pop_0_14_pct": 16.9860518375052,
-    "gdp_pc_ppa": 30341.9195453314,
-    "tax_revenue_pct_gdp": 9.74263960497265
+    "gdp_usd": 176040043.932346,
+    "population": 12025,
+    "pop_0_14_pct": 37.1543802752484,
+    "gdp_pc_ppa": 14200.486778198,
+    "tax_revenue_pct_gdp": 21.4203125
   },
   {
-    "iso3": "V4",
-    "name": "V4",
+    "iso3": "NPL",
+    "iso_numeric": "524",
+    "name": "Nepal",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2023",
+      "gov_exp_pct_gdp": "2021"
+    },
+    "missing": [],
+    "gdp_usd": 45489810283.1132,
+    "population": 29618118,
+    "pop_0_14_pct": 28.0519719053718,
+    "gdp_pc_ppa": 6175.15897150244,
+    "tax_revenue_pct_gdp": 13.9448572556808,
+    "gov_exp_pct_gdp": 19.4418821873399
+  },
+  {
+    "iso3": "NLD",
+    "iso_numeric": "528",
+    "name": "Netherlands",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -4219,16 +2626,579 @@
       "gov_exp_pct_gdp": "2023"
     },
     "missing": [],
-    "gdp_usd": 67379697065259.8,
-    "population": 1132621782,
-    "pop_0_14_pct": 14.7873870085294,
-    "gdp_pc_ppa": 70762.8697352539,
-    "tax_revenue_pct_gdp": 15.6101543211092,
-    "gov_exp_pct_gdp": 30.4730938922086
+    "gdp_usd": 1332767651100.39,
+    "population": 18087633,
+    "pop_0_14_pct": 14.9340629566357,
+    "gdp_pc_ppa": 87320.1477254029,
+    "tax_revenue_pct_gdp": 25.2758922306144,
+    "gov_exp_pct_gdp": 39.9696990762123
   },
   {
-    "iso3": "VC",
-    "name": "VC",
+    "iso3": "NCL",
+    "iso_numeric": "540",
+    "name": "New Caledonia",
+    "years": {
+      "gdp_usd": "2024",
+      "population": "2025",
+      "pop_0_14_pct": "2025"
+    },
+    "missing": [
+      "gdp_pc_ppa",
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 8548919387.12607,
+    "population": 295333,
+    "pop_0_14_pct": 21.0894143221381
+  },
+  {
+    "iso3": "NZL",
+    "iso_numeric": "554",
+    "name": "New Zealand",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2022"
+    },
+    "missing": [],
+    "gdp_usd": 264057413739.965,
+    "population": 5324700,
+    "pop_0_14_pct": 17.877542961127,
+    "gdp_pc_ppa": 57350.3627657521,
+    "tax_revenue_pct_gdp": 29.5208304137113,
+    "gov_exp_pct_gdp": 35.4955182384826
+  },
+  {
+    "iso3": "NIC",
+    "iso_numeric": "558",
+    "name": "Nicaragua",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 22237167113.0916,
+    "population": 7007502,
+    "pop_0_14_pct": 28.3126497859009,
+    "gdp_pc_ppa": 9283.92301511154,
+    "tax_revenue_pct_gdp": 20.0900618147754,
+    "gov_exp_pct_gdp": 16.2819509055953
+  },
+  {
+    "iso3": "NER",
+    "iso_numeric": "562",
+    "name": "Niger",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 21646191388.2507,
+    "population": 27917831,
+    "pop_0_14_pct": 46.2263651499287,
+    "gdp_pc_ppa": 2177.25014417163
+  },
+  {
+    "iso3": "NGA",
+    "iso_numeric": "566",
+    "name": "Nigeria",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 290794361542.112,
+    "population": 237527782,
+    "pop_0_14_pct": 40.5197233739162,
+    "gdp_pc_ppa": 9531.61073275049
+  },
+  {
+    "iso3": "PRK",
+    "iso_numeric": "408",
+    "name": "North Korea",
+    "years": {
+      "population": "2025",
+      "pop_0_14_pct": "2025"
+    },
+    "missing": [
+      "gdp_usd",
+      "gdp_pc_ppa",
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "population": 26571036,
+    "pop_0_14_pct": 18.9282698851435
+  },
+  {
+    "iso3": "MKD",
+    "iso_numeric": "807",
+    "name": "North Macedonia",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 19101199817.0174,
+    "population": 1820909,
+    "pop_0_14_pct": 16.5297710706471,
+    "gdp_pc_ppa": 28028.5664230631,
+    "tax_revenue_pct_gdp": 18.7571347667176,
+    "gov_exp_pct_gdp": 33.3785817447945
+  },
+  {
+    "iso3": "MNP",
+    "iso_numeric": "580",
+    "name": "Northern Mariana Islands",
+    "years": {
+      "gdp_usd": "2022",
+      "population": "2025",
+      "pop_0_14_pct": "2025"
+    },
+    "missing": [
+      "gdp_pc_ppa",
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 1096000000,
+    "population": 43541,
+    "pop_0_14_pct": 21.2250663175664
+  },
+  {
+    "iso3": "NOR",
+    "iso_numeric": "578",
+    "name": "Norway",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 530755719438.879,
+    "population": 5610870,
+    "pop_0_14_pct": 15.9239141743008,
+    "gdp_pc_ppa": 104043.666429243,
+    "tax_revenue_pct_gdp": 24.5424706002351,
+    "gov_exp_pct_gdp": 34.518210681823
+  },
+  {
+    "iso3": "OMN",
+    "iso_numeric": "512",
+    "name": "Oman",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 109604780696.23,
+    "population": 5494691,
+    "pop_0_14_pct": 24.3203302970085,
+    "gdp_pc_ppa": 42295.1761223734
+  },
+  {
+    "iso3": "PAK",
+    "iso_numeric": "586",
+    "name": "Pakistan",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 407307214476.222,
+    "population": 255219554,
+    "pop_0_14_pct": 36.244101546694,
+    "gdp_pc_ppa": 6573.41613369925
+  },
+  {
+    "iso3": "PLW",
+    "iso_numeric": "585",
+    "name": "Palau",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 345000000,
+    "population": 17663,
+    "pop_0_14_pct": 17.9363057324841,
+    "gdp_pc_ppa": 23051.6787122681
+  },
+  {
+    "iso3": "PSE",
+    "iso_numeric": "275",
+    "name": "Palestine",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "gov_exp_pct_gdp": "2021"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp"
+    ],
+    "gdp_usd": 17167100000,
+    "population": 5413596,
+    "pop_0_14_pct": 37.5908894034535,
+    "gdp_pc_ppa": 4999.71301859773,
+    "gov_exp_pct_gdp": 26.1664917273852
+  },
+  {
+    "iso3": "PAN",
+    "iso_numeric": "591",
+    "name": "Panama",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2021"
+    },
+    "missing": [],
+    "gdp_usd": 90462600000,
+    "population": 4571189,
+    "pop_0_14_pct": 24.5261681369989,
+    "gdp_pc_ppa": 43902.1632084954,
+    "tax_revenue_pct_gdp": 7.17760169037387,
+    "gov_exp_pct_gdp": 17.1412565556766
+  },
+  {
+    "iso3": "PNG",
+    "iso_numeric": "598",
+    "name": "Papua New Guinea",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 32498658653.8415,
+    "population": 10762817,
+    "pop_0_14_pct": 33.145602122567,
+    "gdp_pc_ppa": 5214.768271628,
+    "tax_revenue_pct_gdp": 15.5435093385912,
+    "gov_exp_pct_gdp": 20.3235953856532
+  },
+  {
+    "iso3": "PRY",
+    "iso_numeric": "600",
+    "name": "Paraguay",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 49278227554.3339,
+    "population": 7013078,
+    "pop_0_14_pct": 28.3712036548862,
+    "gdp_pc_ppa": 20181.4242826808,
+    "tax_revenue_pct_gdp": 11.3333046408497,
+    "gov_exp_pct_gdp": 18.94568644434
+  },
+  {
+    "iso3": "PER",
+    "iso_numeric": "604",
+    "name": "Peru",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2021",
+      "gov_exp_pct_gdp": "2021"
+    },
+    "missing": [],
+    "gdp_usd": 334854659181.893,
+    "population": 34576665,
+    "pop_0_14_pct": 23.6140674642855,
+    "gdp_pc_ppa": 18816.1045522938,
+    "tax_revenue_pct_gdp": 15.9189020036855,
+    "gov_exp_pct_gdp": 22.8389646747493
+  },
+  {
+    "iso3": "PHL",
+    "iso_numeric": "608",
+    "name": "Philippines",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 487086123720.417,
+    "population": 116786962,
+    "pop_0_14_pct": 27.1388610693595,
+    "gdp_pc_ppa": 12576.9867435109,
+    "tax_revenue_pct_gdp": 14.369653991008,
+    "gov_exp_pct_gdp": 16.8805903400909
+  },
+  {
+    "iso3": "POL",
+    "iso_numeric": "616",
+    "name": "Poland",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 1035491784197.44,
+    "population": 36435861,
+    "pop_0_14_pct": 14.4603840660905,
+    "gdp_pc_ppa": 54262.4040405236,
+    "tax_revenue_pct_gdp": 17.389703708732,
+    "gov_exp_pct_gdp": 39.0982392627941
+  },
+  {
+    "iso3": "PRT",
+    "iso_numeric": "620",
+    "name": "Portugal",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 346639825141.821,
+    "population": 10804871,
+    "pop_0_14_pct": 12.7139902880698,
+    "gdp_pc_ppa": 53145.7317498942,
+    "tax_revenue_pct_gdp": 22.3472676749446,
+    "gov_exp_pct_gdp": 37.1595074085006
+  },
+  {
+    "iso3": "PRI",
+    "iso_numeric": "630",
+    "name": "Puerto Rico",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 129368484000,
+    "population": 3184835,
+    "pop_0_14_pct": 11.2396433147636,
+    "gdp_pc_ppa": 52195.5534213472
+  },
+  {
+    "iso3": "QAT",
+    "iso_numeric": "634",
+    "name": "Qatar",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 215559615384.615,
+    "population": 2972215,
+    "pop_0_14_pct": 15.0002960632256,
+    "gdp_pc_ppa": 128882.934242572
+  },
+  {
+    "iso3": "COG",
+    "iso_numeric": "178",
+    "name": "Republic of the Congo",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2021",
+      "gov_exp_pct_gdp": "2021"
+    },
+    "missing": [],
+    "gdp_usd": 16306633778.765,
+    "population": 6484437,
+    "pop_0_14_pct": 39.9430436289226,
+    "gdp_pc_ppa": 7248.44439070757,
+    "tax_revenue_pct_gdp": 6.50908825817085,
+    "gov_exp_pct_gdp": 16.132138958121
+  },
+  {
+    "iso3": "ROU",
+    "iso_numeric": "642",
+    "name": "Romania",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2022"
+    },
+    "missing": [],
+    "gdp_usd": 428677977854.826,
+    "population": 19020271,
+    "pop_0_14_pct": 15.5552851325905,
+    "gdp_pc_ppa": 50895.081617639,
+    "tax_revenue_pct_gdp": 16.2063555287274,
+    "gov_exp_pct_gdp": 37.3030637489096
+  },
+  {
+    "iso3": "RUS",
+    "iso_numeric": "643",
+    "name": "Russia",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 2561310169358.74,
+    "population": 143513328,
+    "pop_0_14_pct": 17.027484657309,
+    "gdp_pc_ppa": 49568.140625,
+    "tax_revenue_pct_gdp": 10.8718510370824,
+    "gov_exp_pct_gdp": 29.9691335018192
+  },
+  {
+    "iso3": "RWA",
+    "iso_numeric": "646",
+    "name": "Rwanda",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 16372132990.2271,
+    "population": 14569341,
+    "pop_0_14_pct": 37.01944504626,
+    "gdp_pc_ppa": 4164.436605809,
+    "tax_revenue_pct_gdp": 12.6924765057502,
+    "gov_exp_pct_gdp": 17.9714861804371
+  },
+  {
+    "iso3": "KNA",
+    "iso_numeric": "659",
+    "name": "Saint Kitts and Nevis",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 1183514814.81481,
+    "population": 46922,
+    "pop_0_14_pct": 18.3359440768091,
+    "gdp_pc_ppa": 36777.262691657
+  },
+  {
+    "iso3": "LCA",
+    "iso_numeric": "662",
+    "name": "Saint Lucia",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 2656444444.44444,
+    "population": 180149,
+    "pop_0_14_pct": 17.2451692765433,
+    "gdp_pc_ppa": 28673.8437920214
+  },
+  {
+    "iso3": "MAF",
+    "iso_numeric": "663",
+    "name": "Saint Martin",
+    "years": {
+      "gdp_usd": "2021",
+      "population": "2025",
+      "pop_0_14_pct": "2025"
+    },
+    "missing": [
+      "gdp_pc_ppa",
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 649206262.847519,
+    "population": 24941,
+    "pop_0_14_pct": 21.0581183216054
+  },
+  {
+    "iso3": "VCT",
+    "iso_numeric": "670",
+    "name": "Saint Vincent and the Grenadines",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -4245,96 +3215,9 @@
     "gdp_pc_ppa": 22799.4005332261
   },
   {
-    "iso3": "VE",
-    "name": "VE",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025"
-    },
-    "missing": [
-      "gdp_pc_ppa",
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 99661244155.6306,
-    "population": 28516896,
-    "pop_0_14_pct": 24.9159954154898
-  },
-  {
-    "iso3": "VG",
-    "name": "VG",
-    "years": {
-      "population": "2025",
-      "pop_0_14_pct": "2025"
-    },
-    "missing": [
-      "gdp_usd",
-      "gdp_pc_ppa",
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "population": 39732,
-    "pop_0_14_pct": 14.083106815665
-  },
-  {
-    "iso3": "VI",
-    "name": "VI",
-    "years": {
-      "gdp_usd": "2022",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2022"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 4672000000,
-    "population": 103792,
-    "pop_0_14_pct": 16.4579829685578,
-    "gdp_pc_ppa": 49785.1412220186
-  },
-  {
-    "iso3": "VN",
-    "name": "VN",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 514697215165.065,
-    "population": 101598527,
-    "pop_0_14_pct": 22.8560173908821,
-    "gdp_pc_ppa": 18088.491587163
-  },
-  {
-    "iso3": "VU",
-    "name": "VU",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2023",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 1353658840.63993,
-    "population": 335169,
-    "pop_0_14_pct": 37.9617446720908,
-    "gdp_pc_ppa": 4525.23645747645,
-    "tax_revenue_pct_gdp": 16.5024007087237,
-    "gov_exp_pct_gdp": 26.613319110103
-  },
-  {
-    "iso3": "WS",
-    "name": "WS",
+    "iso3": "WSM",
+    "iso_numeric": "882",
+    "name": "Samoa",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -4352,8 +3235,185 @@
     "gov_exp_pct_gdp": 26.6839529354459
   },
   {
-    "iso3": "XC",
-    "name": "XC",
+    "iso3": "SMR",
+    "iso_numeric": "674",
+    "name": "San Marino",
+    "years": {
+      "gdp_usd": "2023",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2023",
+      "tax_revenue_pct_gdp": "2023",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 2027243193.5116,
+    "population": 34109,
+    "pop_0_14_pct": 11.8504728572492,
+    "gdp_pc_ppa": 78810.3378046111,
+    "tax_revenue_pct_gdp": 17.2694010431737,
+    "gov_exp_pct_gdp": 40.4897504883926
+  },
+  {
+    "iso3": "STP",
+    "iso_numeric": "678",
+    "name": "São Tomé and Príncipe",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 981293586.906408,
+    "population": 240254,
+    "pop_0_14_pct": 37.4553597442706,
+    "gdp_pc_ppa": 6388.47738664299
+  },
+  {
+    "iso3": "SAU",
+    "iso_numeric": "682",
+    "name": "Saudi Arabia",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 1276942933333.33,
+    "population": 36973555,
+    "pop_0_14_pct": 23.6210800290965,
+    "gdp_pc_ppa": 73783.5613906833,
+    "tax_revenue_pct_gdp": 8.09115587851805,
+    "gov_exp_pct_gdp": 24.219126573207
+  },
+  {
+    "iso3": "SEN",
+    "iso_numeric": "686",
+    "name": "Senegal",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2023",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 37006536238.3731,
+    "population": 18931966,
+    "pop_0_14_pct": 37.7428065911695,
+    "gdp_pc_ppa": 5463.21828561328,
+    "tax_revenue_pct_gdp": 19.5370790023371,
+    "gov_exp_pct_gdp": 23.5632436487827
+  },
+  {
+    "iso3": "SRB",
+    "iso_numeric": "688",
+    "name": "Serbia",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2022",
+      "gov_exp_pct_gdp": "2022"
+    },
+    "missing": [],
+    "gdp_usd": 99953324472.9042,
+    "population": 6549143,
+    "pop_0_14_pct": 14.2579001258626,
+    "gdp_pc_ppa": 33909.7605745332,
+    "tax_revenue_pct_gdp": 23.8929959453301,
+    "gov_exp_pct_gdp": 35.4627580017931
+  },
+  {
+    "iso3": "SYC",
+    "iso_numeric": "690",
+    "name": "Seychelles",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 2387022853.48583,
+    "population": 122730,
+    "pop_0_14_pct": 19.7660012727964,
+    "gdp_pc_ppa": 35854.0281615068
+  },
+  {
+    "iso3": "SLE",
+    "iso_numeric": "694",
+    "name": "Sierra Leone",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 7464157904.43509,
+    "population": 8819794,
+    "pop_0_14_pct": 37.6507206404141,
+    "gdp_pc_ppa": 3716.89410482498
+  },
+  {
+    "iso3": "SGP",
+    "iso_numeric": "702",
+    "name": "Singapore",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 603869516998.738,
+    "population": 6111175,
+    "pop_0_14_pct": 11.6891623727803,
+    "gdp_pc_ppa": 163353.990260152,
+    "tax_revenue_pct_gdp": 13.5602685073681,
+    "gov_exp_pct_gdp": 17.109108094367
+  },
+  {
+    "iso3": "SXM",
+    "iso_numeric": "534",
+    "name": "Sint Maarten",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 1887728480.44693,
+    "population": 43923,
+    "pop_0_14_pct": 14.8054550007968,
+    "gdp_pc_ppa": 56490.5015205836
+  },
+  {
+    "iso3": "SVK",
+    "iso_numeric": "703",
+    "name": "Slovakia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -4363,16 +3423,17 @@
       "gov_exp_pct_gdp": "2022"
     },
     "missing": [],
-    "gdp_usd": 18010000307247,
-    "population": 358664361,
-    "pop_0_14_pct": 13.9832177336148,
-    "gdp_pc_ppa": 67483.0829954093,
-    "tax_revenue_pct_gdp": 19.2216220097369,
-    "gov_exp_pct_gdp": 40.0292504480093
+    "gdp_usd": 154530066506.895,
+    "population": 5413813,
+    "pop_0_14_pct": 15.5700735778549,
+    "gdp_pc_ppa": 49308.7048471448,
+    "tax_revenue_pct_gdp": 19.1422953144335,
+    "gov_exp_pct_gdp": 39.7740575217895
   },
   {
-    "iso3": "XD",
-    "name": "XD",
+    "iso3": "SVN",
+    "iso_numeric": "705",
+    "name": "Slovenia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -4382,108 +3443,37 @@
       "gov_exp_pct_gdp": "2023"
     },
     "missing": [],
-    "gdp_usd": 76878050747686.9,
-    "population": 1423739902,
-    "pop_0_14_pct": 15.4712325297274,
-    "gdp_pc_ppa": 69953.0047569439,
-    "tax_revenue_pct_gdp": 15.2635093835753,
-    "gov_exp_pct_gdp": 30.09503531106
+    "gdp_usd": 79648204979.3618,
+    "population": 2130986,
+    "pop_0_14_pct": 14.4822660731425,
+    "gdp_pc_ppa": 59244.7106359661,
+    "tax_revenue_pct_gdp": 20.9851312589996,
+    "gov_exp_pct_gdp": 42.8744911319917
   },
   {
-    "iso3": "XE",
-    "name": "XE",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 1285481386975.21,
-    "population": 965148593,
-    "pop_0_14_pct": 41.2025252645795,
-    "gdp_pc_ppa": 3833.88968092125
-  },
-  {
-    "iso3": "XF",
-    "name": "XF",
+    "iso3": "SLB",
+    "iso_numeric": "090",
+    "name": "Solomon Islands",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
       "pop_0_14_pct": "2025",
       "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024"
-    },
-    "missing": [
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 43056359078690,
-    "population": 5006926951,
-    "pop_0_14_pct": 21.3653886453169,
-    "gdp_pc_ppa": 22330.2081478905,
-    "tax_revenue_pct_gdp": 10.8649780069527
-  },
-  {
-    "iso3": "XG",
-    "name": "XG",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 3195044389894.02,
-    "population": 1986863837,
-    "pop_0_14_pct": 37.6092778772597,
-    "gdp_pc_ppa": 6044.38020226913
-  },
-  {
-    "iso3": "XH",
-    "name": "XH",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 1270032242274.1,
-    "population": 689783382,
-    "pop_0_14_pct": 37.8859157469863,
-    "gdp_pc_ppa": 8089.58949895873
-  },
-  {
-    "iso3": "XI",
-    "name": "XI",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2021",
-      "gov_exp_pct_gdp": "2021"
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2022"
     },
     "missing": [],
-    "gdp_usd": 1925012147619.92,
-    "population": 1297080455,
-    "pop_0_14_pct": 37.462162712095,
-    "gdp_pc_ppa": 4969.26059674433,
-    "tax_revenue_pct_gdp": 10.5154334709611,
-    "gov_exp_pct_gdp": 14.1898761381825
+    "gdp_usd": 1749572442.95016,
+    "population": 838645,
+    "pop_0_14_pct": 36.5575800502119,
+    "gdp_pc_ppa": 2787.61656406214,
+    "tax_revenue_pct_gdp": 23.2738445550553,
+    "gov_exp_pct_gdp": 28.8903334458529
   },
   {
-    "iso3": "XJ",
-    "name": "XJ",
+    "iso3": "SOM",
+    "iso_numeric": "706",
+    "name": "Somalia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -4493,237 +3483,17 @@
       "gov_exp_pct_gdp": "2023"
     },
     "missing": [],
-    "gdp_usd": 6523496128943.99,
-    "population": 626808315,
-    "pop_0_14_pct": 22.4257983371531,
-    "gdp_pc_ppa": 22825.2477825485,
-    "tax_revenue_pct_gdp": 14.5668372071294,
-    "gov_exp_pct_gdp": 27.6442346480609
+    "gdp_usd": 12995200000.2658,
+    "population": 19654739,
+    "pop_0_14_pct": 46.5538794486154,
+    "gdp_pc_ppa": 1642.77032278186,
+    "tax_revenue_pct_gdp": 2.23869244477274,
+    "gov_exp_pct_gdp": 6.34830985941583
   },
   {
-    "iso3": "XK",
-    "name": "XK",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 12456403306.8191,
-    "population": 1576876,
-    "pop_0_14_pct": 19.9864406779661,
-    "gdp_pc_ppa": 19263.3268800963
-  },
-  {
-    "iso3": "XL",
-    "name": "XL",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2021"
-    },
-    "missing": [
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 1653686211542.1,
-    "population": 1214167506,
-    "pop_0_14_pct": 38.416236925594,
-    "gdp_pc_ppa": 4685.23358097877,
-    "tax_revenue_pct_gdp": 10.5526864490562
-  },
-  {
-    "iso3": "XM",
-    "name": "XM",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 642666054939.502,
-    "population": 767490169,
-    "pop_0_14_pct": 40.9020370669214,
-    "gdp_pc_ppa": 2711.53101277943
-  },
-  {
-    "iso3": "XN",
-    "name": "XN",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 7308505375623.13,
-    "population": 2945282634,
-    "pop_0_14_pct": 29.5010193642062,
-    "gdp_pc_ppa": 10941.9039439899
-  },
-  {
-    "iso3": "XO",
-    "name": "XO",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024"
-    },
-    "missing": [
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 41478597585191.8,
-    "population": 6791684991,
-    "pop_0_14_pct": 26.2826923555107,
-    "gdp_pc_ppa": 16517.6822374018,
-    "tax_revenue_pct_gdp": 10.5163380724838
-  },
-  {
-    "iso3": "XP",
-    "name": "XP",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024"
-    },
-    "missing": [
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 40836798203180.8,
-    "population": 6024194822,
-    "pop_0_14_pct": 24.4201690350075,
-    "gdp_pc_ppa": 18286.062189255,
-    "tax_revenue_pct_gdp": 10.5185988700853
-  },
-  {
-    "iso3": "XQ",
-    "name": "XQ",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 2132889870483.32,
-    "population": 753903407,
-    "pop_0_14_pct": 32.6795231093812,
-    "gdp_pc_ppa": 11613.8367941991
-  },
-  {
-    "iso3": "XT",
-    "name": "XT",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024"
-    },
-    "missing": [
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 33529653863548.8,
-    "population": 3078912188,
-    "pop_0_14_pct": 19.5598354734119,
-    "gdp_pc_ppa": 25523.4542028292,
-    "tax_revenue_pct_gdp": 10.4121978709977
-  },
-  {
-    "iso3": "XU",
-    "name": "XU",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 33099237425506.2,
-    "population": 383501065,
-    "pop_0_14_pct": 16.8682973186741,
-    "gdp_pc_ppa": 87503.85008581,
-    "tax_revenue_pct_gdp": 11.0209181786037,
-    "gov_exp_pct_gdp": 23.9742692056278
-  },
-  {
-    "iso3": "YE",
-    "name": "YE",
-    "years": {
-      "population": "2025",
-      "pop_0_14_pct": "2025"
-    },
-    "missing": [
-      "gdp_usd",
-      "gdp_pc_ppa",
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "population": 41773878,
-    "pop_0_14_pct": 41.0204008473956
-  },
-  {
-    "iso3": "Z4",
-    "name": "Z4",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2022"
-    },
-    "missing": [
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 33656980597208.3,
-    "population": 2390873921,
-    "pop_0_14_pct": 17.5810796836356,
-    "gdp_pc_ppa": 29302.8935831596,
-    "tax_revenue_pct_gdp": 10.7663585202805
-  },
-  {
-    "iso3": "Z7",
-    "name": "Z7",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2023"
-    },
-    "missing": [],
-    "gdp_usd": 32268612230366.9,
-    "population": 932525035,
-    "pop_0_14_pct": 17.1817416316568,
-    "gdp_pc_ppa": 54129.3679385369,
-    "tax_revenue_pct_gdp": 19.6576203228528,
-    "gov_exp_pct_gdp": 38.9195235258643
-  },
-  {
-    "iso3": "ZA",
-    "name": "ZA",
+    "iso3": "ZAF",
+    "iso_numeric": "710",
+    "name": "South Africa",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -4741,81 +3511,9 @@
     "gov_exp_pct_gdp": 33.4243056296085
   },
   {
-    "iso3": "ZF",
-    "name": "ZF",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 2208834023249.31,
-    "population": 1321531487,
-    "pop_0_14_pct": 40.3816889542399,
-    "gdp_pc_ppa": 5783.20341637366
-  },
-  {
-    "iso3": "ZG",
-    "name": "ZG",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 2211221046102.8,
-    "population": 1321654217,
-    "pop_0_14_pct": 40.3797745629289,
-    "gdp_pc_ppa": 5785.99485616742
-  },
-  {
-    "iso3": "ZH",
-    "name": "ZH",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024",
-      "gov_exp_pct_gdp": "2022"
-    },
-    "missing": [],
-    "gdp_usd": 1358694050872.54,
-    "population": 788844284,
-    "pop_0_14_pct": 40.0294227514603,
-    "gdp_pc_ppa": 4840.26519950124,
-    "tax_revenue_pct_gdp": 18.2255139505133,
-    "gov_exp_pct_gdp": 25.9823990887377
-  },
-  {
-    "iso3": "ZI",
-    "name": "ZI",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 852526995230.254,
-    "population": 532809933,
-    "pop_0_14_pct": 40.8984830305244,
-    "gdp_pc_ppa": 7184.66448266192
-  },
-  {
-    "iso3": "ZJ",
-    "name": "ZJ",
+    "iso3": "KOR",
+    "iso_numeric": "410",
+    "name": "South Korea",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -4825,16 +3523,639 @@
       "gov_exp_pct_gdp": "2023"
     },
     "missing": [],
-    "gdp_usd": 7395989651242.09,
-    "population": 666592570,
-    "pop_0_14_pct": 22.1426581386893,
-    "gdp_pc_ppa": 23901.1707987798,
-    "tax_revenue_pct_gdp": 14.7177048355427,
-    "gov_exp_pct_gdp": 27.5723893924692
+    "gdp_usd": 1872374961553.15,
+    "population": 51684564,
+    "pop_0_14_pct": 10.2044670479846,
+    "gdp_pc_ppa": 63124.9152183625,
+    "tax_revenue_pct_gdp": 13.2937188380388,
+    "gov_exp_pct_gdp": 28.3225119832631
   },
   {
-    "iso3": "ZM",
-    "name": "ZM",
+    "iso3": "SSD",
+    "iso_numeric": "728",
+    "name": "South Sudan",
+    "years": {
+      "population": "2025",
+      "pop_0_14_pct": "2025"
+    },
+    "missing": [
+      "gdp_usd",
+      "gdp_pc_ppa",
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "population": 12188788,
+    "pop_0_14_pct": 37.9863157846375
+  },
+  {
+    "iso3": "ESP",
+    "iso_numeric": "724",
+    "name": "Spain",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 1906453309985.88,
+    "population": 49355143,
+    "pop_0_14_pct": 12.6191319691698,
+    "gdp_pc_ppa": 59867.6944716701,
+    "tax_revenue_pct_gdp": 14.934361142298,
+    "gov_exp_pct_gdp": 34.0441499010857
+  },
+  {
+    "iso3": "LKA",
+    "iso_numeric": "144",
+    "name": "Sri Lanka",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2023",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 108825231671.196,
+    "population": 21756000,
+    "pop_0_14_pct": 21.7008153500529,
+    "gdp_pc_ppa": 17065.0298635432,
+    "tax_revenue_pct_gdp": 9.87891768094967,
+    "gov_exp_pct_gdp": 18.0350543940866
+  },
+  {
+    "iso3": "SDN",
+    "iso_numeric": "729",
+    "name": "Sudan",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 60162634574.4689,
+    "population": 51662147,
+    "pop_0_14_pct": 40.2133389828597,
+    "gdp_pc_ppa": 2192.27221679688
+  },
+  {
+    "iso3": "SUR",
+    "iso_numeric": "740",
+    "name": "Suriname",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 4523657796.86421,
+    "population": 639850,
+    "pop_0_14_pct": 25.3373446901618,
+    "gdp_pc_ppa": 22652.3952637959
+  },
+  {
+    "iso3": "SWE",
+    "iso_numeric": "752",
+    "name": "Sweden",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2022"
+    },
+    "missing": [],
+    "gdp_usd": 668998664082.081,
+    "population": 10596620,
+    "pop_0_14_pct": 16.7064916282657,
+    "gdp_pc_ppa": 72528.8892631159,
+    "tax_revenue_pct_gdp": 27.2263453447308,
+    "gov_exp_pct_gdp": 32.505108387211
+  },
+  {
+    "iso3": "CHE",
+    "iso_numeric": "756",
+    "name": "Switzerland",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 1043529899250.92,
+    "population": 9092436,
+    "pop_0_14_pct": 14.8834431802057,
+    "gdp_pc_ppa": 102513.347221899,
+    "tax_revenue_pct_gdp": 9.45066745280502,
+    "gov_exp_pct_gdp": 16.1136054672178
+  },
+  {
+    "iso3": "SYR",
+    "iso_numeric": "760",
+    "name": "Syria",
+    "years": {
+      "gdp_usd": "2022",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2022"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 23737634644.3994,
+    "population": 25620427,
+    "pop_0_14_pct": 28.4407365349675,
+    "gdp_pc_ppa": 4905.15252202552
+  },
+  {
+    "iso3": "TJK",
+    "iso_numeric": "762",
+    "name": "Tajikistan",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 17660626562.4832,
+    "population": 10786734,
+    "pop_0_14_pct": 35.8670954464574,
+    "gdp_pc_ppa": 5923.47183321348,
+    "tax_revenue_pct_gdp": 10.7110753929,
+    "gov_exp_pct_gdp": 11.0194157341873
+  },
+  {
+    "iso3": "TZA",
+    "iso_numeric": "834",
+    "name": "Tanzania",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2024"
+    },
+    "missing": [],
+    "gdp_usd": 90143496090.4411,
+    "population": 70545865,
+    "pop_0_14_pct": 42.3404922457184,
+    "gdp_pc_ppa": 4470.9541015625,
+    "tax_revenue_pct_gdp": 12.260929249686,
+    "gov_exp_pct_gdp": 16.3411130288022
+  },
+  {
+    "iso3": "THA",
+    "iso_numeric": "764",
+    "name": "Thailand",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 577009981112.015,
+    "population": 71619863,
+    "pop_0_14_pct": 14.4141877233136,
+    "gdp_pc_ppa": 26250.0723587304,
+    "tax_revenue_pct_gdp": 15.1750172236637,
+    "gov_exp_pct_gdp": 20.7220010288103
+  },
+  {
+    "iso3": "TLS",
+    "iso_numeric": "626",
+    "name": "Timor-Leste",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2022",
+      "gov_exp_pct_gdp": "2022"
+    },
+    "missing": [],
+    "gdp_usd": 1902180257.82737,
+    "population": 1418517,
+    "pop_0_14_pct": 33.1150655525928,
+    "gdp_pc_ppa": 4809.49016945191,
+    "tax_revenue_pct_gdp": 21.6431378705086,
+    "gov_exp_pct_gdp": 52.4935012893649
+  },
+  {
+    "iso3": "TGO",
+    "iso_numeric": "768",
+    "name": "Togo",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2023",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 11889949067.4697,
+    "population": 8591626,
+    "pop_0_14_pct": 40.4253513828465,
+    "gdp_pc_ppa": 4079.36376686718,
+    "tax_revenue_pct_gdp": 13.9214440832607,
+    "gov_exp_pct_gdp": 16.028611767784
+  },
+  {
+    "iso3": "TON",
+    "iso_numeric": "776",
+    "name": "Tonga",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2023",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 679218218.578017,
+    "population": 103742,
+    "pop_0_14_pct": 34.9198010448998,
+    "gdp_pc_ppa": 8674.68048447494,
+    "tax_revenue_pct_gdp": 20.4538609329217,
+    "gov_exp_pct_gdp": 34.6540020354592
+  },
+  {
+    "iso3": "TTO",
+    "iso_numeric": "780",
+    "name": "Trinidad and Tobago",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 25942749718.4685,
+    "population": 1367764,
+    "pop_0_14_pct": 17.4922823932687,
+    "gdp_pc_ppa": 37121.2050020847
+  },
+  {
+    "iso3": "TUN",
+    "iso_numeric": "788",
+    "name": "Tunisia",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 57502836548.0878,
+    "population": 12348573,
+    "pop_0_14_pct": 23.5608681262199,
+    "gdp_pc_ppa": 15233.4885842318
+  },
+  {
+    "iso3": "TUR",
+    "iso_numeric": "792",
+    "name": "Türkiye",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 1597293229287,
+    "population": 85878556,
+    "pop_0_14_pct": 21.0229035096437,
+    "gdp_pc_ppa": 45288.4750285273,
+    "tax_revenue_pct_gdp": 17.6239296509985,
+    "gov_exp_pct_gdp": 33.0277530817277
+  },
+  {
+    "iso3": "TKM",
+    "iso_numeric": "795",
+    "name": "Turkmenistan",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 49828621355.6516,
+    "population": 7618847,
+    "pop_0_14_pct": 31.2185274741357,
+    "gdp_pc_ppa": 22601.5518373128
+  },
+  {
+    "iso3": "TCA",
+    "iso_numeric": "796",
+    "name": "Turks and Caicos Islands",
+    "years": {
+      "gdp_usd": "2024",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2024"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 1745378000,
+    "population": 46855,
+    "pop_0_14_pct": 15.9749863940497,
+    "gdp_pc_ppa": 38009.5079479808
+  },
+  {
+    "iso3": "TUV",
+    "iso_numeric": "798",
+    "name": "Tuvalu",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 57345434.7234984,
+    "population": 9492,
+    "pop_0_14_pct": 33.0225453013064,
+    "gdp_pc_ppa": 6759.27941373717
+  },
+  {
+    "iso3": "UGA",
+    "iso_numeric": "800",
+    "name": "Uganda",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 61985829288.1496,
+    "population": 51384894,
+    "pop_0_14_pct": 43.1111622026505,
+    "gdp_pc_ppa": 3487.69797525182,
+    "tax_revenue_pct_gdp": 12.6255559227731,
+    "gov_exp_pct_gdp": 16.5833400364579
+  },
+  {
+    "iso3": "UKR",
+    "iso_numeric": "804",
+    "name": "Ukraine",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 214233312784.397,
+    "population": 38980376,
+    "pop_0_14_pct": 13.6943867127605,
+    "gdp_pc_ppa": 18904.98046875,
+    "tax_revenue_pct_gdp": 21.0177678568632,
+    "gov_exp_pct_gdp": 65.5600221546264
+  },
+  {
+    "iso3": "ARE",
+    "iso_numeric": "784",
+    "name": "United Arab Emirates",
+    "years": {
+      "gdp_usd": "2024",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2024",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 552324919095.872,
+    "population": 11513149,
+    "pop_0_14_pct": 15.9773973206416,
+    "gdp_pc_ppa": 79343.7793099888,
+    "tax_revenue_pct_gdp": 0.647516088466425,
+    "gov_exp_pct_gdp": 3.76871680953009
+  },
+  {
+    "iso3": "GBR",
+    "iso_numeric": "826",
+    "name": "United Kingdom",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 4002587541846.01,
+    "population": 69487000,
+    "pop_0_14_pct": 16.9647729892849,
+    "gdp_pc_ppa": 64606.4955066338,
+    "tax_revenue_pct_gdp": 26.8890215407942,
+    "gov_exp_pct_gdp": 41.2292290721047
+  },
+  {
+    "iso3": "USA",
+    "iso_numeric": "840",
+    "name": "United States",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 30769700000000,
+    "population": 341784857,
+    "pop_0_14_pct": 17.0990415161586,
+    "gdp_pc_ppa": 90026.5163005744,
+    "tax_revenue_pct_gdp": 10.7694743667429,
+    "gov_exp_pct_gdp": 24.433337455127
+  },
+  {
+    "iso3": "VIR",
+    "iso_numeric": "850",
+    "name": "United States Virgin Islands",
+    "years": {
+      "gdp_usd": "2022",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2022"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 4672000000,
+    "population": 103792,
+    "pop_0_14_pct": 16.4579829685578,
+    "gdp_pc_ppa": 49785.1412220186
+  },
+  {
+    "iso3": "URY",
+    "iso_numeric": "858",
+    "name": "Uruguay",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2024",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 85347696277.6859,
+    "population": 3384688,
+    "pop_0_14_pct": 17.8970557995301,
+    "gdp_pc_ppa": 38314.8861221656,
+    "tax_revenue_pct_gdp": 17.862010224025,
+    "gov_exp_pct_gdp": 36.451913684213
+  },
+  {
+    "iso3": "UZB",
+    "iso_numeric": "860",
+    "name": "Uzbekistan",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2023",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 147038081129.405,
+    "population": 37053428,
+    "pop_0_14_pct": 31.2904692650839,
+    "gdp_pc_ppa": 13601.2917473678,
+    "tax_revenue_pct_gdp": 11.0059302187391,
+    "gov_exp_pct_gdp": 22.344366105039
+  },
+  {
+    "iso3": "VUT",
+    "iso_numeric": "548",
+    "name": "Vanuatu",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025",
+      "tax_revenue_pct_gdp": "2023",
+      "gov_exp_pct_gdp": "2023"
+    },
+    "missing": [],
+    "gdp_usd": 1353658840.63993,
+    "population": 335169,
+    "pop_0_14_pct": 37.9617446720908,
+    "gdp_pc_ppa": 4525.23645747645,
+    "tax_revenue_pct_gdp": 16.5024007087237,
+    "gov_exp_pct_gdp": 26.613319110103
+  },
+  {
+    "iso3": "VEN",
+    "iso_numeric": "862",
+    "name": "Venezuela",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025"
+    },
+    "missing": [
+      "gdp_pc_ppa",
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 99661244155.6306,
+    "population": 28516896,
+    "pop_0_14_pct": 24.9159954154898
+  },
+  {
+    "iso3": "VNM",
+    "iso_numeric": "704",
+    "name": "Vietnam",
+    "years": {
+      "gdp_usd": "2025",
+      "population": "2025",
+      "pop_0_14_pct": "2025",
+      "gdp_pc_ppa": "2025"
+    },
+    "missing": [
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "gdp_usd": 514697215165.065,
+    "population": 101598527,
+    "pop_0_14_pct": 22.8560173908821,
+    "gdp_pc_ppa": 18088.491587163
+  },
+  {
+    "iso3": "YEM",
+    "iso_numeric": "887",
+    "name": "Yemen",
+    "years": {
+      "population": "2025",
+      "pop_0_14_pct": "2025"
+    },
+    "missing": [
+      "gdp_usd",
+      "gdp_pc_ppa",
+      "tax_revenue_pct_gdp",
+      "gov_exp_pct_gdp"
+    ],
+    "population": 41773878,
+    "pop_0_14_pct": 41.0204008473956
+  },
+  {
+    "iso3": "ZMB",
+    "iso_numeric": "894",
+    "name": "Zambia",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
@@ -4852,45 +4173,9 @@
     "gov_exp_pct_gdp": 25.1370961006544
   },
   {
-    "iso3": "ZQ",
-    "name": "ZQ",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025"
-    },
-    "missing": [
-      "tax_revenue_pct_gdp",
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 5135569539885.64,
-    "population": 828025185,
-    "pop_0_14_pct": 31.7286273956109,
-    "gdp_pc_ppa": 16920.6041192153
-  },
-  {
-    "iso3": "ZT",
-    "name": "ZT",
-    "years": {
-      "gdp_usd": "2025",
-      "population": "2025",
-      "pop_0_14_pct": "2025",
-      "gdp_pc_ppa": "2025",
-      "tax_revenue_pct_gdp": "2024"
-    },
-    "missing": [
-      "gov_exp_pct_gdp"
-    ],
-    "gdp_usd": 46251403468584,
-    "population": 6993790788,
-    "pop_0_14_pct": 25.9801100554222,
-    "gdp_pc_ppa": 17699.5337526731,
-    "tax_revenue_pct_gdp": 10.8924956502021
-  },
-  {
-    "iso3": "ZW",
-    "name": "ZW",
+    "iso3": "ZWE",
+    "iso_numeric": "716",
+    "name": "Zimbabwe",
     "years": {
       "gdp_usd": "2025",
       "population": "2025",
