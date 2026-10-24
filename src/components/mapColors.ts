@@ -31,6 +31,16 @@ export function categoryLabelKey(category: UbiResult['category']): keyof Transla
   }
 }
 
+function categoryLegendKey(category: UbiResult['category']): keyof Translations {
+  switch (category) {
+    case 'Viable hoy': return 'legendViableNow'
+    case 'Viable con IA moderada': return 'legendViableModerate'
+    case 'Requiere IA extrema': return 'legendExtremeAI'
+    case 'Inviable': return 'legendNotViable'
+    default: return 'legendNoData'
+  }
+}
+
 export interface Bucket {
   max: number
   color: string
@@ -68,40 +78,74 @@ export const METRIC_OPTIONS: { value: MapMetric; labelKey: keyof Translations }[
   { value: 'needed', labelKey: 'metricNeeded' },
 ]
 
-function pickBucket(value: number | undefined, buckets: Bucket[], allowInfinity: boolean): string {
-  if (value === undefined) return NO_DATA_COLOR
-  if (!allowInfinity && !Number.isFinite(value)) return NO_DATA_COLOR
-  const bucket = buckets.find((b) => value <= b.max)
-  return bucket ? bucket.color : NO_DATA_COLOR
+function bucketsFor(metric: Exclude<MapMetric, 'category'>): Bucket[] {
+  if (metric === 'gap') return GAP_BUCKETS
+  if (metric === 'cost') return COST_BUCKETS
+  return NEEDED_BUCKETS
+}
+
+function bucketIndex(
+  value: number | undefined,
+  buckets: Bucket[],
+  allowInfinity: boolean,
+): number {
+  if (value === undefined) return -1
+  if (!allowInfinity && !Number.isFinite(value)) return -1
+  const index = buckets.findIndex((bucket) => value <= bucket.max)
+  return index
+}
+
+export function metricBucketIndex(
+  result: UbiResult | undefined,
+  metric: MapMetric,
+): number {
+  if (!result || !result.hasData || result.category === 'Sin datos') return -1
+
+  if (metric === 'category') {
+    return CATEGORY_ORDER.indexOf(result.category)
+  }
+
+  const buckets = bucketsFor(metric)
+  const value =
+    metric === 'gap'
+      ? result.gapPctGdp
+      : metric === 'cost'
+        ? result.netCostPctGdp
+        : result.aiGrowthNeededPct
+
+  return bucketIndex(value, buckets, metric === 'needed')
 }
 
 export function metricColor(result: UbiResult | undefined, metric: MapMetric): string {
   if (!result || !result.hasData || result.category === 'Sin datos') return NO_DATA_COLOR
-  switch (metric) {
-    case 'category':
-      return CATEGORY_COLORS[result.category]
-    case 'gap':
-      return pickBucket(result.gapPctGdp, GAP_BUCKETS, false)
-    case 'cost':
-      return pickBucket(result.netCostPctGdp, COST_BUCKETS, false)
-    case 'needed':
-      return pickBucket(result.aiGrowthNeededPct, NEEDED_BUCKETS, true)
-  }
+  if (metric === 'category') return CATEGORY_COLORS[result.category]
+
+  const index = metricBucketIndex(result, metric)
+  return index >= 0 ? bucketsFor(metric)[index].color : NO_DATA_COLOR
 }
 
-export function legendItems(metric: MapMetric, t: Translations): { color: string; label: string }[] {
+export interface LegendItem {
+  color: string
+  label: string
+  texture: number
+}
+
+export function legendItems(metric: MapMetric, t: Translations): LegendItem[] {
   if (metric === 'category') {
-    return CATEGORY_ORDER.map((category) => ({
+    return CATEGORY_ORDER.map((category, index) => ({
       color: CATEGORY_COLORS[category],
-      label: t[categoryLabelKey(category)],
+      label: t[categoryLegendKey(category)],
+      texture: category === 'Sin datos' ? 0 : index,
     }))
   }
 
-  const buckets =
-    metric === 'gap' ? GAP_BUCKETS : metric === 'cost' ? COST_BUCKETS : NEEDED_BUCKETS
-
+  const buckets = bucketsFor(metric)
   return [
-    ...buckets.map((bucket) => ({ color: bucket.color, label: t[bucket.labelKey] })),
-    { color: NO_DATA_COLOR, label: t.noData },
+    ...buckets.map((bucket, index) => ({
+      color: bucket.color,
+      label: t[bucket.labelKey],
+      texture: index,
+    })),
+    { color: NO_DATA_COLOR, label: t.noData, texture: 0 },
   ]
 }
