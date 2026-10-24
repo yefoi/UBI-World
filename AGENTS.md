@@ -28,20 +28,23 @@ UBI World: mapamundi interactivo que muestra, para cada país, qué tendría que
 - `npm run test:ui` - Tests con UI
 - `npm run fetch-data` - Regenera `src/data/countries.json` desde el Banco Mundial
 - `npm run typecheck` - Comprobación TypeScript
+- `npm run og` - Regenera la imagen Open Graph (`public/og.png`) desde `public/og.svg`
 - CI en `.github/workflows/ci.yml`: typecheck + tests + build.
+- `VITE_SITE_URL` fija la URL absoluta de Open Graph; en Vercel se detecta sola.
 
 ## Estructura
 ```
 src/
 ├── components/       # Mapa, leyenda, búsqueda, resumen, desglose, controles, glosario, tour
 ├── data/             # countries.json (generado, commiteado)
-├── hooks/            # useMediaQuery
+├── hooks/            # useMediaQuery, useFocusTrap
 ├── i18n/             # translations.ts, glossary.ts, methodology.ts
 ├── model/            # ubi.ts (modelo puro) + tests
-├── pages/            # Methodology
+├── pages/            # Methodology (carga diferida)
 ├── utils/            # formato, país, resumen, URL, presets, indicadores
 └── index.css         # tokens y estilos
 scripts/fetch-data.ts # descarga y valida datos del Banco Mundial
+scripts/make-og.ts    # genera public/og.png desde public/og.svg
 docs/METHODOLOGY.md   # fórmulas, supuestos y limitaciones
 .github/workflows/ci.yml
 ```

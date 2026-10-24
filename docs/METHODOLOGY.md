@@ -148,8 +148,9 @@ La web incluye un glosario accesible desde la cabecera y ayudas `?` junto a los 
 ```bash
 npm install
 npm run fetch-data   # regenera src/data/countries.json
+npm run og           # regenera public/og.png desde public/og.svg
 npm test             # modelo, resumen, URL y helpers
 npm run build
 ```
 
-Los datos generados se commitean. La app es estática y no necesita backend.
+Los datos generados se commitean. La app es estática y no necesita backend. Para que Open Graph use la URL correcta, define `VITE_SITE_URL` (en Vercel se detecta automáticamente).

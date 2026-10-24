@@ -1,6 +1,6 @@
 import { describe, it, expect, beforeAll } from 'vitest'
 import { act } from 'react'
-import { createRoot } from 'react-dom/client'
+import { createRoot, type Root } from 'react-dom/client'
 import { MemoryRouter } from 'react-router-dom'
 import App from './App'
 
@@ -8,19 +8,32 @@ beforeAll(() => {
   globalThis.IS_REACT_ACT_ENVIRONMENT = true
 })
 
+async function renderApp(): Promise<{ container: HTMLDivElement; root: Root }> {
+  const container = document.createElement('div')
+  document.body.appendChild(container)
+  const root = createRoot(container)
+
+  await act(async () => {
+    root.render(
+      <MemoryRouter>
+        <App />
+      </MemoryRouter>,
+    )
+  })
+
+  return { container, root }
+}
+
+async function unmountApp(container: HTMLDivElement, root: Root): Promise<void> {
+  await act(async () => {
+    root.unmount()
+  })
+  container.remove()
+}
+
 describe('App (smoke)', () => {
   it('muestra el mapa, la leyenda y el resumen llano al elegir un país', async () => {
-    const container = document.createElement('div')
-    document.body.appendChild(container)
-    const root = createRoot(container)
-
-    await act(async () => {
-      root.render(
-        <MemoryRouter>
-          <App />
-        </MemoryRouter>,
-      )
-    })
+    const { container, root } = await renderApp()
 
     expect(container.textContent).toContain('UBI World')
     expect(container.textContent).toContain('Se podría pagar hoy')
@@ -53,9 +66,33 @@ describe('App (smoke)', () => {
     expect(container.textContent).toContain('Los números por dentro')
     expect(document.title).toContain('UBI World')
 
+    await unmountApp(container, root)
+  })
+
+  it('abre el glosario, atrapa el foco y se cierra con Escape', async () => {
+    const { container, root } = await renderApp()
+
+    const glossaryButton = Array.from(container.querySelectorAll('button')).find((button) =>
+      button.textContent?.includes('Palabras difíciles'),
+    )
+    expect(glossaryButton).toBeDefined()
+
     await act(async () => {
-      root.unmount()
+      glossaryButton!.click()
     })
-    container.remove()
+
+    const dialog = container.querySelector('[role="dialog"]')
+    expect(dialog).not.toBeNull()
+    expect(dialog!.contains(document.activeElement)).toBe(true)
+    expect(document.body.style.overflow).toBe('hidden')
+
+    await act(async () => {
+      document.dispatchEvent(new KeyboardEvent('keydown', { key: 'Escape', bubbles: true }))
+    })
+
+    expect(container.querySelector('[role="dialog"]')).toBeNull()
+    expect(document.body.style.overflow).toBe('')
+
+    await unmountApp(container, root)
   })
 })

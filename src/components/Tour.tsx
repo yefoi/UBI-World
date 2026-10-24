@@ -1,5 +1,6 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import type { Translations } from '../i18n/translations'
+import { useFocusTrap } from '../hooks/useFocusTrap'
 import { fillTemplate } from '../utils/format'
 
 interface Props {
@@ -10,6 +11,8 @@ interface Props {
 
 function Tour({ open, onClose, t }: Props) {
   const [step, setStep] = useState(0)
+  const dialogRef = useRef<HTMLElement>(null)
+  useFocusTrap(dialogRef, open, onClose)
 
   const steps = [
     { title: t.tourStep1Title, body: t.tourStep1 },
@@ -20,15 +23,6 @@ function Tour({ open, onClose, t }: Props) {
   useEffect(() => {
     if (open) setStep(0)
   }, [open])
-
-  useEffect(() => {
-    if (!open) return
-    const onKey = (event: KeyboardEvent) => {
-      if (event.key === 'Escape') onClose()
-    }
-    document.addEventListener('keydown', onKey)
-    return () => document.removeEventListener('keydown', onKey)
-  }, [open, onClose])
 
   if (!open) return null
 
@@ -42,7 +36,14 @@ function Tour({ open, onClose, t }: Props) {
         if (event.target === event.currentTarget) onClose()
       }}
     >
-      <section className="modal tour" role="dialog" aria-modal="true" aria-labelledby="tour-title">
+      <section
+        ref={dialogRef}
+        tabIndex={-1}
+        className="modal tour"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="tour-title"
+      >
         <header className="modal-head">
           <div>
             <span className="tour-counter">
@@ -81,7 +82,6 @@ function Tour({ open, onClose, t }: Props) {
               type="button"
               className="primary-btn"
               onClick={() => (isLast ? onClose() : setStep(step + 1))}
-              autoFocus
             >
               {isLast ? t.tourDone : t.tourNext}
             </button>

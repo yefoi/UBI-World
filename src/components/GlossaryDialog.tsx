@@ -1,6 +1,7 @@
-import { useEffect } from 'react'
+import { useRef } from 'react'
 import { GLOSSARY } from '../i18n/glossary'
 import type { Lang, Translations } from '../i18n/translations'
+import { useFocusTrap } from '../hooks/useFocusTrap'
 
 interface Props {
   open: boolean
@@ -10,14 +11,8 @@ interface Props {
 }
 
 function GlossaryDialog({ open, onClose, lang, t }: Props) {
-  useEffect(() => {
-    if (!open) return
-    const onKey = (event: KeyboardEvent) => {
-      if (event.key === 'Escape') onClose()
-    }
-    document.addEventListener('keydown', onKey)
-    return () => document.removeEventListener('keydown', onKey)
-  }, [open, onClose])
+  const dialogRef = useRef<HTMLElement>(null)
+  useFocusTrap(dialogRef, open, onClose)
 
   if (!open) return null
 
@@ -28,13 +23,20 @@ function GlossaryDialog({ open, onClose, lang, t }: Props) {
         if (event.target === event.currentTarget) onClose()
       }}
     >
-      <section className="modal" role="dialog" aria-modal="true" aria-labelledby="glossary-title">
+      <section
+        ref={dialogRef}
+        tabIndex={-1}
+        className="modal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="glossary-title"
+      >
         <header className="modal-head">
           <div>
             <h2 id="glossary-title">{t.glossary}</h2>
             <p className="muted">{t.glossaryIntro}</p>
           </div>
-          <button type="button" className="close-btn" onClick={onClose} aria-label={t.close} autoFocus>
+          <button type="button" className="close-btn" onClick={onClose} aria-label={t.close}>
             ×
           </button>
         </header>
