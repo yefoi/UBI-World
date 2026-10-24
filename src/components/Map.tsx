@@ -83,7 +83,7 @@ function WorldMap({ t, countries, results, metric, selectedIso3, onCountryClick 
       const label = country?.name || f.properties?.name || ''
       const cat = result ? t[categoryKey(result.category)] : t.noData
       const titleEl = document.createElementNS('http://www.w3.org/2000/svg', 'title')
-      titleEl.textContent = `${label} â€” ${cat}`
+      titleEl.textContent = `${label} — ${cat}`
       pathEl.appendChild(titleEl)
 
       if (selectedIso3 && country?.iso3 === selectedIso3) {
