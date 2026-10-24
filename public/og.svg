@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220" />
+      <stop offset="1" stop-color="#13233d" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.22" />
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#2b3a57" />
+    </pattern>
+    <clipPath id="globe">
+      <circle cx="990" cy="300" r="188" />
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <rect width="1200" height="630" fill="url(#dots)" opacity="0.55" />
+  <circle cx="990" cy="300" r="330" fill="url(#glow)" />
+
+  <circle cx="990" cy="300" r="188" fill="#111a2b" stroke="#2b3a57" stroke-width="2" />
+  <g clip-path="url(#globe)" stroke="#2b3a57" stroke-width="2" fill="none">
+    <ellipse cx="990" cy="300" rx="70" ry="188" />
+    <ellipse cx="990" cy="300" rx="135" ry="188" />
+    <line x1="802" y1="300" x2="1178" y2="300" />
+    <path d="M812 210 Q990 260 1168 210" />
+    <path d="M802 300 Q990 340 1178 300" />
+    <path d="M812 390 Q990 340 1168 390" />
+  </g>
+  <g>
+    <circle cx="930" cy="235" r="13" fill="#22c55e" />
+    <circle cx="1030" cy="205" r="13" fill="#84cc16" />
+    <circle cx="1065" cy="330" r="13" fill="#f59e0b" />
+    <circle cx="940" cy="370" r="13" fill="#ef4444" />
+    <circle cx="1010" cy="420" r="13" fill="#9ca3af" />
+    <circle cx="875" cy="340" r="13" fill="#84cc16" />
+  </g>
+
+  <rect x="80" y="88" width="76" height="8" rx="4" fill="#60a5fa" />
+  <text x="80" y="205" font-family="Segoe UI, DejaVu Sans, Arial, sans-serif" font-size="92" font-weight="800" fill="#e8eef8">
+    UBI World
+  </text>
+  <text x="80" y="280" font-family="Segoe UI, DejaVu Sans, Arial, sans-serif" font-size="36" fill="#93a4bd">
+    ¿Qué haría falta para pagar una renta básica?
+  </text>
+  <text x="80" y="334" font-family="Segoe UI, DejaVu Sans, Arial, sans-serif" font-size="27" fill="#60a5fa">
+    Una calculadora visual, país a país.
+  </text>
+
+  <g font-family="Segoe UI, DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700">
+    <rect x="80" y="405" width="272" height="46" rx="23" fill="#22c55e" />
+    <text x="102" y="435" fill="#05230f">Se podría pagar hoy</text>
+
+    <rect x="368" y="405" width="176" height="46" rx="23" fill="#84cc16" />
+    <text x="390" y="435" fill="#172304">Faltaría poco</text>
+
+    <rect x="80" y="465" width="292" height="46" rx="23" fill="#f59e0b" />
+    <text x="102" y="495" fill="#2a1a00">Haría falta mucha IA</text>
+
+    <rect x="388" y="465" width="150" height="46" rx="23" fill="#ef4444" />
+    <text x="410" y="495" fill="#ffffff">No cuadra</text>
+  </g>
+
+  <text x="80" y="588" font-family="Segoe UI, DejaVu Sans, Arial, sans-serif" font-size="22" fill="#93a4bd">
+    Datos del Banco Mundial · Sin predicciones, solo supuestos a la vista
+  </text>
+</svg>
