@@ -145,6 +145,35 @@ async function main() {
       country.years.gov_exp_pct_gdp = govExpData.get(iso3)!.year
     } else missing.push('gov_exp_pct_gdp')
 
+    const discard = (
+      field: 'gdp_usd' | 'population' | 'pop_0_14_pct' | 'gdp_pc_ppa' | 'tax_revenue_pct_gdp' | 'gov_exp_pct_gdp',
+      valid: boolean,
+    ) => {
+      if (!valid) {
+        delete country[field]
+        delete country.years[field]
+        if (!missing.includes(field)) missing.push(field)
+        console.warn(`  ${iso3}: descartado ${field} por valor fuera de rango`)
+      }
+    }
+
+    discard('gdp_usd', country.gdp_usd === undefined || country.gdp_usd > 0)
+    discard('population', country.population === undefined || country.population > 0)
+    discard(
+      'pop_0_14_pct',
+      country.pop_0_14_pct === undefined ||
+        (country.pop_0_14_pct >= 0 && country.pop_0_14_pct <= 100),
+    )
+    discard('gdp_pc_ppa', country.gdp_pc_ppa === undefined || country.gdp_pc_ppa > 0)
+    discard(
+      'tax_revenue_pct_gdp',
+      country.tax_revenue_pct_gdp === undefined || country.tax_revenue_pct_gdp >= 0,
+    )
+    discard(
+      'gov_exp_pct_gdp',
+      country.gov_exp_pct_gdp === undefined || country.gov_exp_pct_gdp >= 0,
+    )
+
     country.missing = missing
     countries.push(country)
   }
